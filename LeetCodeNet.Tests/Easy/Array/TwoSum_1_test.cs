@@ -8,15 +8,15 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckMethod1()
         {
             var solver = new TwoSum_1();
-            var result = TwoSum_1.TwoSum(new int[] { 2, 7, 11, 15 }, 9);
+            var result = solver.TwoSum(new int[] { 2, 7, 11, 15 }, 9);
 
             //// Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
             Assert.Equal(result, new int[] { 0, 1 });
 
-            result = TwoSum_1.TwoSum(new int[] { 3, 2, 4 }, 6);
+            result = solver.TwoSum(new int[] { 3, 2, 4 }, 6);
             Assert.Equal(result, new int[] { 1, 2 });
 
-            result = TwoSum_1.TwoSum(new int[] { 3, 3 }, 6);
+            result = solver.TwoSum(new int[] { 3, 3 }, 6);
             Assert.Equal(result, new int[] { 0, 1 });
         }
     }
