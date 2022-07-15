@@ -1,2 +1,2 @@
 # LeetCodeNet
-LeetCode problems explanation and solution
+LeetCode problems with detailed explanation and different solutions.
