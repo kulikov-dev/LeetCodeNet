@@ -11,13 +11,13 @@ namespace LeetCodeNet.Tests.Easy.Array
             var result = solver.TwoSum(new int[] { 2, 7, 11, 15 }, 9);
 
             //// Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
-            Assert.Equal(result, new int[] { 0, 1 });
+            Assert.Equal(new int[] { 0, 1 }, result);
 
             result = solver.TwoSum(new int[] { 3, 2, 4 }, 6);
-            Assert.Equal(result, new int[] { 1, 2 });
+            Assert.Equal(new int[] { 1, 2 }, result);
 
             result = solver.TwoSum(new int[] { 3, 3 }, 6);
-            Assert.Equal(result, new int[] { 0, 1 });
+            Assert.Equal(new int[] { 0, 1 }, result);
         }
     }
 }
