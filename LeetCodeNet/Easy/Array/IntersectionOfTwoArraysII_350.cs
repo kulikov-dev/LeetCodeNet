@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeNet.Easy.Array
+﻿namespace LeetCodeNet.Easy.Array
 {
     /// <summary>
     /// https://leetcode.com/problems/intersection-of-two-arrays-ii/
@@ -22,8 +16,8 @@ namespace LeetCodeNet.Easy.Array
         /// <param name="nums2"> Array 2 </param>
         /// <returns> Intersections array </returns>
         /// <remarks>
-        /// Time complexity: O(m + n)
-        /// Space complexity: O(n)
+        /// Time complexity: O(m + n), as we pass throught both arrays
+        /// Space complexity: O(m + n), to store result list and hash
         /// </remarks>
         public int[] IntersectHash(int[] nums1, int[] nums2)
         {
@@ -62,8 +56,8 @@ namespace LeetCodeNet.Easy.Array
         /// <param name="nums2"> Array 2 </param>
         /// <returns> Intersections array </returns>
         /// <remarks>
-        /// Time complexity: O(max(m, n))
-        /// Space complexity: O(n)
+        /// Time complexity: O(max(m, n)), now we need only to iterate one pass using both arrays. It's faster. P.S. assume that arrays already sorted.
+        /// Space complexity: O(m, n)
         /// </remarks>
         public int[] IntersectSorted(int[] nums1, int[] nums2)
         {
