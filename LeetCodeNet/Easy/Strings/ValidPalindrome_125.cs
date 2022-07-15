@@ -3,6 +3,7 @@
     /// <summary>
     /// https://leetcode.com/problems/valid-palindrome/
     /// </summary>
+    /// <remarks> More information about approach is here: https://leetcode.com/articles/two-pointer-technique/ </remarks>
     public class ValidPalindrome_125
     {
         /// <summary>
@@ -27,17 +28,20 @@
         public bool IsPalindromePointers(string s)
         {
             //// Use two-pointers approach to check each char step by step from left and right side.
+            //// So one pointer starts from the beginning while the other pointer starts from the end.
             var leftIndex = 0;
             var rightIndex = s.Length - 1;
             //// Instead of StringComparison we can just use ToUpper to put all chars in the same case.
             s = s.ToUpper();
             while (leftIndex < rightIndex)
             {
+                //// We go right for the left pointer, skipping all not valid chars like ':', ' ', etc
                 while (leftIndex < s.Length && !char.IsLetterOrDigit(s[leftIndex]))
                 {
                     ++leftIndex;
                 }
 
+                //// And do the same for the right pointer, but on the other side
                 while (rightIndex > -1 && !char.IsLetterOrDigit(s[rightIndex]))
                 {
                     --rightIndex;
