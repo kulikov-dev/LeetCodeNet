@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeNet.Easy.Array
+﻿namespace LeetCodeNet.Easy.Array
 {
     /// <summary>
     /// https://leetcode.com/problems/matrix-diagonal-sum/
