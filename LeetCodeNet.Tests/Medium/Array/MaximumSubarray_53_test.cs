@@ -1,6 +1,6 @@
-﻿using LeetCodeNet.Easy.Array;
+﻿using LeetCodeNet.Medium.Array;
 
-namespace LeetCodeNet.Tests.Easy.Array
+namespace LeetCodeNet.Tests.Medium.Array
 {
     public class MaximumSubarray_53_test
     {

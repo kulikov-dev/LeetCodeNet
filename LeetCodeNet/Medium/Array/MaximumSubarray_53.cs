@@ -1,4 +1,4 @@
-﻿namespace LeetCodeNet.Easy.Array
+﻿namespace LeetCodeNet.Medium.Array
 {
     /// <summary>
     /// https://leetcode.com/problems/maximum-subarray/
