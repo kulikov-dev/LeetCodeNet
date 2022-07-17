@@ -60,10 +60,15 @@
             //// Parse all nums2 array and keep number and his next greater element in dictionary
             var dict = new Dictionary<int, int>();
 
-            //// Use a step to keep all decreasing sub-sequence until current number is greater than stack element
+            //// Use a stack to keep all decreasing sub-sequence until current number is greater than stack element
             var stack = new Stack<int>();
             for (var i = 0; i < nums2.Length; ++i)
             {
+                //// Example. If we have [4,3,2,5], we have these values in the stack by steps:
+                /// Step 1. [4]
+                /// Step 2. [4, 3]
+                /// Step 3. [4, 3, 2]
+                /// Step 4. Empty stack, but dictionary with values [4-5, 3-5, 2-5]
                 while (stack.Any() && stack.Peek() < nums2[i])
                 {
                     var prevLessValue = stack.Pop();
@@ -73,6 +78,7 @@
                 stack.Push(nums2[i]);
             }
 
+            //// At this step we have greater elements for each nums2 number. So just go through subarray and get value in the dictionary.
             var result = new int[nums1.Length];
             for (var i = 0; i < nums1.Length; ++i)
             {
