@@ -21,6 +21,7 @@
             {
                 if (nums[i] != 0)
                 {
+                    //// If meet non-zero element, just shift it to the left pointer position.
                     var temp = nums[i];
                     nums[i] = 0;
                     nums[leftElementPosition] = temp;
@@ -36,7 +37,7 @@
         /// <param name="nums"> Array </param>
         /// <remarks>
         /// Time complexity: O(n)
-        /// Space complexity: O(1), as the task is to replact it in-place
+        /// Space complexity: O(1)
         /// </remarks>
         public void MoveZeroesOptimization(int[] nums)
         {
@@ -51,7 +52,7 @@
             }
 
             //// We don't care about all elements after left pointer, so we can put zero here.
-            /// It's not a critical improvements, more saving on breadcrumbs but can show your good level to interviewers
+            /// It's not a critical improvements, more saving on breadcrumbs. But it can show your good level to interviewers
             for (var i = leftElementPosition; i < nums.Length; ++i)
             {
                 nums[i] = 0;
