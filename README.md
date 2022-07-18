@@ -12,6 +12,7 @@ LeetCode problems with detailed explanation and different solutions.
 #### Pattern: Breadth-First search (BFS)
 * #733: Flood Fill (Array)
 #### Pattern: Two pointers
+* #26: Remove Duplicates from Sorted Array (Array)
 * #125: Valid Palindrome (String)
 * #283: Move Zeroes (Array)
 * #350: Intersection of Two Arrays II (Array)
