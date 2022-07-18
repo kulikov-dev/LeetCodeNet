@@ -4,11 +4,12 @@ LeetCode problems with detailed explanation and different solutions.
 ### Level: Easy
 
 #### Pattern: without
-* #1572: Matrix Diagonal Sum (Array)
 * #66: Plus sOne (Array)
+* #566: Reshape the Matrix (Array)
+* #1572: Matrix Diagonal Sum (Array)
 #### Pattern: Sorting
-* #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
 * #217: Contains Duplicate (Array)
+* #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
 #### Pattern: Breadth-First search (BFS)
 * #733: Flood Fill (Array)
 #### Pattern: Two pointers
