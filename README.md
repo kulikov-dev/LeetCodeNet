@@ -5,6 +5,7 @@ LeetCode problems with detailed explanation and different solutions.
 
 #### Pattern: without
 * #1572: Matrix Diagonal Sum (Array)
+* #66: Plus sOne (Array)
 #### Pattern: Sorting
 * #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
 * #217: Contains Duplicate (Array)
