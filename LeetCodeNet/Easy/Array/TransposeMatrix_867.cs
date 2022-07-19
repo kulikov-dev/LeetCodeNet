@@ -1,4 +1,4 @@
-﻿namespace LeetCodeNet.Tests.Easy.Array
+﻿namespace LeetCodeNet.Easy.Array
 {
     /// <summary>
     /// https://leetcode.com/problems/transpose-matrix/

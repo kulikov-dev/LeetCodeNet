@@ -1,39 +1,47 @@
 ﻿using LeetCodeNet.Easy.Array;
+using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
     public class MatrixDiagonalSum_1572_test
     {
-        [Fact]
-        public void Check()
+        [Theory, ClassData(typeof(MatrixDiagonalSumTestData))]
+        public void Check(int[][] inputData, int expected)
         {
             var solver = new MatrixDiagonalSum_1572();
-
-            //// Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25
-            /// Notice that element mat[1][1] = 5 is counted only once.
-            var input = new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } };
-            var result = solver.DiagonalSum(input);
-            Assert.Equal(25, result);
-
-            input = new int[][] { new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 } };
-            result = solver.DiagonalSum(input);
-            Assert.Equal(8, result);
+            Assert.Equal(expected, solver.DiagonalSum(inputData));
         }
 
-        [Fact]
-        public void CheckOptimized()
+        [Theory, ClassData(typeof(MatrixDiagonalSumTestData))]
+        public void CheckOptimized(int[][] inputData, int expected)
         {
             var solver = new MatrixDiagonalSum_1572();
+            Assert.Equal(expected, solver.DiagonalSumOptimized(inputData));
+        }
+    }
 
+    public class MatrixDiagonalSumTestData : IEnumerable<object[]>
+    {
+        public IEnumerator<object[]> GetEnumerator()
+        {
             //// Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25
             /// Notice that element mat[1][1] = 5 is counted only once.
-            var input = new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } };
-            var result = solver.DiagonalSumOptimized(input);
-            Assert.Equal(25, result);
+            yield return new object[]
+            {
+                new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } },
+                25
+            };
 
-            input = new int[][] { new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 } };
-            result = solver.DiagonalSumOptimized(input);
-            Assert.Equal(8, result);
+            yield return new object[]
+            {
+                new int[][] { new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 } },
+                8
+            };
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }
