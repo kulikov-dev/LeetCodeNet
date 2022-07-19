@@ -6,6 +6,7 @@ LeetCode problems with detailed explanation and different solutions.
 #### Pattern: without
 * #66: Plus sOne (Array)
 * #566: Reshape the Matrix (Array)
+* #867: Transpose Matrix (Array)
 * #1572: Matrix Diagonal Sum (Array)
 * #1672: Richest Customer Wealth (Array)
 #### Pattern: Sorting
