@@ -23,7 +23,9 @@ LeetCode problems with detailed explanation and different solutions.
 * #977: Squares of a Sorted Array (Array)
 #### Pattern: Hash table
 * #1: Two Sum (Array)
+* #242 Valid Anagram (String)
 * #350: Intersection of Two Arrays II (Array)
+* #953 Verifying an Alien Dictionary (String)
 #### Pattern: Monotonic stack
 * #496: Next Greater Element I (Array)
 
