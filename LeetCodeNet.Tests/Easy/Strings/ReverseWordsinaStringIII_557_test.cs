@@ -5,14 +5,14 @@ namespace LeetCodeNet.Tests.Easy.Strings
 {
     public class ReverseWordsinaStringIII_557_test
     {
-        [Theory, ClassData(typeof(ReverseWordsinaStringIII))]
+        [Theory, ClassData(typeof(ReverseWordsinaStringIIITestData))]
         public void CheckLinq(string inputData, string expected)
         {
             var solver = new ReverseWordsinaStringIII_557();
             Assert.Equal(expected, solver.ReverseWordsLinq(inputData));
         }
 
-        [Theory, ClassData(typeof(ReverseWordsinaStringIII))]
+        [Theory, ClassData(typeof(ReverseWordsinaStringIIITestData))]
         public void CheckTwoPointers(string inputData, string expected)
         {
             var solver = new ReverseWordsinaStringIII_557();
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ReverseWordsinaStringIII : IEnumerable<object[]>
+    public class ReverseWordsinaStringIIITestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {
