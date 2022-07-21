@@ -28,7 +28,8 @@ LeetCode problems with detailed explanation and different solutions.
 * #953 Verifying an Alien Dictionary (String)
 #### Pattern: Monotonic stack
 * #496: Next Greater Element I (Array)
-
+#### Pattern: Char manipulation
+* #709: To Lower Case (String)
 ### Level: Medium
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
