@@ -1,6 +1,7 @@
 ﻿//// Temp project to check and debug your solutions
 using LeetCodeNet.Easy.Array;
+using LeetCodeNet.Easy.Strings;
 
-var result = new ReshapeTheMatrix_566().MatrixReshape(new int[][] { new int[] { 1, 2 }, new int[] { 3, 4 } }, 1, 4);
+var result = new ReverseWordsinaStringIII_557().ReverseStringTwoPointers("Let's take LeetCode contest");
 
 Console.WriteLine("Hello, World!");

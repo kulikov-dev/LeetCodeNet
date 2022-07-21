@@ -5,6 +5,7 @@ namespace LeetCodeNet.Easy.Strings
     /// <summary>
     /// https://leetcode.com/problems/to-lower-case/
     /// </summary>
+    /// <remarks> Given a string s, return the string after replacing every uppercase letter with the same lowercase letter. </remarks>
     public class ToLowerCase_709
     {
         /// <summary>

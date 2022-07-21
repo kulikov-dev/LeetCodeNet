@@ -20,6 +20,7 @@ LeetCode problems with detailed explanation and different solutions.
 * #125: Valid Palindrome (String)
 * #283: Move Zeroes (Array)
 * #350: Intersection of Two Arrays II (Array)
+* #557: Reverse Words in a String III (String)
 * #977: Squares of a Sorted Array (Array)
 #### Pattern: Hash table
 * #1: Two Sum (Array)
