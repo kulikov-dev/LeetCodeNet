@@ -27,11 +27,13 @@ LeetCode problems with detailed explanation and different solutions.
 * #1: Two Sum (Array)
 * #242 Valid Anagram (String)
 * #350: Intersection of Two Arrays II (Array)
+* #383: Ransom note (String)
 * #953 Verifying an Alien Dictionary (String)
 #### Pattern: Monotonic stack
 * #496: Next Greater Element I (Array)
 #### Pattern: Char manipulation
 * #709: To Lower Case (String)
+* #1844: Replace All Digits with Characters (String)
 ### Level: Medium
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
