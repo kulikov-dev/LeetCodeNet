@@ -1,5 +1,5 @@
 ## LeetCodeNet
-LeetCode problems with detailed explanation and different solutions.
+LeetCode problems with detailed explanation and different easy-understandable solutions.
 
 ### Level: Easy
 
@@ -10,6 +10,7 @@ LeetCode problems with detailed explanation and different solutions.
 * #1572: Matrix Diagonal Sum (Array)
 * #1588: Sum of All Odd Length Subarrays (Array)
 * #1672: Richest Customer Wealth (Array)
+* #1768: Merge Strings Alternately (String)
 #### Pattern: Sorting
 * #217: Contains Duplicate (Array)
 * #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
