@@ -10,6 +10,7 @@ LeetCode problems with detailed explanations and different easy-understandable s
 * #1572: Matrix Diagonal Sum (Array)
 * #1588: Sum of All Odd Length Subarrays (Array)
 * #1672: Richest Customer Wealth (Array)
+* #1678: Goal Parser Interpretation (String)
 * #1768: Merge Strings Alternately (String)
 #### Pattern: Sorting
 * #14: Longest Common Prefix (String)
