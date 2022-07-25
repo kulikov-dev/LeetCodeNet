@@ -23,6 +23,7 @@ LeetCode problems with detailed explanations and different easy-understandable s
 * #125: Valid Palindrome (String)
 * #283: Move Zeroes (Array)
 * #344: Reverse String (Array)
+* #387: First Unique Character in a String (String)
 * #350: Intersection of Two Arrays II (Array)
 * #557: Reverse Words in a String III (String)
 * #977: Squares of a Sorted Array (Array)
