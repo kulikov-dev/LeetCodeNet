@@ -1,5 +1,5 @@
 ## LeetCodeNet
-LeetCode problems with detailed explanation and different easy-understandable solutions.
+LeetCode problems with detailed explanations and different easy-understandable solutions.
 
 ### Level: Easy
 
@@ -12,6 +12,7 @@ LeetCode problems with detailed explanation and different easy-understandable so
 * #1672: Richest Customer Wealth (Array)
 * #1768: Merge Strings Alternately (String)
 #### Pattern: Sorting
+* #14: Longest Common Prefix (String)
 * #217: Contains Duplicate (Array)
 * #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
 #### Pattern: Breadth-First search (BFS)
@@ -35,6 +36,9 @@ LeetCode problems with detailed explanation and different easy-understandable so
 #### Pattern: Char manipulation
 * #709: To Lower Case (String)
 * #1844: Replace All Digits with Characters (String)
+#### Pattern: KMP algorithm
+* #28: Implement strStr (String)
+
 ### Level: Medium
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
