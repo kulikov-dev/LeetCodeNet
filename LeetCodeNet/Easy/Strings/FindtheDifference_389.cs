@@ -16,6 +16,10 @@
         /// <param name="s"> Source string </param>
         /// <param name="t"> Source string with added char </param>
         /// <returns> Added char </returns>
+        /// <remarks>
+        /// Time complexity: O(n*log(n) + m*log(m)), for sorting two arrays
+        /// Space complexity: O(m+n)
+        /// </remarks>
         public char FindTheDifferenceSort(string s, string t)
         {
             var sSorted = s.OrderBy(x => x).ToArray();
@@ -37,6 +41,10 @@
         /// <param name="s"> Source string </param>
         /// <param name="t"> Source string with added char </param>
         /// <returns> Added char </returns>
+        /// <remarks>
+        /// Time complexity: O(n) + O(m)
+        /// Space complexity: O(1)
+        /// </remarks>
         public char FindTheDifferenceHash(string s, string t)
         {
             var alphabetArray = new int[26];
@@ -64,6 +72,10 @@
         /// <param name="s"> Source string </param>
         /// <param name="t"> Source string with added char </param>
         /// <returns> Added char </returns>
+        /// <remarks>
+        /// Time complexity: O(n)
+        /// Space complexity: O(1)
+        /// </remarks>
         public char FindTheDifferenceMath(string s, string t)
         {
             var sum = t[t.Length - 1];

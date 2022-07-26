@@ -1,5 +1,6 @@
 ## LeetCodeNet
 LeetCode problems with detailed explanations and different easy-understandable solutions.
+All problems are grouped by patterns, so you can train in solving of specific type of problems.
 
 ### Level: Easy
 
@@ -26,6 +27,7 @@ LeetCode problems with detailed explanations and different easy-understandable s
 * #387: First Unique Character in a String (String)
 * #350: Intersection of Two Arrays II (Array)
 * #557: Reverse Words in a String III (String)
+* #696: Count Binary Substrings (String)
 * #977: Squares of a Sorted Array (Array)
 #### Pattern: Hash table
 * #1: Two Sum (Array)
