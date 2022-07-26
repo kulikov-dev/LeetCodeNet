@@ -38,6 +38,7 @@ LeetCode problems with detailed explanations and different easy-understandable s
 * #496: Next Greater Element I (Array)
 #### Pattern: Char manipulation
 * #709: To Lower Case (String)
+* #1309: Decrypt String from Alphabet to Integer Mapping (String)
 * #1844: Replace All Digits with Characters (String)
 #### Pattern: KMP algorithm
 * #28: Implement strStr (String)
