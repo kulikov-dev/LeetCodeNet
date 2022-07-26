@@ -32,6 +32,7 @@ LeetCode problems with detailed explanations and different easy-understandable s
 * #242 Valid Anagram (String)
 * #350: Intersection of Two Arrays II (Array)
 * #383: Ransom note (String)
+* #389: Find the Difference (String)
 * #953 Verifying an Alien Dictionary (String)
 #### Pattern: Monotonic stack
 * #496: Next Greater Element I (Array)
