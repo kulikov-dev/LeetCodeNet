@@ -6,6 +6,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 
 #### Pattern: without
 * #66: Plus sOne (Array)
+* #237: Delete Node in a Linked List (Linked list)
 * #566: Reshape the Matrix (Array)
 * #867: Transpose Matrix (Array)
 * #1572: Matrix Diagonal Sum (Array)
