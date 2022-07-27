@@ -25,8 +25,4 @@
     <ProjectReference Include="..\LeetCodeNet\LeetCodeNet.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Easy\LinkedList\" />
-  </ItemGroup>
-
 </Project>

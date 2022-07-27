@@ -15,6 +15,10 @@ namespace LeetCodeNet.Easy.LinkedList
         /// Copy the next node to the current node.
         /// </summary>
         /// <param name="node"> Node to remove </param>
+        /// <remarks>
+        /// Time complexity: O(1)
+        /// Space complexity: O(1)
+        /// </remarks>
         public void DeleteNode(ListNode node)
         {
             node.val = node.next.val;
