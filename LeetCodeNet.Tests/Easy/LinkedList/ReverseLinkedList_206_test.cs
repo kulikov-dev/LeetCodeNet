@@ -11,12 +11,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         {
             var solver = new ReverseLinkedList_206();
             var result = solver.ReverseList(inputData);
-            while (expected != null)
-            {
-                Assert.Equal(expected.val, result.val);
-                expected = expected.next;
-                result = result.next;
-            }
+            Assert.True(result.CompareTo(expected));
         }
     }
 

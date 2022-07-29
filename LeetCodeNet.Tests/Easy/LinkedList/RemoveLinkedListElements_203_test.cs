@@ -11,12 +11,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         {
             var solver = new RemoveLinkedListElements_203();
             var result = solver.RemoveElements(inputData, inputToRemove);
-            while (expected != null)
-            {
-                Assert.Equal(expected.val, result.val);
-                expected = expected.next;
-                result = result.next;
-            }
+            Assert.True(result.CompareTo(expected));
         }
     }
 
