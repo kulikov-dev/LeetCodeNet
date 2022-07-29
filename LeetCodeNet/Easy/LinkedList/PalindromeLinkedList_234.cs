@@ -68,7 +68,7 @@ namespace LeetCodeNet.Easy.LinkedList
         /// <returns></returns>
         /// <remarks>
         /// Time complexity: O(n)
-        /// Space complexity: O(n)
+        /// Space complexity: O(1)
         /// </remarks>
         public bool IsPalindromeReverse(ListNode head)
         {
