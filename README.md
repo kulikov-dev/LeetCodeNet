@@ -23,6 +23,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #733: Flood Fill (Array)
 #### Pattern: Two pointers
 * #26: Remove Duplicates from Sorted Array (Array)
+* #83: Remove Duplicates from Sorted List (Linked List)
 * #125: Valid Palindrome (String)
 * #203: Remove Linked List Elements (Linked List)
 * #283: Move Zeroes (Array)

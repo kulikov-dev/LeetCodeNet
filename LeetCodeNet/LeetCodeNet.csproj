@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Easy\LinkedList\RemoveLinkedListElements_203.cs~RF88295c.TMP" />
+  </ItemGroup>
+
 </Project>
