@@ -5,6 +5,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 ### Level: Easy
 
 #### Pattern: without
+* #21: Merge Two Sorted Lists (Linked List)
 * #66: Plus One (Array)
 * #206 Reverse Linked List (Linked list)
 * #237: Delete Node in a Linked List (Linked list)
