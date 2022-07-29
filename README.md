@@ -24,6 +24,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Two pointers
 * #26: Remove Duplicates from Sorted Array (Array)
 * #125: Valid Palindrome (String)
+* #203: Remove Linked List Elements (Linked List)
 * #283: Move Zeroes (Array)
 * #344: Reverse String (Array)
 * #387: First Unique Character in a String (String)
