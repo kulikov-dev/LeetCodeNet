@@ -5,7 +5,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 ### Level: Easy
 
 #### Pattern: without
-* #66: Plus sOne (Array)
+* #66: Plus One (Array)
+* #206 Reverse Linked List (Linked list)
 * #237: Delete Node in a Linked List (Linked list)
 * #566: Reshape the Matrix (Array)
 * #867: Transpose Matrix (Array)
