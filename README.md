@@ -22,6 +22,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
 #### Pattern: Breadth-First search (BFS)
 * #733: Flood Fill (Array)
+#### Pattern: Depth-First search (DFS)
+* #94: Binary Tree Inorder Traversal (Tree)
 #### Pattern: Two pointers
 * #26: Remove Duplicates from Sorted Array (Array)
 * #83: Remove Duplicates from Sorted List (Linked List)
