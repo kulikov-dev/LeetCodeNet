@@ -3,21 +3,21 @@
 namespace LeetCodeNet.Easy.Trees
 {
     /// <summary>
-    /// https://leetcode.com/problems/binary-tree-postorder-traversal/
+    /// https://leetcode.com/problems/binary-tree-preorder-traversal/
     /// </summary>
-    /// <remarks> Postorder (Left, Right, Root)  </remarks>
-    public class BinaryTreePostorderTraversal_145
+    /// <remarks> Preorder (Root, Left, Right)  </remarks>
+    public class BinaryTreePreorderTraversal_144
     {
         /// <summary>
-        /// Postorder values in a recursive solution
+        /// Preorder values in a recursive solution
         /// </summary>
         /// <param name="root"> Tree root </param>
-        /// <returns> Postorder traversal </returns>
+        /// <returns> Preorder traversal </returns>
         /// <remarks>
         /// Time complexity: O(n)
         /// Space complexity: O(n)
         /// </remarks>
-        public IList<int> PostorderTraversalRecurssive(TreeNode root)
+        public IList<int> PreorderTraversalRecurssive(TreeNode root)
         {
             var result = new List<int>();
             ProcessNodeRecursive(root, ref result);
@@ -36,47 +36,46 @@ namespace LeetCodeNet.Easy.Trees
                 return;
             }
 
+            //// Visit the root
+            result.Add(node.val);
             //// Traverse the left subtree
             ProcessNodeRecursive(node.left, ref result);
             //// Traverse the right subtree
             ProcessNodeRecursive(node.right, ref result);
-            //// Visit the root
-            result.Add(node.val);
         }
 
         /// <summary>
-        /// Postorder values in a iterative solution
+        /// Preorder values in a iterative solution
         /// </summary>
         /// <param name="root"> Tree root </param>
-        /// <returns> Postorder traversal </returns>
-        /// <remarks> Make BFS from top to bottom and then reverse it </remarks>
+        /// <returns> Preorder traversal </returns>
         /// <remarks>
         /// Time complexity: O(n)
         /// Space complexity: O(n)
         /// </remarks>
-        public IList<int> PostorderTraversalIterative(TreeNode root)
+        public IList<int> PreorderTraversalIterative(TreeNode root)
         {
             var stack = new Stack<TreeNode>();
             var result = new List<int>();
             stack.Push(root);
             while (stack.Any())
             {
-                var count = stack.Count;
-                for (var i = 0; i < count; ++i)
+                var node = stack.Pop();
+                if (node == null)
                 {
-                    var node = stack.Pop();
-                    if (node == null)
-                    {
-                        continue;
-                    }
-
-                    result.Add(node.val);
-                    stack.Push(node.left);
-                    stack.Push(node.right);
+                    continue;
                 }
+
+                //// Visit the root
+                result.Add(node.val);
+
+                //// Traverse the right subtree
+                stack.Push(node.right);
+
+                //// Traverse the left subtree (back order because of the stack)
+                stack.Push(node.left);
             }
 
-            result.Reverse();
             return result;
         }
     }
