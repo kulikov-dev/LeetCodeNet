@@ -19,6 +19,10 @@ namespace LeetCodeNet.Easy.Trees
         /// <param name="p"> P node </param>
         /// <param name="q"> Q node </param>
         /// <returns> Lowest common ancestor </returns>
+        /// <remarks>
+        /// Time complexity: O(H), height of the tree
+        /// Space complexity: O(1)
+        /// </remarks>
         public TreeNode LowestCommonAncestorRecursive(TreeNode root, TreeNode p, TreeNode q)
         {
             if ((p.val <= root.val && q.val >= root.val) || (q.val <= root.val && p.val >= root.val))

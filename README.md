@@ -23,6 +23,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Breadth-First search (BFS)
 * #144: Binary Tree Preorder Traversal (Tree)
 * #145: Binary Tree Postorder Traversal (Tree)
+* #226: Invert Binary Tree (Tree)
 * #733: Flood Fill (Array)
 #### Pattern: Depth-First search (DFS)
 * #94: Binary Tree Inorder Traversal (Tree)
