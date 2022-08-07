@@ -26,6 +26,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #733: Flood Fill (Array)
 #### Pattern: Depth-First search (DFS)
 * #94: Binary Tree Inorder Traversal (Tree)
+#### Pattern: Binary tree
+* #235:  Lowest Common Ancestor of a Binary Search Tree
 #### Pattern: Two pointers
 * #26: Remove Duplicates from Sorted Array (Array)
 * #83: Remove Duplicates from Sorted List (Linked List)
