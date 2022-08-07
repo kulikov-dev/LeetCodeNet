@@ -11,7 +11,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         {
             var solver = new RemoveDuplicatesfromSortedList_83();
             var result = solver.DeleteDuplicatesIterative(inputData);
-            Assert.True(result.CompareTo(expected));
+            Assert.True(expected?.Equals(result) ?? expected == null && result == null);
         }
 
         [Theory, ClassData(typeof(RemoveDuplicatesfromSortedListTestData))]
@@ -19,7 +19,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         {
             var solver = new RemoveDuplicatesfromSortedList_83();
             var result = solver.DeleteDuplicatesIterative(inputData);
-            Assert.True(result.CompareTo(expected));
+            Assert.True(expected?.Equals(result) ?? expected == null && result == null);
         }
     }
 

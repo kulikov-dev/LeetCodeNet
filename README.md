@@ -58,6 +58,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1844: Replace All Digits with Characters (String)
 #### Pattern: KMP algorithm
 * #28: Implement strStr (String)
+#### Pattern: Divide and conquer
+* #108: Convert Sorted Array to Binary Search Tree (Tree)
 
 ### Level: Medium
 #### Pattern: Kadane's algorithm

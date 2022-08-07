@@ -11,7 +11,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         {
             var solver = new MergeTwoSortedLists_21();
             var result = solver.MergeTwoListsRecursive(inputData1, inputData2);
-            Assert.True(result.CompareTo(expected));
+            Assert.True(result.Equals(expected));
         }
 
         [Theory, ClassData(typeof(MergeTwoSortedListsTestData))]
@@ -19,7 +19,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         {
             var solver = new MergeTwoSortedLists_21();
             var result = solver.MergeTwoListsIterative(inputData1, inputData2);
-            Assert.True(result.CompareTo(expected));
+            Assert.True(result.Equals(expected));
         }
     }
 
