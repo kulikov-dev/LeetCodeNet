@@ -1,5 +1,5 @@
 ## LeetCodeNet
-LeetCode problems with detailed explanations and different easy-understandable solutions.
+LeetCode problems with clean code, detailed explanations and different easy-understandable solutions.
 All problems are grouped by patterns, so you can train in solving of specific type of problems.
 
 ### Level: Easy
