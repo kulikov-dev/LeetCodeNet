@@ -21,7 +21,7 @@
         public TreeNode right;
 
         /// <summary>
-        /// Contructor with parameters
+        /// Constructor with parameters
         /// </summary>
         /// <param name="val"> Value </param>
         /// <param name="left"> Left node </param>
