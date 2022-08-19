@@ -32,7 +32,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #94: Binary Tree Inorder Traversal (Tree)
 * #589: N-ary Tree Preorder Traversal (Tree)
 #### Pattern: Binary tree
-* #235:  Lowest Common Ancestor of a Binary Search Tree
+* #700: Search in a Binary Search Tree (Tree)
+* #235:  Lowest Common Ancestor of a Binary Search Tree (Tree)
 #### Pattern: Two pointers
 * #26: Remove Duplicates from Sorted Array (Array)
 * #83: Remove Duplicates from Sorted List (Linked List)
