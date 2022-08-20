@@ -10,7 +10,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer.
     /// Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
     /// </remarks>
-    public class LinkedListCycle_141
+    public sealed class LinkedListCycle_141
     {
         /// <summary>
         /// Two pointers approach, where one is moving faster, than another.

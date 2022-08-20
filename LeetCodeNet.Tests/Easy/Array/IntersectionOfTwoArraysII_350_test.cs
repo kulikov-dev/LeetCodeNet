@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class IntersectionOfTwoArraysII_350_test
+    public sealed class IntersectionOfTwoArraysII_350_test
     {
         [Theory, ClassData(typeof(IntersectionOfTwoArraysIITestData))]
         public void CheckHash(int[] inputData1, int[] inputData2, int[] expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class IntersectionOfTwoArraysIITestData : IEnumerable<object[]>
+    public sealed class IntersectionOfTwoArraysIITestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

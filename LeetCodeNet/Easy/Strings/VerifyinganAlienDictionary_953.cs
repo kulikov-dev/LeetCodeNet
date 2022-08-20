@@ -3,7 +3,7 @@
     /// <summary>
     /// https://leetcode.com/problems/verifying-an-alien-dictionary/
     /// </summary>
-    public class VerifyinganAlienDictionary_953
+    public sealed class VerifyinganAlienDictionary_953
     {
         /// <summary>
         /// Key points is to:

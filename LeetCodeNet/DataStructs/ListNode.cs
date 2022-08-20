@@ -3,7 +3,7 @@
     /// <summary>
     /// Class of node for LinkedList tasks
     /// </summary>
-    public class ListNode : IEquatable<ListNode>
+    public sealed class ListNode : IEquatable<ListNode>
     {
         /// <summary>
         /// Value

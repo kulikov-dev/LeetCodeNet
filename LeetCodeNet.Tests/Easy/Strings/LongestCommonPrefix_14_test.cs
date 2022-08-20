@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class LongestCommonPrefix_14_test
+    public sealed class LongestCommonPrefix_14_test
     {
         [Theory, ClassData(typeof(LongestCommonPrefixTestData))]
         public void CheckLoop(string[] inputData, string expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class LongestCommonPrefixTestData : IEnumerable<object[]>
+    public sealed class LongestCommonPrefixTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

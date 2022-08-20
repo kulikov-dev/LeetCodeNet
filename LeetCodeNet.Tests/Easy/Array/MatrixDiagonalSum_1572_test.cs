@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class MatrixDiagonalSum_1572_test
+    public sealed class MatrixDiagonalSum_1572_test
     {
         [Theory, ClassData(typeof(MatrixDiagonalSumTestData))]
         public void Check(int[][] inputData, int expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class MatrixDiagonalSumTestData : IEnumerable<object[]>
+    public sealed class MatrixDiagonalSumTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

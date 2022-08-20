@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class ContainsDuplicate_217_test
+    public sealed class ContainsDuplicate_217_test
     {
         [Theory, ClassData(typeof(ContainsDuplicateTestData))]
         public void CheckLinq(int[] inputData, bool expected)
@@ -27,7 +27,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class ContainsDuplicateTestData : IEnumerable<object[]>
+    public sealed class ContainsDuplicateTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

@@ -8,7 +8,7 @@
     /// and swap the characters at these indices.
     /// Return true if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings.Otherwise, return false.
     /// </remarks>
-    public class CheckifOneStringSwapCanMakeStringsEqual_1790
+    public sealed class CheckifOneStringSwapCanMakeStringsEqual_1790
     {
         /// <summary>
         /// Iterate through two strings and find all indexes of different chars. We met conditions, if we don't have difference or we have two different chars, which equals

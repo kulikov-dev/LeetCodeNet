@@ -9,7 +9,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// Given the head of a singly linked list, return the middle node of the linked list.
     /// If there are two middle nodes, return the second middle node.
     /// </remarks>
-    public class MiddleoftheLinkedList_876
+    public sealed class MiddleoftheLinkedList_876
     {
         /// <summary>
         /// Use slow/fast approach, where one pointer is moving slow (one step per iteration)

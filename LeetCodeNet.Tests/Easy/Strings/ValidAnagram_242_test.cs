@@ -2,7 +2,7 @@
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class ValidAnagram_242_test
+    public sealed class ValidAnagram_242_test
     {
         [Theory, ClassData(typeof(ValidAnagramTestData))]
         public void CheckHash(string inputWord1, string inputWord2, bool expected)
@@ -19,7 +19,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ValidAnagramTestData : IEnumerable<object[]>
+    public sealed class ValidAnagramTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

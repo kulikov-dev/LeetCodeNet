@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class ReverseString_344_test
+    public sealed class ReverseString_344_test
     {
         [Theory, ClassData(typeof(ReverseStringTestData))]
         public void Check(char[] inputData, char[] expected)
@@ -14,7 +14,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ReverseStringTestData : IEnumerable<object[]>
+    public sealed class ReverseStringTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

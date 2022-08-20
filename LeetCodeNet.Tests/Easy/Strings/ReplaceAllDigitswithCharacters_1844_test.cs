@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class ReplaceAllDigitswithCharacters_1844_test
+    public sealed class ReplaceAllDigitswithCharacters_1844_test
     {
         [Theory, ClassData(typeof(ReplaceAllDigitswithCharactersTestData))]
         public void Check(string inputData, string expected)
@@ -21,7 +21,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ReplaceAllDigitswithCharactersTestData : IEnumerable<object[]>
+    public sealed class ReplaceAllDigitswithCharactersTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

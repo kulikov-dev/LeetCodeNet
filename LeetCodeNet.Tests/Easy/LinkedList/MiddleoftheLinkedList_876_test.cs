@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.LinkedList
 {
-    public class MiddleoftheLinkedList_876_test
+    public sealed class MiddleoftheLinkedList_876_test
     {
         [Theory, ClassData(typeof(MiddleoftheLinkedListTestData))]
         public void Check(ListNode inputData, int expected)
@@ -14,7 +14,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         }
     }
 
-    public class MiddleoftheLinkedListTestData : IEnumerable<object[]>
+    public sealed class MiddleoftheLinkedListTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

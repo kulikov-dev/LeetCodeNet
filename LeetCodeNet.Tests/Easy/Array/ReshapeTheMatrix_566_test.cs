@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class ReshapeTheMatrix_566_test
+    public sealed class ReshapeTheMatrix_566_test
     {
         [Theory, ClassData(typeof(ReshapeTheMatrixTestData))]
         public void Check(int[][] inputData, int inputR, int inputC, int[][] expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class ReshapeTheMatrixTestData : IEnumerable<object[]>
+    public sealed class ReshapeTheMatrixTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

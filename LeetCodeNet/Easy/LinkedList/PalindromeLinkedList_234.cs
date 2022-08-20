@@ -9,7 +9,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// Given the head of a singly linked list, return true if it is a palindrome.
     /// More detailed explanation here: https://leetcode.com/problems/palindrome-linked-list/discuss/1137696/Short-and-Easy-w-Explanation-or-T-%3A-O(N)-S-%3A-O(1)-Solution-using-Fast-and-Slow
     /// </remarks>
-    public class PalindromeLinkedList_234
+    public sealed class PalindromeLinkedList_234
     {
         /// <summary>
         /// 1. Find the middle of the list, using slow/fast pointers approach

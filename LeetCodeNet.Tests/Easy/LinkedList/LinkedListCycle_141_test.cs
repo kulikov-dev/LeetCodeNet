@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.LinkedList
 {
-    public class LinkedListCycle_141_test
+    public sealed class LinkedListCycle_141_test
     {
         [Theory, ClassData(typeof(LinkedListCycleTestData))]
         public void Check(ListNode inputData1, bool expected)
@@ -14,7 +14,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         }
     }
 
-    public class LinkedListCycleTestData : IEnumerable<object[]>
+    public sealed class LinkedListCycleTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/invert-binary-tree/
     /// </summary>
     /// <remarks> Given the root of a binary tree, invert the tree, and return its root. </remarks>
-    public class InvertBinaryTree_226
+    public sealed class InvertBinaryTree_226
     {
         /// <summary>
         /// Go recursive through each child of the tree and invert left/right children

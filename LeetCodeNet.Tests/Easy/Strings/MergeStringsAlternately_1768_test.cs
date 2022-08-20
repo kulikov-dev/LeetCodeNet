@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class MergeStringsAlternately_1768_test
+    public sealed class MergeStringsAlternately_1768_test
     {
         [Theory, ClassData(typeof(MergeStringsAlternatelyTestData))]
         public void Check(string inputData1, string inputData2, string expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class MergeStringsAlternatelyTestData : IEnumerable<object[]>
+    public sealed class MergeStringsAlternatelyTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class RansomNote_383_test
+    public sealed class RansomNote_383_test
     {
         [Theory, ClassData(typeof(RansomNoteTestData))]
         public void CheckHash(string inputData1, string inputData2, bool expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class RansomNoteTestData : IEnumerable<object[]>
+    public sealed class RansomNoteTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

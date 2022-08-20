@@ -4,7 +4,7 @@ using LeetCodeNet.Easy.Trees;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class PathSum_112_test
+    public sealed class PathSum_112_test
     {
         [Theory, ClassData(typeof(PathSumTestData))]
         public void CheckRecursive(TreeNode inputData1, int inputData2, bool expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class PathSumTestData : IEnumerable<object[]>
+    public sealed class PathSumTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

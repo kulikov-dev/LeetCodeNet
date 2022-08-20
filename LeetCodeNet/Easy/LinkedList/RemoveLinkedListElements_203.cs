@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// https://leetcode.com/problems/remove-linked-list-elements/
     /// </summary>
     /// <remarks> Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head. </remarks>
-    public class RemoveLinkedListElements_203
+    public sealed class RemoveLinkedListElements_203
     {
         /// <summary>
         /// Use two pointers to store a previous node and a current node in the list

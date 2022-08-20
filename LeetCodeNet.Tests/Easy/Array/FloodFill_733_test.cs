@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class FloodFill_733_test
+    public sealed class FloodFill_733_test
     {
         [Theory, ClassData(typeof(FloodFillTestData))]
         public void CheckRecursive(int[][] inputMatrix, int sr, int sc, int color, int[][] expected)
@@ -22,7 +22,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class FloodFillTestData : IEnumerable<object[]>
+    public sealed class FloodFillTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

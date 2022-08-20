@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class ToLowerCase_709_test
+    public sealed class ToLowerCase_709_test
     {
         [Theory, ClassData(typeof(ToLowerCaseTestData))]
         public void CheckHash(string inputData, string expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ToLowerCaseTestData : IEnumerable<object[]>
+    public sealed class ToLowerCaseTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class DecryptStringfromAlphabettoIntegerMapping_1309_test
+    public sealed class DecryptStringfromAlphabettoIntegerMapping_1309_test
     {
         [Theory, ClassData(typeof(DecryptStringfromAlphabettoIntegerMappingTestData))]
         public void Check(string inputData, string expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class DecryptStringfromAlphabettoIntegerMappingTestData : IEnumerable<object[]>
+    public sealed class DecryptStringfromAlphabettoIntegerMappingTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

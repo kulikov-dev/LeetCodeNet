@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
     /// </remarks>
-    public class SquaresofaSortedArray_977
+    public sealed class SquaresofaSortedArray_977
     {
         /// <summary>
         /// Square each element and then sort the new array. Obvious solution

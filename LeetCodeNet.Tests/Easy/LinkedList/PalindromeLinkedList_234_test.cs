@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.LinkedList
 {
-    public class PalindromeLinkedList_234_test
+    public sealed class PalindromeLinkedList_234_test
     {
         [Theory, ClassData(typeof(PalindromeLinkedListTestData))]
         public void CheckStack(ListNode inputData, bool expected)
@@ -21,7 +21,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         }
     }
 
-    public class PalindromeLinkedListTestData : IEnumerable<object[]>
+    public sealed class PalindromeLinkedListTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

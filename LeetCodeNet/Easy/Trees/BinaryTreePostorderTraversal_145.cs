@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/binary-tree-postorder-traversal/
     /// </summary>
     /// <remarks> Postorder (Left, Right, Root)  </remarks>
-    public class BinaryTreePostorderTraversal_145
+    public sealed class BinaryTreePostorderTraversal_145
     {
         /// <summary>
         /// Postorder values in a recursive solution

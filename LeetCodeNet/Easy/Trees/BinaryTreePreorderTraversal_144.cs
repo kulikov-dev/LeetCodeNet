@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/binary-tree-preorder-traversal/
     /// </summary>
     /// <remarks> Preorder (Root, Left, Right)  </remarks>
-    public class BinaryTreePreorderTraversal_144
+    public sealed class BinaryTreePreorderTraversal_144
     {
         /// <summary>
         /// Preorder values in a recursive solution

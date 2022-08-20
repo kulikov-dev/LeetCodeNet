@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class PlusOne_66_test
+    public sealed class PlusOne_66_test
     {
         [Theory, ClassData(typeof(PlusOneTestData))]
         public void Check(int[] inputData, int[] expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class PlusOneTestData : IEnumerable<object[]>
+    public sealed class PlusOneTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

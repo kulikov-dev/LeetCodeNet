@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class VerifyinganAlienDictionary_953_test
+    public sealed class VerifyinganAlienDictionary_953_test
     {
         [Theory, ClassData(typeof(VerifyinganAlienDictionaryTestData))]
         public void Check(string[] inputData, string inputOrder, bool expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class VerifyinganAlienDictionaryTestData : IEnumerable<object[]>
+    public sealed class VerifyinganAlienDictionaryTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

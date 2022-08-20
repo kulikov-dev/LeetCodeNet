@@ -4,7 +4,7 @@ using LeetCodeNet.Easy.Trees;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class N_aryTreePreorderTraversal_589_test
+    public sealed class N_aryTreePreorderTraversal_589_test
     {
         [Theory, ClassData(typeof(N_aryTreePreorderTraversalTestData))]
         public void CheckRecursive(NaryTreeNode inputData, List<int> expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class N_aryTreePreorderTraversalTestData : IEnumerable<object[]>
+    public sealed class N_aryTreePreorderTraversalTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

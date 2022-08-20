@@ -4,7 +4,7 @@ using LeetCodeNet.Easy.Trees;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class SearchinaBinarySearchTree_700_test
+    public sealed class SearchinaBinarySearchTree_700_test
     {
         [Theory, ClassData(typeof(SearchinaBinarySearchTreeTestData))]
         public void CheckRecursive(TreeNode inputData1, int inputData2, TreeNode expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class SearchinaBinarySearchTreeTestData : IEnumerable<object[]>
+    public sealed class SearchinaBinarySearchTreeTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

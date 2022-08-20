@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/n-ary-tree-preorder-traversal/
     /// </summary>
     /// <remarks> Given the root of an n-ary tree, return the preorder traversal of its nodes' values. </remarks>
-    public class N_aryTreePreorderTraversal_589
+    public sealed class N_aryTreePreorderTraversal_589
     {
         /// <summary>
         /// Recursive solution. Call recursive void for an each child to build preorder traversal

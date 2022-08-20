@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.LinkedList
 {
-    public class RemoveDuplicatesfromSortedList_83_test
+    public sealed class RemoveDuplicatesfromSortedList_83_test
     {
         [Theory, ClassData(typeof(RemoveDuplicatesfromSortedListTestData))]
         public void CheckIterative(ListNode inputData, ListNode? expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         }
     }
 
-    public class RemoveDuplicatesfromSortedListTestData : IEnumerable<object[]>
+    public sealed class RemoveDuplicatesfromSortedListTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

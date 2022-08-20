@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class CountBinarySubstrings_696_test
+    public sealed class CountBinarySubstrings_696_test
     {
         [Theory, ClassData(typeof(CountBinarySubstringsTestData))]
         public void Check(string inputData, int expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class CountBinarySubstringsTestData : IEnumerable<object[]>
+    public sealed class CountBinarySubstringsTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

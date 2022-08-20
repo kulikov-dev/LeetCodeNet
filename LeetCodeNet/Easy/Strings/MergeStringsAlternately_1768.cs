@@ -9,7 +9,7 @@ namespace LeetCodeNet.Easy.Strings
     /// You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1.
     /// If a string is longer than the other, append the additional letters onto the end of the merged string.
     /// </remarks>
-    public class MergeStringsAlternately_1768
+    public sealed class MergeStringsAlternately_1768
     {
         /// <summary>
         /// No specific algorithm, merging arrays through one pass step by step

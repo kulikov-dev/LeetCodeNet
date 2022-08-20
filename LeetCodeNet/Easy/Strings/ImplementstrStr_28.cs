@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
     /// </remarks>
-    public class ImplementstrStr_28
+    public sealed class ImplementstrStr_28
     {
         /// <summary>
         /// Straight brute force with two loops for haystack and needle.

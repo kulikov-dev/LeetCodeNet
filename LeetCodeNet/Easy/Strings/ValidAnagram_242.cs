@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given two strings s and t, return true if t is an anagram of s, and false otherwise.
     /// </remarks>
-    public class ValidAnagram_242
+    public sealed class ValidAnagram_242
     {
         /// <summary>
         /// First idea is to sort both words and compare them char by char

@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class ReverseWordsinaStringIII_557_test
+    public sealed class ReverseWordsinaStringIII_557_test
     {
         [Theory, ClassData(typeof(ReverseWordsinaStringIIITestData))]
         public void CheckLinq(string inputData, string expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ReverseWordsinaStringIIITestData : IEnumerable<object[]>
+    public sealed class ReverseWordsinaStringIIITestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

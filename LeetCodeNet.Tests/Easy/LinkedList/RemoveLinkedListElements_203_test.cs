@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.LinkedList
 {
-    public class RemoveLinkedListElements_203_test
+    public sealed class RemoveLinkedListElements_203_test
     {
         [Theory, ClassData(typeof(RemoveLinkedListElementsTestData))]
         public void Check(ListNode inputData, int inputToRemove, ListNode? expected)
@@ -15,7 +15,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         }
     }
 
-    public class RemoveLinkedListElementsTestData : IEnumerable<object[]>
+    public sealed class RemoveLinkedListElementsTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

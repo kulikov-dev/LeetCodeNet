@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class AverageSalaryExcludingtheMinimumandMaximumSalary_1491_test
+    public sealed class AverageSalaryExcludingtheMinimumandMaximumSalary_1491_test
     {
         [Theory, ClassData(typeof(AverageSalaryExcludingtheMinimumandMaximumSalaryTestData))]
         public void CheckLinq(int[] inputData, double expected)
@@ -27,7 +27,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class AverageSalaryExcludingtheMinimumandMaximumSalaryTestData : IEnumerable<object[]>
+    public sealed class AverageSalaryExcludingtheMinimumandMaximumSalaryTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

@@ -7,7 +7,7 @@
     /// For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] and determine the next greater element of nums2[j] in nums2.
     /// If there is no next greater element, then the answer for this query is -1.
     /// </remarks>
-    public class NextGreaterElement_I_496
+    public sealed class NextGreaterElement_I_496
     {
         /// <summary>
         /// The obvious way is to brute force. As usual - it's not enough to pass time limits and show good knowlegde to interviewers

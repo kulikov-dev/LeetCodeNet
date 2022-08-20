@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Medium.Array
 {
-    public class MaximumSubarray_53_test
+    public sealed class MaximumSubarray_53_test
     {
         [Theory, ClassData(typeof(MaximumSubarrayTestData))]
         public void CheckBruteForse(int[] inputData, int expected)
@@ -22,7 +22,7 @@ namespace LeetCodeNet.Tests.Medium.Array
         }
     }
 
-    public class MaximumSubarrayTestData : IEnumerable<object[]>
+    public sealed class MaximumSubarrayTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

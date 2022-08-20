@@ -8,7 +8,7 @@
     /// The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
     /// Increment the large integer by one and return the resulting array of digits.
     /// </remarks>
-    public class PlusOne_66
+    public sealed class PlusOne_66
     {
         /// <summary>
         /// The idea is to reproduce adding step by step like we do it in a real life. Start from last digit and go forward if necessary

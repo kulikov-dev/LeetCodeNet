@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class FirstUniqueCharacterinaString_387_test
+    public sealed class FirstUniqueCharacterinaString_387_test
     {
         [Theory, ClassData(typeof(FirstUniqueCharacterinaStringTestData))]
         public void CheckArray(string inputData, int expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class FirstUniqueCharacterinaStringTestData : IEnumerable<object[]>
+    public sealed class FirstUniqueCharacterinaStringTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

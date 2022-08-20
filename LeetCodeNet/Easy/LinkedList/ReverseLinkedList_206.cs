@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// https://leetcode.com/problems/reverse-linked-list/
     /// </summary>
     /// <remarks> Given the head of a singly linked list, reverse the list, and return the reversed list. </remarks>
-    public class ReverseLinkedList_206
+    public sealed class ReverseLinkedList_206
     {
         /// <summary>
         /// 1. Create a new head

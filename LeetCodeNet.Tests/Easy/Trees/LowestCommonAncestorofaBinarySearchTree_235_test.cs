@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class LowestCommonAncestorofaBinarySearchTree_235_test
+    public sealed class LowestCommonAncestorofaBinarySearchTree_235_test
     {
         [Theory, ClassData(typeof(LowestCommonAncestorofaBinarySearchTreeTestData))]
         public void CheckRecursive(TreeNode inputData1, TreeNode inputDataP, TreeNode inputDataQ, TreeNode expected)
@@ -15,7 +15,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class LowestCommonAncestorofaBinarySearchTreeTestData : IEnumerable<object[]>
+    public sealed class LowestCommonAncestorofaBinarySearchTreeTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

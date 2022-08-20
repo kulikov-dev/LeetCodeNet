@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class ValidPalindrome_125_test
+    public sealed class ValidPalindrome_125_test
     {
         [Theory, ClassData(typeof(ValidPalindromeTestData))]
         public void CheckLinqMethod(string inputData, bool expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ValidPalindromeTestData : IEnumerable<object[]>
+    public sealed class ValidPalindromeTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

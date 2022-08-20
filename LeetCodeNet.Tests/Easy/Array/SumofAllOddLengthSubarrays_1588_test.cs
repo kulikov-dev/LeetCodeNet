@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class SumofAllOddLengthSubarrays_1588_test
+    public sealed class SumofAllOddLengthSubarrays_1588_test
     {
         [Theory, ClassData(typeof(SumofAllOddLengthSubarraysTestData))]
         public void CheckBruteForce(int[] inputData, int expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class SumofAllOddLengthSubarraysTestData : IEnumerable<object[]>
+    public sealed class SumofAllOddLengthSubarraysTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

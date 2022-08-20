@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class FindtheDifference_389_test
+    public sealed class FindtheDifference_389_test
     {
         [Theory, ClassData(typeof(FindtheDifferenceTestData))]
         public void CheckSort(string inputData1, string inputData2, char expected)
@@ -27,7 +27,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class FindtheDifferenceTestData : IEnumerable<object[]>
+    public sealed class FindtheDifferenceTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

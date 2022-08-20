@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class NextGreaterElement_I_496_test
+    public sealed class NextGreaterElement_I_496_test
     {
         [Theory, ClassData(typeof(CheckBruteForceTestData))]
         public void CheckBruteForce(int[] inputData1, int[] inputData2, int[] expected)
@@ -22,7 +22,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class CheckBruteForceTestData : IEnumerable<object[]>
+    public sealed class CheckBruteForceTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

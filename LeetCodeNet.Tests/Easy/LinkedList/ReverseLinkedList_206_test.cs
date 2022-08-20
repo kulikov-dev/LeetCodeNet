@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.LinkedList
 {
-    public class ReverseLinkedList_206_test
+    public sealed class ReverseLinkedList_206_test
     {
         [Theory, ClassData(typeof(ReverseLinkedListTestData))]
         public void Check(ListNode inputData, ListNode expected)
@@ -15,7 +15,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         }
     }
 
-    public class ReverseLinkedListTestData : IEnumerable<object[]>
+    public sealed class ReverseLinkedListTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

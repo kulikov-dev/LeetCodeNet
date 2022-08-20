@@ -12,7 +12,7 @@ namespace LeetCodeNet.Easy.Strings
     /// Return the string formed after mapping.
     /// The test cases are generated so that a unique mapping will always exist.
     /// </remarks>
-    public class DecryptStringfromAlphabettoIntegerMapping_1309
+    public sealed class DecryptStringfromAlphabettoIntegerMapping_1309
     {
         /// <summary>
         /// Each letter in this alphabet is number of letter in the alphabet/offset. 

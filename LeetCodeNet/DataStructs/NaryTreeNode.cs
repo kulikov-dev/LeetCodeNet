@@ -3,7 +3,7 @@
     /// <summary>
     /// Definition for a N-ary Tree node
     /// </summary>
-    public class NaryTreeNode
+    public sealed class NaryTreeNode
     {
         /// <summary>
         /// Value

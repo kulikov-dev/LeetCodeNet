@@ -3,7 +3,7 @@
     /// <summary>
     /// Definition for a binary tree node.
     /// </summary>
-    public class TreeNode : IEquatable<TreeNode>
+    public sealed class TreeNode : IEquatable<TreeNode>
     {
         /// <summary>
         /// Value

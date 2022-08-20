@@ -7,7 +7,7 @@
     /// Given a 2D integer array matrix, return the transpose of matrix.
     /// The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
     /// </remarks>
-    public class TransposeMatrix_867
+    public sealed class TransposeMatrix_867
     {
         /// <summary>
         /// Nothing special. Rows become columns and vice versa. 

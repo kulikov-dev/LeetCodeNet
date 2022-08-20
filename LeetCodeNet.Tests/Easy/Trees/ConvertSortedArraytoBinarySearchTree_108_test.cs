@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class ConvertSortedArraytoBinarySearchTree_108_test
+    public sealed class ConvertSortedArraytoBinarySearchTree_108_test
     {
         [Theory, ClassData(typeof(ConvertSortedArraytoBinarySearchTreeTestData))]
         public void CheckRecursive(int[] inputData, TreeNode expected)
@@ -15,7 +15,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class ConvertSortedArraytoBinarySearchTreeTestData : IEnumerable<object[]>
+    public sealed class ConvertSortedArraytoBinarySearchTreeTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

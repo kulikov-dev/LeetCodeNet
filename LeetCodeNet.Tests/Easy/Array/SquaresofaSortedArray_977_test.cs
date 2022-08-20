@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class SquaresofaSortedArray_977_test
+    public sealed class SquaresofaSortedArray_977_test
     {
         [Theory, ClassData(typeof(SquaresofaSortedArrayTestData))]
         public void CheckBruteForce(int[] inputData, int[] expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class SquaresofaSortedArrayTestData : IEnumerable<object[]>
+    public sealed class SquaresofaSortedArrayTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

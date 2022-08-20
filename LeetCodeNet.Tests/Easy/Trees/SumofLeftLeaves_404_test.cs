@@ -4,7 +4,7 @@ using LeetCodeNet.Easy.Trees;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class SumofLeftLeaves_404_test
+    public sealed class SumofLeftLeaves_404_test
     {
         [Theory, ClassData(typeof(SumofLeftLeavesTestData))]
         public void CheckRecursive(TreeNode inputData, int expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class SumofLeftLeavesTestData : IEnumerable<object[]>
+    public sealed class SumofLeftLeavesTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

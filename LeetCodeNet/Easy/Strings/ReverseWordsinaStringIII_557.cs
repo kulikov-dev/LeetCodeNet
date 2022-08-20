@@ -5,7 +5,7 @@ namespace LeetCodeNet.Easy.Strings
     /// https://leetcode.com/problems/reverse-words-in-a-string-iii/
     /// </summary>
     /// <remarks> Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order. </remarks>
-    public class ReverseWordsinaStringIII_557
+    public sealed class ReverseWordsinaStringIII_557
     {
         /// <summary>
         /// The easiest solution is to use LINQ for solving. By lines:

@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.LinkedList
 {
-    public class MergeTwoSortedLists_21_test
+    public sealed class MergeTwoSortedLists_21_test
     {
         [Theory, ClassData(typeof(MergeTwoSortedListsTestData))]
         public void CheckRecursive(ListNode inputData1, ListNode inputData2, ListNode expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         }
     }
 
-    public class MergeTwoSortedListsTestData : IEnumerable<object[]>
+    public sealed class MergeTwoSortedListsTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

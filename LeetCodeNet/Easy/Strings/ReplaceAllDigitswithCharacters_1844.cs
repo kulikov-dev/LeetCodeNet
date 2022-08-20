@@ -9,7 +9,7 @@
     /// For every odd index i, you want to replace the digit s[i] with shift(s[i-1], s[i]).
     /// Return s after replacing all digits.
     /// </remarks>
-    public class ReplaceAllDigitswithCharacters_1844
+    public sealed class ReplaceAllDigitswithCharacters_1844
     {
         /// <summary>
         /// The key is that new character = previous character + current number. Then - char manipulations.

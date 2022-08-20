@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class RichestCustomerWealth_1672_test
+    public sealed class RichestCustomerWealth_1672_test
     {
         [Theory, ClassData(typeof(RichestCustomerWealthTestData))]
         public void CheckLinq(int[][] inputMatrix, int expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class RichestCustomerWealthTestData : IEnumerable<object[]>
+    public sealed class RichestCustomerWealthTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

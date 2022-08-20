@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class InvertBinaryTree_226_test
+    public sealed class InvertBinaryTree_226_test
     {
         [Theory, ClassData(typeof(InvertBinaryTreeTestData))]
         public void CheckRecursive(TreeNode inputData, TreeNode expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class InvertBinaryTreeTestData : IEnumerable<object[]>
+    public sealed class InvertBinaryTreeTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

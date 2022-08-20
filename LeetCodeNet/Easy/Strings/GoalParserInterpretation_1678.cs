@@ -11,7 +11,7 @@ namespace LeetCodeNet.Easy.Strings
     /// The interpreted strings are then concatenated in the original order.
     /// Given the string command, return the Goal Parser's interpretation of command.
     /// </remarks>
-    public class GoalParserInterpretation_1678
+    public sealed class GoalParserInterpretation_1678
     {
         /// <summary>
         /// Just replace commands to desired.

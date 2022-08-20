@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/maximum-subarray/
     /// </summary>
     /// <remarks> Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. </remarks>
-    public class MaximumSubarray_53
+    public sealed class MaximumSubarray_53
     {
         /// <summary>
         /// The obvious solution is to use brute force: to calculate the sum of every possible subarray and the maximum of those would be the solution.

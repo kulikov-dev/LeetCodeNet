@@ -9,7 +9,7 @@ namespace LeetCodeNet.Easy.Strings
     /// Write a function to find the longest common prefix string amongst an array of strings. 
     /// If there is no common prefix, return an empty string "".
     /// </remarks>
-    public class LongestCommonPrefix_14
+    public sealed class LongestCommonPrefix_14
     {
         /// <summary>
         /// Two pass: one through chars, another - through stings. Nothing special

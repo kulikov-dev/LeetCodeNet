@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/move-zeroes/
     /// </summary>
     /// <remarks> Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. </remarks>
-    public class MoveZeroes_283
+    public sealed class MoveZeroes_283
     {
         /// <summary>
         /// The idea is to use two-pointers approach. One pointer to current element in array and the second one - to the last left non-zero element

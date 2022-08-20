@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class CheckifOneStringSwapCanMakeStringsEqual_1790_test
+    public sealed class CheckifOneStringSwapCanMakeStringsEqual_1790_test
     {
         [Theory, ClassData(typeof(CheckifOneStringSwapCanMakeStringsEqualTestData))]
         public void Check(string inputData1, string inputData2, bool expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class CheckifOneStringSwapCanMakeStringsEqualTestData : IEnumerable<object[]>
+    public sealed class CheckifOneStringSwapCanMakeStringsEqualTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

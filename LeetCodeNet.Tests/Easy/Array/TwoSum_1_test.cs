@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class TwoSum_1_test
+    public sealed class TwoSum_1_test
     {
         [Theory, ClassData(typeof(TwoSumTestData))]
         public void Check(int[] inputData, int target, int[] expected)
@@ -13,7 +13,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class TwoSumTestData : IEnumerable<object[]>
+    public sealed class TwoSumTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given an array of positive integers arr, return the sum of all possible odd-length subarrays of arr.
     /// </remarks>
-    public class SumofAllOddLengthSubarrays_1588
+    public sealed class SumofAllOddLengthSubarrays_1588
     {
         /// <summary>
         /// Direct solution is to do brute force. Get sum of each subarray and check if subarray is odd.

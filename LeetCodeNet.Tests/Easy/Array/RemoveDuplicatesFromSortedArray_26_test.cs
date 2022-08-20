@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class RemoveDuplicatesFromSortedArray_26_test
+    public sealed class RemoveDuplicatesFromSortedArray_26_test
     {
         [Theory, ClassData(typeof(RemoveDuplicatesFromSortedArrayTestData))]
         public void Check(int[] inputData, int expectedCount, int[] expectedArray)
@@ -15,7 +15,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class RemoveDuplicatesFromSortedArrayTestData : IEnumerable<object[]>
+    public sealed class RemoveDuplicatesFromSortedArrayTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

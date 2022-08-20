@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class MergeTwoBinaryTrees_617_test
+    public sealed class MergeTwoBinaryTrees_617_test
     {
         [Theory, ClassData(typeof(MergeTwoBinaryTreesTestData))]
         public void CheckRecursive(TreeNode inputData1, TreeNode inputData2, TreeNode expected)
@@ -15,7 +15,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class MergeTwoBinaryTreesTestData : IEnumerable<object[]>
+    public sealed class MergeTwoBinaryTreesTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

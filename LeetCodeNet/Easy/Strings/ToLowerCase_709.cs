@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Strings
     /// https://leetcode.com/problems/to-lower-case/
     /// </summary>
     /// <remarks> Given a string s, return the string after replacing every uppercase letter with the same lowercase letter. </remarks>
-    public class ToLowerCase_709
+    public sealed class ToLowerCase_709
     {
         /// <summary>
         /// The simpliest solution. Of course in the real interview it's not acceptable

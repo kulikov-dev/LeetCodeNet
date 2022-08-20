@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class BinaryTreeInorderTraversal_94_test
+    public sealed class BinaryTreeInorderTraversal_94_test
     {
         [Theory, ClassData(typeof(BinaryTreeInorderTraversalTestData))]
         public void CheckRecursive(TreeNode inputData, List<int> expected)
@@ -21,7 +21,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class BinaryTreeInorderTraversalTestData : IEnumerable<object[]>
+    public sealed class BinaryTreeInorderTraversalTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

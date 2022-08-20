@@ -4,7 +4,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Trees
 {
-    public class MaximumDepthofBinaryTree_104_test
+    public sealed class MaximumDepthofBinaryTree_104_test
     {
         [Theory, ClassData(typeof(MaximumDepthofBinaryTreeTestData))]
         public void CheckRecursive(TreeNode inputData, int expected)
@@ -23,7 +23,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         }
     }
 
-    public class MaximumDepthofBinaryTreeTestData : IEnumerable<object[]>
+    public sealed class MaximumDepthofBinaryTreeTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

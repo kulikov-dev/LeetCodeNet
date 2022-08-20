@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class ImplementstrStr_28_test
+    public sealed class ImplementstrStr_28_test
     {
         [Theory, ClassData(typeof(ImplementstrStrTestData))]
         public void CheckBruteForceTwoPass(string inputData1, string inputData2, int expected)
@@ -27,7 +27,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class ImplementstrStrTestData : IEnumerable<object[]>
+    public sealed class ImplementstrStrTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

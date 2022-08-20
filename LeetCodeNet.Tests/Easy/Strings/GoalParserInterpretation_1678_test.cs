@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public class GoalParserInterpretation_1678_test
+    public sealed class GoalParserInterpretation_1678_test
     {
         [Theory, ClassData(typeof(GoalParserInterpretationTestData))]
         public void CheckReplace(string inputData, string expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         }
     }
 
-    public class GoalParserInterpretationTestData : IEnumerable<object[]>
+    public sealed class GoalParserInterpretationTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {

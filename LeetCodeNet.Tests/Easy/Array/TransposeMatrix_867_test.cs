@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Array
 {
-    public class TransposeMatrix_867_test
+    public sealed class TransposeMatrix_867_test
     {
         [Theory, ClassData(typeof(TransposeMatrixTestData))]
         public void Check(int[][] inputData, int[][] expected)
@@ -20,7 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         }
     }
 
-    public class TransposeMatrixTestData : IEnumerable<object[]>
+    public sealed class TransposeMatrixTestData : IEnumerable<object[]>
     {
         public IEnumerator<object[]> GetEnumerator()
         {
