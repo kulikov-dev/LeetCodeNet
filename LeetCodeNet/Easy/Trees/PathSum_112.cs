@@ -46,7 +46,7 @@ namespace LeetCodeNet.Easy.Trees
         /// <returns> True, if contains target sum in Path </returns>
         /// <remarks>
         /// Time complexity: O(n)
-        /// Space complexity: O(1)
+        /// Space complexity: O(n)
         /// </remarks>
         public bool HasPathSumIterative(TreeNode root, int targetSum)
         {

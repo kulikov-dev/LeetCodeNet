@@ -26,6 +26,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #144: Binary Tree Preorder Traversal (Tree)
 * #145: Binary Tree Postorder Traversal (Tree)
 * #226: Invert Binary Tree (Tree)
+* #404: Sum of Left Leaves (Tree)
 * #617: Merge Two Binary Trees (Tree)
 * #733: Flood Fill (Array)
 #### Pattern: Depth-First search (DFS)
