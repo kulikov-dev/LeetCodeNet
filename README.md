@@ -72,6 +72,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #108: Convert Sorted Array to Binary Search Tree (Tree)
 #### Pattern: Binary search
 * #35: Search Insert Position (Array)
+* #278: First Bad Version (Array)
 * #653: Two Sum IV - Input is a BST (Tree)
 * #704: Binary Search
 
