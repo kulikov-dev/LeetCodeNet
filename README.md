@@ -35,7 +35,6 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #589: N-ary Tree Preorder Traversal (Tree)
 #### Pattern: Binary tree
 * #235:  Lowest Common Ancestor of a Binary Search Tree (Tree)
-* #653: Two Sum IV - Input is a BST (Tree)
 * #700: Search in a Binary Search Tree (Tree)
 #### Pattern: Two pointers
 * #26: Remove Duplicates from Sorted Array (Array)
@@ -71,6 +70,9 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #28: Implement strStr (String)
 #### Pattern: Divide and conquer
 * #108: Convert Sorted Array to Binary Search Tree (Tree)
+#### Pattern: Binary search
+* #35: Search Insert Position (Array)
+* #653: Two Sum IV - Input is a BST (Tree)
 
 ### Level: Medium
 
