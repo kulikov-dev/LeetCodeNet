@@ -73,6 +73,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Binary search
 * #35: Search Insert Position (Array)
 * #653: Two Sum IV - Input is a BST (Tree)
+* #704: Binary Search
 
 ### Level: Medium
 
