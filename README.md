@@ -68,6 +68,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1844: Replace All Digits with Characters (String)
 #### Pattern: Bit manipulation
 * #268: Missing Number (Array)
+* #461: Hamming Distance (Bits)
 #### Pattern: Math
 * #1502: Can Make Arithmetic Progression From Sequence (Array)
 #### Pattern: KMP algorithm
