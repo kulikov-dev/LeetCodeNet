@@ -5,7 +5,7 @@
     /// </summary>
     /// <remarks> The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
     /// Given two integers x and y, return the Hamming distance between them.
-    /// Detailed explanation here: https://docs.microsoft.com/en-gb/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators
+    /// Detailed explanation of bits operators is here: https://docs.microsoft.com/en-gb/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators
     /// </remarks>
     public sealed class HammingDistance_461
     {

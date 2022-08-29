@@ -67,6 +67,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1309: Decrypt String from Alphabet to Integer Mapping (String)
 * #1844: Replace All Digits with Characters (String)
 #### Pattern: Bit manipulation
+* #191: Number of 1 Bits (Bits)
 * #268: Missing Number (Array)
 * #461: Hamming Distance (Bits)
 #### Pattern: Math
