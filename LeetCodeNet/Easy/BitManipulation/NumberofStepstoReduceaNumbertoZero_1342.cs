@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given an integer num, return the number of steps to reduce it to zero.
     /// In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
-    /// Detailed text explanation is here: https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/discuss/750470/Python%3A-Long-explanation-of-bit-count-method
+    /// Basics of bit manipulations: https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
     /// </remarks>
     public sealed class NumberofStepstoReduceaNumbertoZero_1342
     {

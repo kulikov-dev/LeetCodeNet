@@ -68,6 +68,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1844: Replace All Digits with Characters (String)
 #### Pattern: Bit manipulation
 * #191: Number of 1 Bits (Bits)
+* #231: Power of Two (Bits)
 * #268: Missing Number (Array)
 * #461: Hamming Distance (Bits)
 * #1342: Number of Steps to Reduce a Number to Zero (Bits)
