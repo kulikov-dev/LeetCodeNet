@@ -70,6 +70,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #191: Number of 1 Bits (Bits)
 * #268: Missing Number (Array)
 * #461: Hamming Distance (Bits)
+* #1342: Number of Steps to Reduce a Number to Zero (Bits)
 #### Pattern: Math
 * #1502: Can Make Arithmetic Progression From Sequence (Array)
 #### Pattern: KMP algorithm
