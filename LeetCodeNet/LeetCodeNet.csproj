@@ -12,4 +12,8 @@
     <None Remove="Easy\LinkedList\RemoveLinkedListElements_203.cs~RF88295c.TMP" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Easy\DP\" />
+  </ItemGroup>
+
 </Project>

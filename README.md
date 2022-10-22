@@ -7,6 +7,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: without
 * #21: Merge Two Sorted Lists (Linked List)
 * #66: Plus One (Array)
+* #118: Pascal's Triangle (DP)
 * #206 Reverse Linked List (Linked list)
 * #237: Delete Node in a Linked List (Linked list)
 * #566: Reshape the Matrix (Array)
