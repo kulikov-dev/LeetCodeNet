@@ -87,6 +87,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #278: First Bad Version (Array)
 * #653: Two Sum IV - Input is a BST (Tree)
 * #704: Binary Search
+#### Pattern: Dynamic programming
+* #746: Min Cost Climbing Stairs (Simple bottom-up)
 
 ### Level: Medium
 
