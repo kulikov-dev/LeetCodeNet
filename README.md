@@ -89,6 +89,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #704: Binary Search
 #### Pattern: Dynamic programming
 * #746: Min Cost Climbing Stairs (Simple bottom-up)
+* #509: Fibonacci Number (Simple bottom-up)
 
 ### Level: Medium
 
