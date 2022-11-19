@@ -88,8 +88,9 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #653: Two Sum IV - Input is a BST (Tree)
 * #704: Binary Search
 #### Pattern: Dynamic programming
-* #746: Min Cost Climbing Stairs (Simple bottom-up)
-* #509: Fibonacci Number (Simple bottom-up)
+* #70: Climbing stairs (Bottom-up)
+* #746: Min Cost Climbing Stairs (Bottom-up)
+* #509: Fibonacci Number (Bottom-up)
 
 ### Level: Medium
 
