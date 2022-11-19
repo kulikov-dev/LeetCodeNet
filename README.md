@@ -10,6 +10,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #118: Pascal's Triangle (DP)
 * #206 Reverse Linked List (Linked list)
 * #237: Delete Node in a Linked List (Linked list)
+* #412: FizzBuzz (Math, Design)
 * #566: Reshape the Matrix (Array)
 * #867: Transpose Matrix (Array)
 * #1572: Matrix Diagonal Sum (Array)
