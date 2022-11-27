@@ -13,11 +13,13 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #412: FizzBuzz (Math, Design)
 * #566: Reshape the Matrix (Array)
 * #867: Transpose Matrix (Array)
+* #1502: Can Make Arithmetic Progression From Sequence (Math, Array)
 * #1572: Matrix Diagonal Sum (Array)
 * #1588: Sum of All Odd Length Subarrays (Array)
 * #1672: Richest Customer Wealth (Array)
 * #1678: Goal Parser Interpretation (String)
 * #1768: Merge Strings Alternately (String)
+* #1822: Sign of the Product of an Array (Math)
 #### Pattern: Sorting
 * #14: Longest Common Prefix (String)
 * #217: Contains Duplicate (Array)
@@ -77,8 +79,6 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #461: Hamming Distance (Bits)
 * #1342: Number of Steps to Reduce a Number to Zero (Bits)
 * #1356: Sort Integers by The Number of 1 Bits (Array)
-#### Pattern: Math
-* #1502: Can Make Arithmetic Progression From Sequence (Array)
 #### Pattern: KMP algorithm
 * #28: Implement strStr (String)
 #### Pattern: Divide and conquer
