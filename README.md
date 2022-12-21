@@ -44,6 +44,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #26: Remove Duplicates from Sorted Array (Array)
 * #83: Remove Duplicates from Sorted List (Linked List)
 * #125: Valid Palindrome (String)
+* #169: Majority Element (Array)
 * #203: Remove Linked List Elements (Linked List)
 * #283: Move Zeroes (Array)
 * #344: Reverse String (Array)
