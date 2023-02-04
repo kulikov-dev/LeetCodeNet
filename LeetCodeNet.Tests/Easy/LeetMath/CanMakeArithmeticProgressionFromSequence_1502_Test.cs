@@ -1,15 +1,23 @@
 ﻿using System.Collections;
-using LeetCodeNet.Easy.Array;
+using LeetCodeNet.Easy.LeetMath;
 
-namespace LeetCodeNet.Tests.Easy.Array
+namespace LeetCodeNet.Tests.Easy.LeetMath
 {
     public sealed class CanMakeArithmeticProgressionFromSequence_1502_Test
     {
         [Theory, ClassData(typeof(CanMakeArithmeticProgressionFromSequenceTestData))]
-        public void CheckBFS(int[] inputData, bool expected)
+        public void CheckSimple(int[] inputData, bool expected)
         {
             var solver = new CanMakeArithmeticProgressionFromSequence_1502();
-            var result = solver.CanMakeArithmeticProgression(inputData);
+            var result = solver.CanMakeArithmeticProgressionSimple(inputData);
+            Assert.Equal(expected, result);
+        }
+
+        [Theory, ClassData(typeof(CanMakeArithmeticProgressionFromSequenceTestData))]
+        public void CheckMath(int[] inputData, bool expected)
+        {
+            var solver = new CanMakeArithmeticProgressionFromSequence_1502();
+            var result = solver.CanMakeArithmeticProgressionMath(inputData);
             Assert.Equal(expected, result);
         }
     }

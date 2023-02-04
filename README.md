@@ -5,6 +5,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 ### Level: Easy
 
 #### Pattern: without
+* #13: Roman to Integer (Math)
 * #21: Merge Two Sorted Lists (Linked List)
 * #66: Plus One (Array)
 * #118: Pascal's Triangle (DP)
@@ -14,6 +15,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #566: Reshape the Matrix (Array)
 * #867: Transpose Matrix (Array)
 * #1502: Can Make Arithmetic Progression From Sequence (Math, Array)
+* #1523: Count Odd Numbers in an Interval Range (Array)
 * #1572: Matrix Diagonal Sum (Array)
 * #1588: Sum of All Odd Length Subarrays (Array)
 * #1672: Richest Customer Wealth (Array)
