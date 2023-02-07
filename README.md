@@ -15,6 +15,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #566: Reshape the Matrix (Array)
 * #867: Transpose Matrix (Array)
 * #1232: Check If It Is a Straight Line (Math)
+* #1281: Subtract the Product and Sum of Digits of an Integer (Math)
 * #1502: Can Make Arithmetic Progression From Sequence (Math, Array)
 * #1523: Count Odd Numbers in an Interval Range (Array)
 * #1572: Matrix Diagonal Sum (Array)
@@ -96,6 +97,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #70: Climbing stairs (Bottom-up)
 * #746: Min Cost Climbing Stairs (Bottom-up)
 * #509: Fibonacci Number (Bottom-up)
+#### Pattern: Kadane's algorithm
+* #121: Best Time to Buy and Sell Stock (DP)
 
 ### Level: Medium
 
