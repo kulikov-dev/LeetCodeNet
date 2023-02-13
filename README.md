@@ -11,6 +11,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #118: Pascal's Triangle (DP)
 * #202: Happy Number (Math)
 * #206: Reverse Linked List (Linked list)
+* #225: Implement Stack using Queues (Design)
 * #232: Implement Queue using Stacks (Design)
 * #237: Delete Node in a Linked List (Linked list)
 * #412: FizzBuzz (Math, Design)
