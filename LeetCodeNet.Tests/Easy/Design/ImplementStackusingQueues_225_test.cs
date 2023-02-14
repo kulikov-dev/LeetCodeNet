@@ -2,7 +2,7 @@ using LeetCodeNet.Easy.Design;
 
 namespace LeetCodeNet.Tests.Easy.Design
 {
-    public sealed class ImplementQueueusingStacks_232
+    public sealed class ImplementStackusingQueues_225_test
     {
         [Fact]
         public void Check()
