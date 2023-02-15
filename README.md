@@ -25,6 +25,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1523: Count Odd Numbers in an Interval Range (Array)
 * #1572: Matrix Diagonal Sum (Array)
 * #1588: Sum of All Odd Length Subarrays (Array)
+* #1603: Design Parking System (Design)
 * #1672: Richest Customer Wealth (Array)
 * #1678: Goal Parser Interpretation (String)
 * #1768: Merge Strings Alternately (String)
