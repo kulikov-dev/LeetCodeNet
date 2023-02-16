@@ -9,6 +9,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #21: Merge Two Sorted Lists (Linked List)
 * #66: Plus One (Array)
 * #118: Pascal's Triangle (DP)
+* #155: Min Stack (DP)
 * #202: Happy Number (Math)
 * #206: Reverse Linked List (Linked list)
 * #225: Implement Stack using Queues (Design)
