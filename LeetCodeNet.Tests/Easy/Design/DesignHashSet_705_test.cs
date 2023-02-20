@@ -2,7 +2,7 @@ using LeetCodeNet.Easy.Design;
 
 namespace LeetCodeNet.Tests.Easy.Design
 {
-    public sealed class DesignHashSet_705
+    public sealed class DesignHashSet_705_test
     {
         [Fact]
         public void CheckSimple()

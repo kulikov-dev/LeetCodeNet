@@ -69,10 +69,10 @@
         /// <param name="key"> New value </param>
         public void Add(int key)
         {
-            var pageIndex = GetPage(key);
+            var pageIndex = GetPageIndex(key);
 
 
-            _set[pageIndex][GetIndex(key, pageIndex)] = true;
+            _set[pageIndex][GetIndexOnPage(key, pageIndex)] = true;
         }
 
         /// <summary>
@@ -81,8 +81,8 @@
         /// <param name="key"> Value to remove </param>
         public void Remove(int key)
         {
-            var pageIndex = GetPage(key);
-            _set[pageIndex][GetIndex(key, pageIndex)] = false;
+            var pageIndex = GetPageIndex(key);
+            _set[pageIndex][GetIndexOnPage(key, pageIndex)] = false;
         }
 
         /// <summary>
@@ -92,9 +92,9 @@
         /// <returns> True, if contains </returns>
         public bool Contains(int key)
         {
-            var pageIndex = GetPage(key);
+            var pageIndex = GetPageIndex(key);
 
-            return _set[pageIndex][GetIndex(key, pageIndex)];
+            return _set[pageIndex][GetIndexOnPage(key, pageIndex)];
         }
 
         /// <summary>
@@ -102,7 +102,7 @@
         /// </summary>
         /// <param name="key"> Value </param>
         /// <returns> Page index </returns>
-        private int GetPage(int key)
+        private int GetPageIndex(int key)
         {
             //// We initialize new arrays only if necessary
             var pageIndex = (int)(key / PagesCount);
@@ -118,7 +118,7 @@
         /// <param name="key"> Value </param>
         /// <param name="pageIndex"> Page index </param>
         /// <returns> Element index in the page </returns>
-        private int GetIndex(int key, int pageIndex)
+        private int GetIndexOnPage(int key, int pageIndex)
         {
             return key - pageIndex * PagesCount;
         }

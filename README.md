@@ -76,6 +76,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #383: Ransom note (String)
 * #389: Find the Difference (String)
 * #705: Design HashSet (Design)
+* #706: Design HashMap (Design)
 * #953 Verifying an Alien Dictionary (String)
 #### Pattern: Monotonic stack
 * #496: Next Greater Element I (Array)
