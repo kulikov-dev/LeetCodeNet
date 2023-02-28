@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace LeetCodeNet.Tests.Easy.Strings
 {
-    public sealed class CountBinarySubstrings_696_test
+    public sealed class LetterCasePermutation_784_test
     {
         [Theory, ClassData(typeof(CountBinarySubstringsTestData))]
         public void Check(string inputData, int expected)

@@ -114,3 +114,6 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
+
+#### Pattern: Backtracking
+* #784 Letter Case Permutation
