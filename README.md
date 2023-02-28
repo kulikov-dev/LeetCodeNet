@@ -112,6 +112,9 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 
 ### Level: Medium
 
+#### Pattern: without
+* #38: Count and say
+
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
 
