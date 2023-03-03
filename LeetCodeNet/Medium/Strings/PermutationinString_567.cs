@@ -16,6 +16,10 @@
         /// <param name="s1"></param>
         /// <param name="s2"></param>
         /// <returns></returns>
+        /// <remarks>
+        /// Time complexity: O(N)
+        /// Space complexity: O(1)
+        /// </remarks>
         public bool CheckInclusion(string s1, string s2)
         {
             if (s2.Length < s1.Length)
@@ -23,42 +27,25 @@
                 return false;
             }
 
-            var dict = new Dictionary<char, int>(26);
+            var dict = new int[26];
 
             for (var i = 0; i < s1.Length; i++)
             {
-                if (!dict.ContainsKey(s1[i]))
-                {
-                    dict.Add(s1[i], 0);
-                }
-
-                dict[s1[i]]++;
-
-                if (!dict.ContainsKey(s2[i]))
-                {
-                    dict.Add(s2[i], 0);
-                }
-
-                dict[s2[i]]--;
+                dict[s1[i] - 'a']++;
+                dict[s2[i] - 'a']--;
             }
 
-            if (dict.All(x => x.Value == 0))
+            if (dict.All(x => x == 0))
             {
                 return true;
             }
 
             for (var i = s1.Length; i < s2.Length; ++i)
             {
-                if (!dict.ContainsKey(s2[i]))
-                {
-                    dict.Add(s2[i], 0);
-                }
+                dict[s2[i] - 'a']--;
+                dict[s2[i - s1.Length] - 'a']++;
 
-                dict[s2[i]]--;
-
-                dict[s2[i - s1.Length]]++;
-
-                if (dict.All(x => x.Value == 0))
+                if (dict.All(x => x == 0))
                 {
                     return true;
                 }

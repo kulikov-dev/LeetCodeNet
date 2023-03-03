@@ -116,7 +116,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #38: Count and say
 
 #### Patter: Sliding window
-* #567: Permutation in String
+* #438: Find All Anagrams in a String (String)
+* #567: Permutation in String (String)
 
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
