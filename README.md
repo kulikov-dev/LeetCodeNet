@@ -115,6 +115,9 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: without
 * #38: Count and say
 
+#### Patter: Sliding window
+* #567: Permutation in String
+
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
 
