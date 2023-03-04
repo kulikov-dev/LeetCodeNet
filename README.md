@@ -115,7 +115,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: without
 * #38: Count and say
 
-#### Patter: Sliding window
+#### Pattern: Sliding window
+* #3: Longest Substring Without Repeating Characters (String)
 * #438: Find All Anagrams in a String (String)
 * #567: Permutation in String (String)
 
