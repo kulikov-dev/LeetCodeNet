@@ -114,6 +114,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 
 #### Pattern: without
 * #38: Count and say
+* #848: Shifting Letters
 
 #### Pattern: Sliding window
 * #3: Longest Substring Without Repeating Characters (String)
