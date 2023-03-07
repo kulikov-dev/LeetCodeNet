@@ -116,6 +116,9 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #38: Count and say
 * #848: Shifting Letters
 
+#### Pattern: Two pointers
+* #167: Two Sum II - Input Array Is Sorted (Array)
+
 #### Pattern: Sliding window
 * #3: Longest Substring Without Repeating Characters (String)
 * #438: Find All Anagrams in a String (String)
