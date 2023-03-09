@@ -117,6 +117,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #848: Shifting Letters
 
 #### Pattern: Two pointers
+* #5: Longest Palindromic Substring (String)
 * #167: Two Sum II - Input Array Is Sorted (Array)
 
 #### Pattern: Sliding window

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeNet.Easy.Design
+﻿namespace LeetCodeNet.Easy.Design
 {
     /// <summary>
     /// https://leetcode.com/problems/implement-stack-using-queues/
