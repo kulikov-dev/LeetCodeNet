@@ -130,4 +130,5 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #53: Maximum Subarray (Array)
 
 #### Pattern: Backtracking
-* #784 Letter Case Permutation
+* #46: Permutations (Array)
+* #784: Letter Case Permutation (String)
