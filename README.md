@@ -113,6 +113,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 ### Level: Medium
 
 #### Pattern: without
+* #2: Add Two Numbers (Linked list)
 * #38: Count and say (String)
 * #382: Linked List Random Node (Linked list, Design)
 * #848: Shifting Letters (String)

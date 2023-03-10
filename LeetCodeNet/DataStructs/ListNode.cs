@@ -44,7 +44,7 @@
                 node2 = node2.next;
             }
 
-            return true;
+            return node2 == null;
         }
     }
 }
