@@ -137,8 +137,10 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #46: Permutations (Array)
 * #784: Letter Case Permutation (String)
 
+#### Pattern: Binary tree
+* #98: Validate Binary Search Tree (Tree)
 ### Level: Hard
 
 #### Pattern: without
 
-* #23: Merge k Sorted Lists
+* #23: Merge k Sorted Lists (Linked list)
