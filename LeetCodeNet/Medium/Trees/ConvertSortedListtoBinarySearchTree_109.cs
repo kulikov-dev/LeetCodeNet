@@ -91,15 +91,18 @@ namespace LeetCodeNet.Medium.Trees
 
             var slow = head;
             var fast = head;
+
             while (fast != tail && fast.next != tail)
             {
                 slow = slow.next;
                 fast = fast.next.next;
             }
 
-            var result = new TreeNode(slow.val);
-            result.left = Recreate(head, slow);
-            result.right = Recreate(slow.next, tail);
+            var result = new TreeNode(slow.val)
+            {
+                left = Recreate(head, slow),
+                right = Recreate(slow.next, tail)
+            };
 
             return result;
         }

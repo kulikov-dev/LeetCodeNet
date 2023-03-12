@@ -136,3 +136,9 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Backtracking
 * #46: Permutations (Array)
 * #784: Letter Case Permutation (String)
+
+### Level: Hard
+
+#### Pattern: without
+
+* #23: Merge k Sorted Lists
