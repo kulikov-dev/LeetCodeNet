@@ -118,31 +118,26 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #38: Count and say (String)
 * #382: Linked List Random Node (Linked list, Design)
 * #848: Shifting Letters (String)
-
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
 * #167: Two Sum II - Input Array Is Sorted (Array)
-
 #### Pattern: Two pointers: slow/fast
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
-
 #### Pattern: Sliding window
 * #3: Longest Substring Without Repeating Characters (String)
 * #438: Find All Anagrams in a String (String)
 * #567: Permutation in String (String)
-
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
-
 #### Pattern: Backtracking
 * #46: Permutations (Array)
 * #784: Letter Case Permutation (String)
-
 #### Pattern: Binary tree
 * #98: Validate Binary Search Tree (Tree)
-
 #### Pattern: Breadth-First search (BFS)
 * #994: Rotting Oranges (Array)
+#### Pattern: Depth-First search (DFS)
+* #129: Sum Root to Leaf Numbers (Tree)
 
 ### Level: Hard
 
