@@ -138,6 +138,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #994: Rotting Oranges (Array)
 #### Pattern: Depth-First search (DFS)
 * #129: Sum Root to Leaf Numbers (Tree)
+#### Pattern: Bit manipulation
+* #2405: Optimal Partition of String (String)
 
 ### Level: Hard
 
