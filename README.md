@@ -29,6 +29,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1603: Design Parking System (Design)
 * #1672: Richest Customer Wealth (Array)
 * #1678: Goal Parser Interpretation (String)
+* #1732: Find the Highest Altitude (Array)
 * #1768: Merge Strings Alternately (String)
 * #1822: Sign of the Product of an Array (Math)
 * #1974: Minimum Time to Type Word Using Special Typewriter (String)
