@@ -31,6 +31,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1678: Goal Parser Interpretation (String)
 * #1768: Merge Strings Alternately (String)
 * #1822: Sign of the Product of an Array (Math)
+* #1974: Minimum Time to Type Word Using Special Typewriter (String)
 #### Pattern: Sorting
 * #14: Longest Common Prefix (String)
 * #217: Contains Duplicate (Array)
