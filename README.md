@@ -73,13 +73,14 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #876: Middle of the LInked List (Linked List)
 #### Pattern: Hash table
 * #1: Two Sum (Array)
-* #242 Valid Anagram (String)
+* #242: Valid Anagram (String)
 * #350: Intersection of Two Arrays II (Array)
 * #383: Ransom note (String)
 * #389: Find the Difference (String)
 * #705: Design HashSet (Design)
 * #706: Design HashMap (Design)
-* #953 Verifying an Alien Dictionary (String)
+* #953: Verifying an Alien Dictionary (String)
+* #2049: Finding 3-Digit Even Numbers (Array)
 #### Pattern: Monotonic stack
 * #496: Next Greater Element I (Array)
 #### Pattern: Char manipulation
