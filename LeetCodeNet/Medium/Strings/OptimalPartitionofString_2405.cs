@@ -94,7 +94,7 @@
             {
                 var num = ch - 'a';     // get the real position of the char in the alphabet
 
-                if ((bit & (1 << num)) > 0)     // for example 1000 represents 'd' we need to get the flag on this position, so we use & operator to leave only this flag. and >> to check if it represented
+                if ((bit & (1 << num)) > 0)     // for example 1000 represents 'd' we need to get the flag on this position, so we use & operator to leave only this flag.
                 {
                     bit = 0;
 
