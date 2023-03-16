@@ -83,7 +83,7 @@ namespace LeetCodeNet.Easy.Array
         }
 
         /// <summary>
-        /// Instead of backtracking we can use hash to store all used digits and just 
+        /// Instead of backtracking we can use hash to store all used digits and just check if we have enough digits to build the current number
         /// </summary>
         /// <param name="digits"></param>
         /// <returns> 3 Digit even numbers </returns>

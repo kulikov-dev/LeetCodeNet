@@ -123,6 +123,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #848: Shifting Letters (String)
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
+* #88: Merge Sorted Array (Array)
 * #167: Two Sum II - Input Array Is Sorted (Array)
 #### Pattern: Two pointers: slow/fast
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)

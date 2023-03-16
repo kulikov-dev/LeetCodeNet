@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using LeetCodeNet.DataStructs;
+﻿using LeetCodeNet.DataStructs;
 
 namespace LeetCodeNet.Medium.Trees
 {
