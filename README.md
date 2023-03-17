@@ -5,6 +5,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 ### Level: Easy
 
 #### Pattern: without
+* #9: Palindrome Number (Math)
 * #13: Roman to Integer (Math)
 * #21: Merge Two Sorted Lists (Linked List)
 * #66: Plus One (Array)
