@@ -145,6 +145,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #129: Sum Root to Leaf Numbers (Tree)
 #### Pattern: Bit manipulation
 * #2405: Optimal Partition of String (String)
+#### Pattern: Hash Table
+* #208: Implement Trie (Prefix Tree) (Design)
 
 ### Level: Hard
 
