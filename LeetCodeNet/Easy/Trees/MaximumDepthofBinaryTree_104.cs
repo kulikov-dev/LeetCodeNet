@@ -9,7 +9,7 @@ namespace LeetCodeNet.Easy.Trees
     /// Given the root of a binary tree, return its maximum depth.
     /// A binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
     /// </remarks>
-    public sealed class MaximumDepthofBinaryTree_104
+    internal sealed class MaximumDepthofBinaryTree_104
     {
         /// <summary>
         /// Recursive variant of BFS
@@ -48,6 +48,7 @@ namespace LeetCodeNet.Easy.Trees
 
             var queue = new Queue<TreeNode>();
             var result = 0;
+
             queue.Enqueue(root);
             while (queue.Any())
             {
@@ -57,6 +58,7 @@ namespace LeetCodeNet.Easy.Trees
                 for (var i = 0; i < length; ++i)
                 {
                     var node = queue.Dequeue();
+
                     if (node.left != null)
                     {
                         queue.Enqueue(node.left);

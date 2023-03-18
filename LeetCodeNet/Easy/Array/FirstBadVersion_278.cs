@@ -8,7 +8,7 @@
     /// You are given an API bool isBadVersion(version) which returns whether version is bad.Implement a function to find the first bad version.You should minimize the number of calls to the API.
     /// Great explanation is here: https://leetcode.com/problems/search-insert-position/discuss/423166/Binary-Search-101
     /// </remarks>
-    public sealed class FirstBadVersion_278
+    internal sealed class FirstBadVersion_278
     {
         /// <summary>
         /// All this "versions" is a simple sorted array. So, if you see 'sorted array' and the task connected with searching - the best approach is to use Binary Search
@@ -24,12 +24,14 @@
         {
             var leftPointer = 0;
             var rightPointer = n;
+
             while (leftPointer < rightPointer)
             {
                 //// Check if current middle position is bad - then go left to find earlier bad version
                 /// In other case - go to right and find first bad version
                 var middlePointer = leftPointer + (rightPointer - leftPointer) / 2;
                 var isBadVersion = checker.IsBadVersion(middlePointer);
+
                 if (isBadVersion)
                 {
                     rightPointer = middlePointer;

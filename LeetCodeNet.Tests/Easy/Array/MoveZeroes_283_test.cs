@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void Check(int[] inputData, int[] expected)
         {
             var solver = new MoveZeroes_283();
+
             solver.MoveZeroesOptimization(inputData);
             Assert.Equal(expected, inputData);
         }
@@ -17,6 +18,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckOpimal(int[] inputData, int[] expected)
         {
             var solver = new MoveZeroes_283();
+
             solver.MoveZeroesOptimization(inputData);
             Assert.Equal(expected, inputData);
         }

@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/design-hashmap/
     /// </summary>
     /// <remarks> Design a HashMap without using any built-in hash table libraries. </remarks>
-    public sealed class MyHashMap
+    internal sealed class MyHashMap
     {
         //// The similar idea, like in the problem #705. Phone-bool idea, but instead of bool - we will store 'int' value with -1 as non-value (according to constraints)
 

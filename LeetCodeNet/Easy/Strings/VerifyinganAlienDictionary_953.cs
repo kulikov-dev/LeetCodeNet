@@ -3,7 +3,7 @@
     /// <summary>
     /// https://leetcode.com/problems/verifying-an-alien-dictionary/
     /// </summary>
-    public sealed class VerifyinganAlienDictionary_953
+    internal sealed class VerifyinganAlienDictionary_953
     {
         /// <summary>
         /// Key points is to:
@@ -21,6 +21,7 @@
         {
             //// Hash table to store mapping char and it's position in the alien alphabet
             var dictOrder = new Dictionary<char, int>();
+
             for (var i = 0; i < order.Length; ++i)
             {
                 dictOrder.Add(order[i], i);
@@ -51,6 +52,7 @@
             /// 2. If all letters match, when length(word1) < length(word2)
 
             var maxLength = Math.Min(word1.Length, word2.Length);
+
             for (var i = 0; i < maxLength; ++i)
             {
                 //// Check two words, char by char. If char is different - we can use mapper to compare chars

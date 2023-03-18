@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckSort(string inputData1, string inputData2, char expected)
         {
             var solver = new FindtheDifference_389();
+
             Assert.Equal(expected, solver.FindTheDifferenceSort(inputData1, inputData2));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckHash(string inputData1, string inputData2, char expected)
         {
             var solver = new FindtheDifference_389();
+
             Assert.Equal(expected, solver.FindTheDifferenceHash(inputData1, inputData2));
         }
 
@@ -23,6 +25,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckMath(string inputData1, string inputData2, char expected)
         {
             var solver = new FindtheDifference_389();
+
             Assert.Equal(expected, solver.FindTheDifferenceMath(inputData1, inputData2));
         }
     }

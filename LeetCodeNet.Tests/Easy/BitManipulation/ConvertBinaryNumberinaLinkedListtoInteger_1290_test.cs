@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new ConvertBinaryNumberinaLinkedListtoInteger_1290();
             var result = solver.GetDecimalValueSimple(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new ConvertBinaryNumberinaLinkedListtoInteger_1290();
             var result = solver.GetDecimalValueBinary(inputData);
+
             Assert.Equal(expected, result);
         }
     }

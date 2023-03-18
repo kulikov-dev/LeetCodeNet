@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new ConvertSortedArraytoBinarySearchTree_108();
             var result = solver.SortedArrayToBST(inputData);
+
             Assert.True(expected.Equals(result));
         }
     }

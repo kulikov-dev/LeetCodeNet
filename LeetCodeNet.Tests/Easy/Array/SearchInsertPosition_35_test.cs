@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new SearchInsertPosition_35();
             var result = solver.SearchInsert(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
     }

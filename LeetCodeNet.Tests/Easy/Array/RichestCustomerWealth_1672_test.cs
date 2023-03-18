@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckLinq(int[][] inputMatrix, int expected)
         {
             var solver = new RichestCustomerWealth_1672();
+
             Assert.Equal(expected, solver.MaximumWealthLinq(inputMatrix));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckPass(int[][] inputMatrix, int expected)
         {
             var solver = new RichestCustomerWealth_1672();
+
             Assert.Equal(expected, solver.MaximumWealthPass(inputMatrix));
         }
     }

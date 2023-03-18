@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void Check(string inputData1, string inputData2, bool expected)
         {
             var solver = new CheckifOneStringSwapCanMakeStringsEqual_1790();
+
             Assert.Equal(expected, solver.AreAlmostEqual(inputData1, inputData2));
         }
     }

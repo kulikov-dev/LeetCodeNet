@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/binary-tree-postorder-traversal/
     /// </summary>
     /// <remarks> Postorder (Left, Right, Root)  </remarks>
-    public sealed class BinaryTreePostorderTraversal_145
+    internal sealed class BinaryTreePostorderTraversal_145
     {
         /// <summary>
         /// Postorder values in a recursive solution
@@ -20,6 +20,7 @@ namespace LeetCodeNet.Easy.Trees
         public IList<int> PostorderTraversalRecurssive(TreeNode root)
         {
             var result = new List<int>();
+
             ProcessNodeRecursive(root, ref result);
             return result;
         }
@@ -58,13 +59,16 @@ namespace LeetCodeNet.Easy.Trees
         {
             var stack = new Stack<TreeNode>();
             var result = new List<int>();
+
             stack.Push(root);
             while (stack.Any())
             {
                 var count = stack.Count;
+
                 for (var i = 0; i < count; ++i)
                 {
                     var node = stack.Pop();
+
                     if (node == null)
                     {
                         continue;

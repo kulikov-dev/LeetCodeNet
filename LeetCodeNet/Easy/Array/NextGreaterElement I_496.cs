@@ -7,7 +7,7 @@
     /// For each 0 <= i < nums1.length, find the index j such that nums1[i] == nums2[j] and determine the next greater element of nums2[j] in nums2.
     /// If there is no next greater element, then the answer for this query is -1.
     /// </remarks>
-    public sealed class NextGreaterElement_I_496
+    internal sealed class NextGreaterElement_I_496
     {
         /// <summary>
         /// The obvious way is to brute force. As usual - it's not enough to pass time limits and show good knowlegde to interviewers
@@ -22,10 +22,12 @@
         public int[] NextGreaterElementBruteForce(int[] nums1, int[] nums2)
         {
             var result = Enumerable.Repeat(-1, nums1.Length).ToArray();
+
             for (var i = 0; i < nums1.Length; i++)
             {
                 var currentNum = nums1[i];
                 var startSearch = false;
+
                 for (int j = 0; j < nums2.Length; j++)
                 {
                     //// Find the current position of nums1 element in nums2
@@ -37,6 +39,7 @@
                     {
                         //// And find next greater element. Straight solution
                         result[i] = nums2[j];
+
                         break;
                     }
                 }
@@ -62,6 +65,7 @@
 
             //// Use a stack to keep all decreasing sub-sequence until current number is greater than stack element
             var stack = new Stack<int>();
+
             for (var i = 0; i < nums2.Length; ++i)
             {
                 //// Example. If we have [4,3,2,5], we have these values in the stack by steps:
@@ -72,6 +76,7 @@
                 while (stack.Any() && stack.Peek() < nums2[i])
                 {
                     var prevLessValue = stack.Pop();
+
                     dict.Add(prevLessValue, nums2[i]);
                 }
 
@@ -80,6 +85,7 @@
 
             //// At this step we have greater elements for each nums2 number. So just go through subarray and get value in the dictionary.
             var result = new int[nums1.Length];
+
             for (var i = 0; i < nums1.Length; ++i)
             {
                 result[i] = dict.ContainsKey(nums1[i]) ? dict[nums1[i]] : -1;

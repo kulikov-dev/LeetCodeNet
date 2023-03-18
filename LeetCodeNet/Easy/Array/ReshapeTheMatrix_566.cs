@@ -8,7 +8,7 @@
     /// You are given an m x n matrix mat and two integers r and c representing the number of rows and the number of columns of the wanted reshaped matrix.
     /// The reshaped matrix should be filled with all the elements of the original matrix in the same row-traversing order as they were.
     /// </remarks>
-    public sealed class ReshapeTheMatrix_566
+    internal sealed class ReshapeTheMatrix_566
     {
         /// <summary>
         /// Approach is to create pointers for new rows and columns.
@@ -33,6 +33,7 @@
             var colPointer = 0;     // Pointer to reshaped matrix column
             var result = new int[r][];
             result[0] = new int[c];
+
             for (var i = 0; i < mat.Length; ++i)
             {
                 for (var j = 0; j < mat[i].Length; ++j)
@@ -41,11 +42,13 @@
                     if (colPointer == c)
                     {
                         colPointer = 0;
+
                         ++rowPointer;
                         result[rowPointer] = new int[c];
                     }
 
                     result[rowPointer][colPointer] = mat[i][j];
+
                     ++colPointer;           // Increment reshaped column position
                 }
             }

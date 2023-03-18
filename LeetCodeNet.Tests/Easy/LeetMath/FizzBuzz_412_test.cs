@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         public void CheckSimple(int inputData, List<string> expected)
         {
             var solver = new FizzBuzz_412();
+
             Assert.True(Enumerable.SequenceEqual(expected, solver.FizzBuzzSimple(inputData)));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         public void CheckDelegate(int inputData, List<string> expected)
         {
             var solver = new FizzBuzz_412();
+
             Assert.True(Enumerable.SequenceEqual(expected, solver.FizzBuzzDelegate(inputData)));
         }
     }

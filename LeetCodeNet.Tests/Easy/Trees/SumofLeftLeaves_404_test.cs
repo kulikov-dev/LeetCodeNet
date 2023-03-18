@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new SumofLeftLeaves_404();
             var result = solver.SumOfLeftLeavesRecursive(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new SumofLeftLeaves_404();
             var result = solver.SumOfLeftLeavesIterative(inputData);
+
             Assert.Equal(expected, result);
         }
     }

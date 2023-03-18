@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckLinq(string inputData, string expected)
         {
             var solver = new ReverseWordsinaStringIII_557();
+
             Assert.Equal(expected, solver.ReverseWordsLinq(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckTwoPointers(string inputData, string expected)
         {
             var solver = new ReverseWordsinaStringIII_557();
+
             Assert.Equal(expected, solver.ReverseStringTwoPointers(inputData));
         }
     }

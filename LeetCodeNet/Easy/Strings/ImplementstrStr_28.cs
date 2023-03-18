@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
     /// </remarks>
-    public sealed class ImplementstrStr_28
+    internal sealed class ImplementstrStr_28
     {
         /// <summary>
         /// Straight brute force with two loops for haystack and needle.
@@ -40,6 +40,7 @@
                     if (haystack[i + j] != needle[j])
                     {
                         isValid = false;
+
                         break;
                     }
                 }
@@ -112,6 +113,7 @@
             var preprocessedInfo = PreprocessKMP(needle);
             var haystackPos = 0;
             var needlePos = 0;
+
             while (haystackPos < haystack.Length && needlePos < needle.Length)
             {
                 if (haystack[haystackPos] == needle[needlePos])
@@ -142,11 +144,13 @@
             var i = 1;
             var j = 0;
             var res = new int[pattern.Length];
+
             while (i < pattern.Length)
             {
                 if (pattern[i] == pattern[j])
                 {
                     res[i] = j + 1;
+
                     i++;
                     j++;
                 }
@@ -157,6 +161,7 @@
                 else
                 {
                     res[i] = 0;
+
                     i++;
                 }
             }

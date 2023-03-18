@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new TwoSumIVInputisaBST_653();
             var result = solver.FindTargetBFS(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new TwoSumIVInputisaBST_653();
             var result = solver.FindTargetPointers(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
 
@@ -27,6 +29,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new TwoSumIVInputisaBST_653();
             var result = solver.FindTargetBinarySearch(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
     }

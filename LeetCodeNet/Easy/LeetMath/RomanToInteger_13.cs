@@ -6,7 +6,7 @@
     /// <remarks> Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
     /// For example, 2 is written as II in Roman numeral, just two ones added together. 12 is written as XII, which is simply X + II. The number 27 is written as XXVII, which is XX + V + II.
     /// </remarks>
-    public sealed class RomanToInteger_13
+    internal sealed class RomanToInteger_13
     {
         /// <summary>
         /// Store dictionary with all possible roman values converted to arabian numbers.

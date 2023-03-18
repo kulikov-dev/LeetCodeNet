@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/search-in-a-binary-search-tree/
     /// </summary>
     /// <remarks> Find the node in the BST that the node's value equals val and return the subtree rooted with that node. If such a node does not exist, return null. </remarks>
-    public sealed class SearchinaBinarySearchTree_700
+    internal sealed class SearchinaBinarySearchTree_700
     {
         /// <summary>
         /// Recursive solution
@@ -47,6 +47,7 @@ namespace LeetCodeNet.Easy.Trees
         public TreeNode SearchBSTIterative(TreeNode root, int val)
         {
             var node = root;
+
             while (node != null)
             {
                 if (val == node.val)

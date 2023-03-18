@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckHash(int[] inputData1, int[] inputData2, int[] expected)
         {
             var solver = new IntersectionOfTwoArraysII_350();
+
             Assert.Equal(expected, solver.IntersectHash(inputData1, inputData2).OrderBy(x=>x).ToArray());
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckSorting(int[] inputData1, int[] inputData2, int[] expected)
         {
             var solver = new IntersectionOfTwoArraysII_350();
+
             Assert.Equal(expected, solver.IntersectSorted(inputData1, inputData2).OrderBy(x => x).ToArray());
         }
     }

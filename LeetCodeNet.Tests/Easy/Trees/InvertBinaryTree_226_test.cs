@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new InvertBinaryTree_226();
             var result = solver.InvertTreeRecursive(inputData);
+
             Assert.True(expected.Equals(result));
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new InvertBinaryTree_226();
             var result = solver.InvertTreeIterative(inputData);
+
             Assert.True(expected.Equals(result));
         }
     }

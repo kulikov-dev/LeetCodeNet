@@ -12,7 +12,7 @@ namespace LeetCodeNet.Easy.LeetMath
     /// answer[i] == "Buzz" if i is divisible by 5.
     /// answer[i] == i(as a string) if none of the above conditions are true.
     /// </remarks>
-    public sealed class FizzBuzz_412
+    internal sealed class FizzBuzz_412
     {
         /// <summary>
         /// Simple plain solution
@@ -26,9 +26,11 @@ namespace LeetCodeNet.Easy.LeetMath
         public IList<string> FizzBuzzSimple(int n)
         {
             var result = new List<string>();
+
             for (var i = 1; i <= n; ++i)
             {
                 var sb = new StringBuilder();
+
                 if (i % 3 == 0)
                 {
                     sb.Append("Fizz");
@@ -64,6 +66,7 @@ namespace LeetCodeNet.Easy.LeetMath
             };
 
             var result = new List<string>();
+
             for (var i = 1; i <= n; ++i)
             {
                 var temp = rules.Select(rule => rule.Invoke(i)).FirstOrDefault(ruleResult => !string.IsNullOrWhiteSpace(ruleResult));

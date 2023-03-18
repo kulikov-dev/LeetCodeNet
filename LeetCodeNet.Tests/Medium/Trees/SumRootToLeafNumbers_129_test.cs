@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Medium.Trees
         public void CheckRecursive(TreeNode inputData, int expected)
         {
             var solver = new SumRootToLeafNumbers_129();
+
             Assert.Equal(expected, solver.SumNumbersRecursive(inputData));
         }
 
@@ -17,6 +18,7 @@ namespace LeetCodeNet.Tests.Medium.Trees
         public void CheckDFS(TreeNode inputData, int expected)
         {
             var solver = new SumRootToLeafNumbers_129();
+
             Assert.Equal(expected, solver.SumNumberDFS(inputData));
         }
     }

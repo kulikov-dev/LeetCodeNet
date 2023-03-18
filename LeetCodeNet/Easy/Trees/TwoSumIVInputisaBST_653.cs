@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/two-sum-iv-input-is-a-bst/
     /// </summary>
     /// <remarks> Given the node of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target. </remarks>
-    public sealed class TwoSumIVInputisaBST_653
+    internal sealed class TwoSumIVInputisaBST_653
     {
         /// <summary>
         /// Use BFS approach to go through each element and store it's values in a hashtable. Not very effective approach
@@ -21,13 +21,16 @@ namespace LeetCodeNet.Easy.Trees
         public bool FindTargetBFS(TreeNode root, int k)
         {
             var queue = new Queue<TreeNode>();
+
             queue.Enqueue(root);
 
             //// The idea is to use a hashtable to keep visited node values
             var hashset = new HashSet<int>();
+
             while (queue.Any())
             {
                 var node = queue.Dequeue();
+
                 if (node == null)
                 {
                     continue;
@@ -70,6 +73,7 @@ namespace LeetCodeNet.Easy.Trees
             //// Then we use two pointers approach which begins from the start and end of the array to find if there is a sum of K.
             var leftPointer = 0;
             var rightPointer = array.Count - 1;
+
             while (leftPointer < rightPointer)
             {
                 if (array[leftPointer] + array[rightPointer] == k)
@@ -160,6 +164,7 @@ namespace LeetCodeNet.Easy.Trees
         public bool SearchInBinaryTree(TreeNode node, int k)
         {
             var current = _root;
+
             while (current != null)
             {
                 if (k > current.val)

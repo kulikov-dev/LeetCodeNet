@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.
     /// </remarks>
-    public sealed class FirstUniqueCharacterinaString_387
+    internal sealed class FirstUniqueCharacterinaString_387
     {
         /// <summary>
         /// Approach is to use hashset/array to store char and it's amount in S

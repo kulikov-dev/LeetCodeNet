@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void Check(string inputData1, string inputData2, string expected)
         {
             var solver = new MergeStringsAlternately_1768();
+
             Assert.Equal(expected, solver.MergeAlternately(inputData1, inputData2));
         }
     }

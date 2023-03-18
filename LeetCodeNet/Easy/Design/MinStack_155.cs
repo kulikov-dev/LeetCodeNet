@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/min-stack/
     /// </summary>
     /// <remarks> Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. </remarks>
-    public sealed class MinStack
+    internal sealed class MinStack
     {
         /// <summary>
         /// We need to use just one stack, but this stack contains value itself as well as minimum value from all previous values

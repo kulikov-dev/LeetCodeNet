@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         public void CheckSimple(int[] inputData, int expected)
         {
             var solver = new SignoftheProductofanArray_1822();
+
             Assert.Equal(expected, solver.ArraySign(inputData));
         }
     }

@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new Finding3_DigitEvenNumbers_2094();
             var result = solver.FindEvenNumbersNotOptimal(inputData);
+
             Assert.True(expected.SequenceEqual(result));
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new Finding3_DigitEvenNumbers_2094();
             var result = solver.FindEvenNumbersOptimal(inputData);
+
             Assert.True(expected.SequenceEqual(result));
         }
     }

@@ -10,7 +10,7 @@ namespace LeetCodeNet.Easy.Trees
     /// According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants
     /// (where we allow a node to be a descendant of itself).”
     /// </remarks>
-    public sealed class LowestCommonAncestorofaBinarySearchTree_235
+    internal sealed class LowestCommonAncestorofaBinarySearchTree_235
     {
         /// <summary>
         /// The key idea is that we have BINARY search tree. So, when we have p and q on different subtrees - that's the solution

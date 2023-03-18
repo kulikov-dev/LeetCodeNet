@@ -10,7 +10,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// Merge the two lists in a one sorted list.The list should be made by splicing together the nodes of the first two lists.
     /// Return the head of the merged linked list.
     /// </remarks>
-    public sealed class MergeTwoSortedLists_21
+    internal sealed class MergeTwoSortedLists_21
     {
         /// <summary>
         /// Recreate tree using recursion approach
@@ -39,11 +39,13 @@ namespace LeetCodeNet.Easy.LinkedList
             if (list1.val > list2.val)
             {
                 list2.next = MergeTwoListsRecursive(list1, list2.next);
+
                 return list2;
             }
             else
             {
                 list1.next = MergeTwoListsRecursive(list1.next, list2);
+
                 return list1;
             }
         }
@@ -63,6 +65,7 @@ namespace LeetCodeNet.Easy.LinkedList
             //// New head to return. Create fake one, to reduce null-check-conditions.
             var newHead = new ListNode(-1);
             var currentNode = newHead;
+
             while (list1 != null || list2 != null)
             {
                 if (list1 == null)

@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/binary-tree-preorder-traversal/
     /// </summary>
     /// <remarks> Preorder (Root, Left, Right)  </remarks>
-    public sealed class BinaryTreePreorderTraversal_144
+    internal sealed class BinaryTreePreorderTraversal_144
     {
         /// <summary>
         /// Preorder values in a recursive solution
@@ -20,6 +20,7 @@ namespace LeetCodeNet.Easy.Trees
         public IList<int> PreorderTraversalRecurssive(TreeNode root)
         {
             var result = new List<int>();
+
             ProcessNodeRecursive(root, ref result);
             return result;
         }
@@ -57,10 +58,12 @@ namespace LeetCodeNet.Easy.Trees
         {
             var stack = new Stack<TreeNode>();
             var result = new List<int>();
+
             stack.Push(root);
             while (stack.Any())
             {
                 var node = stack.Pop();
+
                 if (node == null)
                 {
                     continue;

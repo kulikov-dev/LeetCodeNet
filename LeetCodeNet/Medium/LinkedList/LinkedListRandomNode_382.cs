@@ -87,6 +87,7 @@ namespace LeetCodeNet.Medium.LinkedList
             LoadNextChunk();
             var rand = new Random();
             var chunk = data[rand.Next(data.Count)];
+
             return chunk[rand.Next(chunk.Count)];
         }
 
@@ -101,6 +102,7 @@ namespace LeetCodeNet.Medium.LinkedList
             }
 
             var newChunk = new List<int>();
+
             while (currentNode != null && newChunk.Count < pageSize)
             {
                 newChunk.Add(currentNode.val);
@@ -153,9 +155,11 @@ namespace LeetCodeNet.Medium.LinkedList
 
             var currentNode = head;
             var result = currentNode.val;
+
             for (int i = 1; currentNode.next != null; i++)
             {
                 currentNode = currentNode.next;
+
                 if (rnd.Next(i + 1) == i)
                 {
                     result = currentNode.val;
@@ -226,6 +230,7 @@ namespace LeetCodeNet.Medium.LinkedList
             while (currentIndex != nextIndex)
             {
                 currentNode = currentNode.next;
+
                 ++currentIndex;
             }
 

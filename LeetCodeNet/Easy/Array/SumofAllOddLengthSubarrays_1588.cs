@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given an array of positive integers arr, return the sum of all possible odd-length subarrays of arr.
     /// </remarks>
-    public sealed class SumofAllOddLengthSubarrays_1588
+    internal sealed class SumofAllOddLengthSubarrays_1588
     {
         /// <summary>
         /// Direct solution is to do brute force. Get sum of each subarray and check if subarray is odd.
@@ -20,10 +20,12 @@
         public int SumOddLengthSubarraysBruteForce(int[] arr)
         {
             var result = 0;
+
             for (var i = 0; i < arr.Length; ++i)
             {
                 var amount = 0;
                 var subSum = 0;
+
                 for (var j = i; j < arr.Length; ++j)
                 {
                     ++amount;
@@ -53,10 +55,12 @@
         public int SumOddLengthSubarraysMath(int[] arr)
         {
             var result = 0;
+
             for (var i = 0; i < arr.Length; ++i)
             {
                 var totalSubArrays = (i + 1) * (arr.Length - i);
                 var oddSubArrays = totalSubArrays / 2;
+
                 if (totalSubArrays % 2 == 1)
                 {
                     ++oddSubArrays;

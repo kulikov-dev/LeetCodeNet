@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/
     /// </summary>
     /// <remarks> Return the average salary of employees excluding the minimum and maximum salary </remarks>
-    public sealed class AverageSalaryExcludingtheMinimumandMaximumSalary_1491
+    internal sealed class AverageSalaryExcludingtheMinimumandMaximumSalary_1491
     {
         /// <summary>
         /// Not optimal approach, as we go through array for 3 times for each linq query.
@@ -31,11 +31,13 @@
             var min = int.MaxValue;
             var max = int.MinValue;
             var sum = 0;
+
             for (var i = 0; i < salary.Length; ++i)
             {
                 var currentSalary = salary[i];
                 min = Math.Min(min, currentSalary);
                 max = Math.Max(max, currentSalary);
+
                 sum += currentSalary;
             }
 
@@ -54,6 +56,7 @@
             var sortedSalary = salary.OrderBy(x => x).ToArray();
 
             var sum = 0;
+
             for (var i = 1; i < sortedSalary.Length - 1; ++i)
             {
                 sum += sortedSalary[i];

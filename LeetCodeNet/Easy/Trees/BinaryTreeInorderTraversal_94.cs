@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/binary-tree-inorder-traversal/
     /// </summary>
     /// <remarks> Inorder (Left, Root, Right) </remarks>
-    public sealed class BinaryTreeInorderTraversal_94
+    internal sealed class BinaryTreeInorderTraversal_94
     {
         /// <summary>
         /// Inorder values in a recursive solution
@@ -20,6 +20,7 @@ namespace LeetCodeNet.Easy.Trees
         public IList<int> InorderTraversalRecursive(TreeNode root)
         {
             var result = new List<int>();
+
             ProcessNodeRecursive(root, ref result);
             return result;
         }
@@ -59,6 +60,7 @@ namespace LeetCodeNet.Easy.Trees
             var stack = new Stack<TreeNode>();
             var result = new List<int>();
             var nextNode = root;
+
             while (nextNode != null || stack.Any())
             {
                 while (nextNode != null)
@@ -69,6 +71,7 @@ namespace LeetCodeNet.Easy.Trees
                 }
 
                 var node = stack.Pop();
+
                 if (node == null)
                 {
                     continue;

@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Medium.Array
             var solver = new Permutations_46();
 
             var result = solver.Permute(nums);
+
             Assert.Equal(expected.Count, result.Count);
 
             for (var i = 0; i < expected.Count; i++)

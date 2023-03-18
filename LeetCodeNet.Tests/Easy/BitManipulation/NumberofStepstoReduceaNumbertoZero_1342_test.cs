@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new NumberofStepstoReduceaNumbertoZero_1342();
             var result = solver.NumberOfStepsMath(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new NumberofStepstoReduceaNumbertoZero_1342();
             var result = solver.NumberOfStepsBit(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -26,6 +28,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new NumberofStepstoReduceaNumbertoZero_1342();
             var result = solver.NumberOfStepsBitOptimized(inputData);
+
             Assert.Equal(expected, result);
         }
     }

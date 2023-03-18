@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void Check(int[] inputData, int[] expected)
         {
             var solver = new PlusOne_66();
+
             Assert.Equal(expected, solver.PlusOne(inputData));
         }
     }

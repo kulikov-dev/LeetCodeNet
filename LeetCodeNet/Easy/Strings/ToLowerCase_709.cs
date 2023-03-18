@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Strings
     /// https://leetcode.com/problems/to-lower-case/
     /// </summary>
     /// <remarks> Given a string s, return the string after replacing every uppercase letter with the same lowercase letter. </remarks>
-    public sealed class ToLowerCase_709
+    internal sealed class ToLowerCase_709
     {
         /// <summary>
         /// The simpliest solution. Of course in the real interview it's not acceptable
@@ -30,6 +30,7 @@ namespace LeetCodeNet.Easy.Strings
             var sb = new StringBuilder(s);
             //// We need to check each char if it's in Upper Range, for better reability we use char's instead of int
             var upperRange = new int[] { 'A', 'Z' };
+
             for (var i = 0; i < sb.Length; i++)
             {
                 if (sb[i] >= upperRange[0] && sb[i] <= upperRange[1])

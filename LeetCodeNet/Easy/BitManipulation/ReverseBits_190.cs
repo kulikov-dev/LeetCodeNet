@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/reverse-bits/
     /// </summary>
     /// <remarks> Reverse bits of a given 32 bits unsigned integer. </remarks>
-    public sealed class ReverseBits_190
+    internal sealed class ReverseBits_190
     {
         /// <summary>
         /// Bit solution

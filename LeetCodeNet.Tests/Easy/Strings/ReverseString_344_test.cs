@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void Check(char[] inputData, char[] expected)
         {
             var solver = new ReverseString_344();
+
             solver.ReverseString(inputData);
             Assert.Equal(expected, inputData);
         }

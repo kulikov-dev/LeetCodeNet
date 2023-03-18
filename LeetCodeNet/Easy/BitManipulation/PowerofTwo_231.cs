@@ -8,7 +8,7 @@
     /// An integer n is a power of two, if there exists an integer x such that n == 2x.
     /// Basics of bit manipulations: https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
     /// </remarks>
-    public sealed class PowerofTwo_231
+    internal sealed class PowerofTwo_231
     {
         /// <summary>
         /// Direct solution with math

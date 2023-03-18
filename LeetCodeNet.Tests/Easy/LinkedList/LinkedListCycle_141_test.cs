@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         public void Check(ListNode inputData1, bool expected)
         {
             var solver = new LinkedListCycle_141();
+
             Assert.Equal(expected, solver.HasCycle(inputData1));
         }
     }
@@ -22,6 +23,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
             var cycledNode = new ListNode(2);
             var root = new ListNode(3) { next = cycledNode };
             cycledNode.next = new ListNode(0) { next = new ListNode(-4) { next = cycledNode } };
+
             yield return new object[]
             {
                 root,
@@ -32,6 +34,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
             cycledNode = new ListNode(2);
             root = new ListNode(1) { next = cycledNode };
             cycledNode.next = root;
+
             yield return new object[]
             {
                 root,

@@ -5,7 +5,7 @@ namespace LeetCodeNet.Easy.Strings
     /// https://leetcode.com/problems/reverse-words-in-a-string-iii/
     /// </summary>
     /// <remarks> Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order. </remarks>
-    public sealed class ReverseWordsinaStringIII_557
+    internal sealed class ReverseWordsinaStringIII_557
     {
         /// <summary>
         /// The easiest solution is to use LINQ for solving. By lines:
@@ -23,6 +23,7 @@ namespace LeetCodeNet.Easy.Strings
         {
             var words = s.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             var reversedWords = words.Select(x => new string(x.Reverse().ToArray()));
+
             return string.Join(' ', reversedWords);
         }
 
@@ -39,12 +40,14 @@ namespace LeetCodeNet.Easy.Strings
         {
             var result = new List<string>();
             var startWordIndex = 0;
+
             for (var i = 0; i < s.Length; ++i)
             {
                 //// The space shows us, that new word is starting.
                 if (s[i] == ' ')
                 {
                     int endWordIndex = i - 1;
+
                     result.Add(ReverseWord(s, startWordIndex, endWordIndex));
                     startWordIndex = i + 1;
                 }
@@ -67,6 +70,7 @@ namespace LeetCodeNet.Easy.Strings
             //// We will work with char array to avoid working with strings directly
             var word = new char[endWordIndex - startWordIndex + 1];
             var pointer = 0;
+
             for (var i = endWordIndex; i >= startWordIndex; --i)
             {
                 word[pointer++] = s[i];

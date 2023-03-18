@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new N_aryTreePreorderTraversal_589();
             var result = solver.PreorderRecursive(inputData);
+
             Assert.True(expected.SequenceEqual(result));
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new N_aryTreePreorderTraversal_589();
             var result = solver.PreorderIterative(inputData);
+
             Assert.True(expected.SequenceEqual(result));
         }
     }

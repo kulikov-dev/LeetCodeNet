@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new PowerofTwo_231();
             var result = solver.IsPowerOfTwoMath(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new PowerofTwo_231();
             var result = solver.IsPowerOfTwoBit(inputData);
+
             Assert.Equal(expected, result);
         }
     }

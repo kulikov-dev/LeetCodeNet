@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckLinqMethod(string inputData, bool expected)
         {
             var solver = new ValidPalindrome_125();
+
             Assert.Equal(expected, solver.IsPalindromeLinq(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckPointersMethod(string inputData, bool expected)
         {
             var solver = new ValidPalindrome_125();
+
             Assert.Equal(expected, solver.IsPalindromePointers(inputData));
         }
     }

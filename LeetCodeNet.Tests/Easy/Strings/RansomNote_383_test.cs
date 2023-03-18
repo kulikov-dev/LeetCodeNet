@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckHash(string inputData1, string inputData2, bool expected)
         {
             var solver = new RansomNote_383();
+
             Assert.Equal(expected, solver.CanConstructHash(inputData1, inputData2));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckArray(string inputData1, string inputData2, bool expected)
         {
             var solver = new RansomNote_383();
+
             Assert.Equal(expected, solver.CanConstructArray(inputData1, inputData2));
         }
     }

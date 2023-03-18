@@ -12,7 +12,7 @@ namespace LeetCodeNet.Medium.Trees
     /// Return the total sum of all root-to-leaf numbers.Test cases are generated so that the answer will fit in a 32-bit integer.
     /// A leaf node is a node with no children.
     /// </remarks>
-    public sealed class SumRootToLeafNumbers_129
+    internal sealed class SumRootToLeafNumbers_129
     {
         /// <summary>
         /// It's a common depth-first search where we need to go through root to all leafs

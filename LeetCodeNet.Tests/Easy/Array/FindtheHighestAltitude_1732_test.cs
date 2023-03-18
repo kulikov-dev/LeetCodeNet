@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new FindtheHighestAltitude_1732();
             var result = solver.LargestAltitude(inputData);
+
             Assert.Equal(expected, result);
         }
     }

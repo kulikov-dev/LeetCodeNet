@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new BinarySearch_704();
             var result = solver.Search(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
     }

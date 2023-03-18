@@ -7,7 +7,7 @@
     /// To perform a flood fill, consider the starting pixel, plus any pixels connected 4-directionally to the starting pixel of the same color as the starting pixel,
     /// plus any pixels connected 4-directionally to those pixels (also with the same color), and so on. Replace the color of all of the aforementioned pixels with color.
     /// </remarks>
-    public sealed class FloodFill_733
+    internal sealed class FloodFill_733
     {
         /// <summary>
         /// The best idea for these problem is to solve it in recursive way. It's easier to understand and then think about improvement
@@ -84,32 +84,38 @@
         public int[][] FloodFillBfs(int[][] image, int sr, int sc, int color)
         {
             var newImage = image.Select(s => s.ToArray()).ToArray();
+
             if (image[sr][sc] == color)
             {
                 return newImage;
             }
 
             var queue = new Queue<Tuple<int, int>>();
+
             queue.Enqueue(new Tuple<int, int>(sr, sc));
             var oldColor = newImage[sr][sc];
+
             while (queue.Any())
             {
                 var index = queue.Dequeue();
 
                 //// As we have long condition - it's better to separate it to different variables for better readability
                 var isNotValidIndexes = index.Item1 < 0 || index.Item2 < 0 || index.Item1 >= newImage.Length || index.Item2 >= newImage[index.Item1].Length;
+
                 if (isNotValidIndexes)
                 {
                     continue;
                 }
 
                 var isNotValidColors =  newImage[index.Item1][index.Item2] != oldColor || newImage[index.Item1][index.Item2] == color;
+
                 if (isNotValidColors)
                 {
                     continue;
                 }
 
                 newImage[index.Item1][index.Item2] = color;
+
                 queue.Enqueue(new Tuple<int, int>(index.Item1 + 1, index.Item2));
                 queue.Enqueue(new Tuple<int, int>(index.Item1 - 1, index.Item2));
                 queue.Enqueue(new Tuple<int, int>(index.Item1, index.Item2 + 1));

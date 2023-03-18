@@ -7,7 +7,7 @@
     /// Given an integer array nums sorted in non-decreasing order,
     /// remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
     /// </remarks>
-    public sealed class RemoveDuplicatesFromSortedArray_26
+    internal sealed class RemoveDuplicatesFromSortedArray_26
     {
         /// <summary>
         /// The idea is to use two-pointers approach. One for the last non-duplicated element and the second one - for iteration through array
@@ -26,6 +26,7 @@
             }
 
             var leftPointer = 0;
+
             for (var i = 1; i < nums.Length; ++i)
             {
                 if (nums[leftPointer] != nums[i])

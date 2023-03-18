@@ -7,7 +7,7 @@
     /// Given a string s, partition the string into one or more substrings such that the characters in each substring are unique. That is, no letter appears in a single substring more than once.
     /// Return the minimum number of substrings in such a partition.
     /// </remarks>
-    public sealed class OptimalPartitionofString_2405
+    internal sealed class OptimalPartitionofString_2405
     {
         /// <summary>
         /// The first thing that comes to my mind was: "use hash"!
@@ -62,6 +62,7 @@
 
             var result = 0;
             var chArray = new bool[32];
+
             foreach (var ch in s)
             {
                 if (chArray[ch - 'a'])

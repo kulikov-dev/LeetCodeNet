@@ -8,7 +8,7 @@
     /// You can either start from the step with index 0, or the step with index 1.
     /// Return the minimum cost to reach the top of the floor.
     /// </remarks>
-    public sealed class MinCostClimbingStairs_746
+    internal sealed class MinCostClimbingStairs_746
     {
         /// <summary>
         /// Recursive solution
@@ -53,6 +53,7 @@
             /// I really do like this explanation to solve this kind of tasks: https://leetcode.com/discuss/study-guide/1490172/Dynamic-programming-is-simple 
 
             var result = new int[cost.Length+2];
+
             for (var i = cost.Length - 1; i >= 0; i--)
             {
                 result[i] = Math.Min(result[i + 1] + cost[i], result[i + 2] + cost[i]);
@@ -80,6 +81,7 @@
                 if (cost[i] + nextValue < cost[i] + nextNextValue)
                 {
                     nextNextValue = nextValue;
+
                     nextValue += cost[i];
                 }
                 else

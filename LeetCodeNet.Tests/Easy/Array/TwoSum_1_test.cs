@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void Check(int[] inputData, int target, int[] expected)
         {
             var solver = new TwoSum_1();
+
             Assert.Equal(expected, solver.TwoSum(inputData, target));
         }
     }

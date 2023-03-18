@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void CheckLinq(int inputData, int[][] expected)
         {
             var solver = new PascalsTriangle_118();
+
             Assert.Equal(expected, solver.Generate(inputData));
         }
     }

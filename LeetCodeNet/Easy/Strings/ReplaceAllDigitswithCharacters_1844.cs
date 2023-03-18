@@ -9,7 +9,7 @@
     /// For every odd index i, you want to replace the digit s[i] with shift(s[i-1], s[i]).
     /// Return s after replacing all digits.
     /// </remarks>
-    public sealed class ReplaceAllDigitswithCharacters_1844
+    internal sealed class ReplaceAllDigitswithCharacters_1844
     {
         /// <summary>
         /// The key is that new character = previous character + current number. Then - char manipulations.
@@ -53,6 +53,7 @@
         {
             const int alphabetsLength = 26;
             var result = s.ToCharArray();
+
             for (var i = 1; i < s.Length; i += 2)
             {
                 var offset = s[i] - '0';

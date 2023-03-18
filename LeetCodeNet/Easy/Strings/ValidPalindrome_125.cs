@@ -7,7 +7,7 @@
     /// Given a string s, return true if it is a palindrome, or false otherwise.
     /// More information about approach is here: https://leetcode.com/articles/two-pointer-technique/
     /// </remarks>
-    public sealed class ValidPalindrome_125
+    internal sealed class ValidPalindrome_125
     {
         /// <summary>
         /// Use LINQ approach to remove all not valid chars and reverse string. Then just compare initial and reversed strings 
@@ -34,6 +34,7 @@
             var rightIndex = s.Length - 1;
             //// Instead of StringComparison we can just use ToUpper to put all chars in the same case.
             s = s.ToUpper();
+
             while (leftIndex < rightIndex)
             {
                 //// We go right for the left pointer, skipping all not valid chars like ':', ' ', etc

@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Medium.Design
         public void Check()
         {
             var trie = new Trie();
+
             trie.Insert("apple");
             Assert.True(trie.Search("apple"));
             Assert.False(trie.Search("app"));
@@ -21,6 +22,7 @@ namespace LeetCodeNet.Tests.Medium.Design
         public void Check1()
         {
             var trie = new Trie();
+
             trie.Insert("hello");
             Assert.False(trie.Search("hell"));
             Assert.False(trie.Search("helloa"));
@@ -36,6 +38,7 @@ namespace LeetCodeNet.Tests.Medium.Design
         public void Check2()
         {
             var trie = new Trie();
+
             trie.Insert("app");
             trie.Insert("apple");
             trie.Insert("beer");

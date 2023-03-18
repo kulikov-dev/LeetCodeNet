@@ -12,7 +12,7 @@ namespace LeetCodeNet.Easy.Strings
     /// Return the string formed after mapping.
     /// The test cases are generated so that a unique mapping will always exist.
     /// </remarks>
-    public sealed class DecryptStringfromAlphabettoIntegerMapping_1309
+    internal sealed class DecryptStringfromAlphabettoIntegerMapping_1309
     {
         /// <summary>
         /// Each letter in this alphabet is number of letter in the alphabet/offset. 
@@ -23,12 +23,15 @@ namespace LeetCodeNet.Easy.Strings
         public string FreqAlphabets(string s)
         {
             var result = new StringBuilder(s.Length);
+
             for (var i = 0; i <s.Length; i++)
             {
                 int charInt;
+
                 if (i < s.Length -2 && s[i+2] == '#')
                 {
                     charInt = int.Parse(s.Substring(i, 2)) - 1;
+
                     i += 2;
                 }
                 else

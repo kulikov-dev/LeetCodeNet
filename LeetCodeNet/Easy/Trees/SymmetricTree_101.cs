@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/symmetric-tree/
     /// </summary>
     /// <remarks> Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center). </remarks>
-    public sealed class SymmetricTree_101
+    internal sealed class SymmetricTree_101
     {
         /// <summary>
         /// Recursive solution
@@ -57,12 +57,14 @@ namespace LeetCodeNet.Easy.Trees
             }
 
             var stack = new Stack<TreeNode>();
+
             stack.Push(root.left);
             stack.Push(root.right);
             while (stack.Count > 0)
             {
                 var left = stack.Pop();
                 var right = stack.Pop();
+
                 if (left?.val != right?.val)
                 {
                     return false;

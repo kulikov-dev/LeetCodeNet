@@ -6,7 +6,7 @@
     /// <remarks>
     /// You have a browser of one tab where you start on the homepage and you can visit another url, get back in the history number of steps or move forward in the history number of steps.
     /// </remarks>
-    public sealed class BrowserHistoryDLL
+    internal sealed class BrowserHistoryDLL
     {
         //// The solution for this task depends on what the interviewer requires: if they need constant time back/forward or space efficiency.
         /// Space efficiency solution. We create double linked-list and iterate through on Back/Forward operations
@@ -112,7 +112,7 @@
     /// Constant time back/forward. We use built-in List class and save current position of the history and total elements in the history
     /// However, we met allocation issue. So, it depends. I'll prefer more DLL solution.
     /// </summary>
-    public sealed class BrowserHistorArray
+    internal sealed class BrowserHistorArray
     {
         /// <summary>
         /// History in the list presentation

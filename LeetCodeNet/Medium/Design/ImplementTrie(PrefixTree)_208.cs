@@ -32,9 +32,11 @@
         public void Insert(string word)
         {
             var currentNode = root;
+
             for (var i = 0; i < word.Length; ++i)
             {
                 var ch = word[i] - 'a';
+
                 if (currentNode.Children[ch] == null)
                 {
                     currentNode.Children[ch] = new TrieTreeNode(ch);
@@ -54,6 +56,7 @@
         public bool Search(string word)
         {
             var node = FindLastNode(word);
+
             return node != null && node.IsEndWord;
         }
 
@@ -75,10 +78,12 @@
         private TrieTreeNode? FindLastNode(string word)
         {
             var currentNode = root;
+
             for (var i = 0; i < word.Length; ++i)
             {
                 var ch = word[i] - 'a';
                 currentNode = currentNode.Children[ch];
+
                 if (currentNode == null)
                 {
                     return null;

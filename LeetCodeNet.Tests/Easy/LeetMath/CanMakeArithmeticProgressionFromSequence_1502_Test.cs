@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         {
             var solver = new CanMakeArithmeticProgressionFromSequence_1502();
             var result = solver.CanMakeArithmeticProgressionSimple(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         {
             var solver = new CanMakeArithmeticProgressionFromSequence_1502();
             var result = solver.CanMakeArithmeticProgressionMath(inputData);
+
             Assert.Equal(expected, result);
         }
     }

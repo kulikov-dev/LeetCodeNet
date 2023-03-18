@@ -10,7 +10,8 @@ namespace LeetCodeNet.Tests.Easy.Trees
         public void CheckRecursive(TreeNode inputData1, int inputData2, TreeNode expected)
         {
             var solver = new SearchinaBinarySearchTree_700();
-            var result = solver.SearchBSTRecursive(inputData1, inputData2); 
+            var result = solver.SearchBSTRecursive(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new SearchinaBinarySearchTree_700();
             var result = solver.SearchBSTIterative(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
     }
@@ -28,6 +30,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         public IEnumerator<object[]> GetEnumerator()
         {
             var expected = new TreeNode(2, left: new TreeNode(1), right: new TreeNode(3));
+
             yield return new object[]
             {
                 new TreeNode(4, left: expected, right: new TreeNode(7)),

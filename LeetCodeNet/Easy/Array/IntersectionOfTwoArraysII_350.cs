@@ -7,7 +7,7 @@
     /// Given two integer arrays nums1 and nums2, return an array of their intersection.
     /// Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.
     /// </remarks>
-    public sealed class IntersectionOfTwoArraysII_350
+    internal sealed class IntersectionOfTwoArraysII_350
     {
         /// <summary>
         /// Approach is to use the hash to store value and amounts from first array. Then using the hash restore the result array from second one.
@@ -26,6 +26,7 @@
             var result = new List<int>(Math.Max(nums1.Length, nums2.Length));
             //// Let's use hash to store numbers as Key and their amounts as Value from the first array
             var dict = new Dictionary<int, int>();
+
             foreach (var number in nums1)
             {
                 if (!dict.ContainsKey(number))
@@ -67,6 +68,7 @@
 
             var pointer1 = 0;
             var pointer2 = 0;
+
             while (pointer1 < nums1Sorted.Length && pointer2 < nums2Sorted.Length)
             {
                 if (nums1Sorted[pointer1] < nums2Sorted[pointer2])

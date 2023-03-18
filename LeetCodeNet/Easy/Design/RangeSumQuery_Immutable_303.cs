@@ -7,7 +7,7 @@
     /// Given an integer array nums, handle multiple queries of the following type:
     /// Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
     /// </remarks>
-    public sealed class NumArray
+    internal sealed class NumArray
     {
         private int[] sumNums;
 
@@ -24,6 +24,7 @@
             /// With source array: -2, 0, 3, -5, 2, -1
             /// We will get the helper array like: -2, -2, 1, -4, -2, -3
             var sum = 0;
+
             for (var i = 0; i < nums.Length; i++)
             {
                 sum += nums[i];

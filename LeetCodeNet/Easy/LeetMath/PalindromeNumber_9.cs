@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/palindrome-number/description/
     /// </summary>
     /// <remarks> Given an integer x, return true if x is a palindrome, and false otherwise.</remarks>
-    public sealed class PalindromeNumber_9
+    internal sealed class PalindromeNumber_9
     {
         /// <summary>
         /// The idea is to reverse the initial number and just compare original with reversed

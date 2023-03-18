@@ -8,7 +8,7 @@
     /// The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
     /// Increment the large integer by one and return the resulting array of digits.
     /// </remarks>
-    public sealed class PlusOne_66
+    internal sealed class PlusOne_66
     {
         /// <summary>
         /// The idea is to reproduce adding step by step like we do it in a real life. Start from last digit and go forward if necessary
@@ -22,13 +22,16 @@
         public int[] PlusOne(int[] digits)
         {
             var result = (int[])digits.Clone();
+
             for (var i = digits.Length - 1; i >= 0; --i)
             {
                 var currentSum = digits[i] + 1;
+
                 if (currentSum < 10)
                 {
                     //// The most situations like: 123 -> 124, 129 -> 130
                     result[i] = currentSum;
+
                     return result;
                 }
 
@@ -38,6 +41,7 @@
             //// For the case, when the input array consits of 9's: 99 -> 100, 999 -> 1000
             result = new int[digits.Length + 1];
             result[0] = 1;
+
             return result;
         }
     }

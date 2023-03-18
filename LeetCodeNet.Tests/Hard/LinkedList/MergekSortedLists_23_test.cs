@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Hard.LinkedList
         {
             var solver = new MergekSortedLists_23();
             var result = solver.MergeKListsBruteForse(inputData);
+
             Assert.True(result.Equals(expected));
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Hard.LinkedList
         {
             var solver = new MergekSortedLists_23();
             var result = solver.MergeKListsIterativeByNodes(inputData);
+
             Assert.True(result.Equals(expected));
         }
 
@@ -27,6 +29,7 @@ namespace LeetCodeNet.Tests.Hard.LinkedList
         {
             var solver = new MergekSortedLists_23();
             var result = solver.MergeKListsIterativeByLists(inputData);
+
             Assert.True(result.Equals(expected));
         }
     }

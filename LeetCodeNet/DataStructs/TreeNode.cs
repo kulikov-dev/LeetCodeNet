@@ -3,7 +3,7 @@
     /// <summary>
     /// Definition for a binary tree node.
     /// </summary>
-    public class TreeNode : IEquatable<TreeNode>
+    public sealed class TreeNode : IEquatable<TreeNode>
     {
         /// <summary>
         /// Value
@@ -50,6 +50,7 @@
 
             var isLeftEqual = (tree1.left == null && tree2.left == null) || (tree1.left.Equals(tree2.left));
             var isRightEqual = (tree1.right == null && tree2.right == null) || (tree1.right.Equals(tree2.right));
+
             return isLeftEqual && isRightEqual;
         }
     }

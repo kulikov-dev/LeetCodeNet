@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckBruteForce(int[] inputData, int[] expected)
         {
             var solver = new SquaresofaSortedArray_977();
+
             Assert.Equal(expected, solver.SortedSquaresBruteForce(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckPointers(int[] inputData, int[] expected)
         {
             var solver = new SquaresofaSortedArray_977();
+
             Assert.Equal(expected, solver.SortedSquaresPointers(inputData));
         }
     }

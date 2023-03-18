@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).
     /// </remarks>
-    public sealed class CountOddNumbersinanIntervalRange_1523
+    internal sealed class CountOddNumbersinanIntervalRange_1523
     {
         /// <summary>
         /// In the array half of the values will always be odd values.

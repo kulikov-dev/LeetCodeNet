@@ -9,7 +9,7 @@ namespace LeetCodeNet.Easy.Strings
     /// Write a function to find the longest common prefix string amongst an array of strings. 
     /// If there is no common prefix, return an empty string "".
     /// </remarks>
-    public sealed class LongestCommonPrefix_14
+    internal sealed class LongestCommonPrefix_14
     {
         /// <summary>
         /// Two pass: one through chars, another - through stings. Nothing special
@@ -24,6 +24,7 @@ namespace LeetCodeNet.Easy.Strings
         {
             var minLength = strs.Min(x => x.Length);
             var result = new StringBuilder(minLength);
+
             for (var i = 0; i < minLength; ++i)
             {
                 foreach (var str in strs)
@@ -54,6 +55,7 @@ namespace LeetCodeNet.Easy.Strings
             var sortedStrs = strs.OrderBy(x => x).ToList();
             var first = sortedStrs[0];
             var last = sortedStrs[sortedStrs.Count - 1];
+
             for (var i = 0; i < first.Length; ++i)
             {
                 if (first[i] != last[i])

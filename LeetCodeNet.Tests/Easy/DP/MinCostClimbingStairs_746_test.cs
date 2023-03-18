@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void CheckRecursive(int[] inputData, int expected)
         {
             var solver = new MinCostClimbingStairs_746();
+
             Assert.Equal(expected, solver.MinCostClimbingStairsRecursive(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void CheckDp1(int[] inputData, int expected)
         {
             var solver = new MinCostClimbingStairs_746();
+
             Assert.Equal(expected, solver.MinCostClimbingStairsDp1(inputData));
         }
 
@@ -23,6 +25,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void CheckDp2(int[] inputData, int expected)
         {
             var solver = new MinCostClimbingStairs_746();
+
             Assert.Equal(expected, solver.MinCostClimbingStairsDp2(inputData));
         }
     }

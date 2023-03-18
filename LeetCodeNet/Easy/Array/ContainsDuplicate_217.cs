@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/contains-duplicate/
     /// </summary>
     /// <remarks> Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. </remarks>
-    public sealed class ContainsDuplicate_217
+    internal sealed class ContainsDuplicate_217
     {
         /// <summary>
         /// The simple approach is to use LINQ to remove all repeated values. Then we just need to compare length of both arrays.
@@ -19,6 +19,7 @@
         public bool ContainsDuplicateLinq(int[] nums)
         {
             var distinctedList = nums.Distinct();
+
             return distinctedList.Count() != nums.Length;
         }
 
@@ -34,6 +35,7 @@
         public bool ContainsDuplicateHash(int[] nums)
         {
             var hash = new HashSet<int>();
+
             foreach (var num in nums)
             {
                 if (hash.Contains(num))
@@ -61,6 +63,7 @@
             //// It's necessary to create a new variable, as the array was passed by reference.
             /// It's not a good idea to change source array.
             var sortedNums = nums.OrderBy(x => x).ToArray();
+
             for (var i = 1; i < sortedNums.Length; ++i)
             {
                 if (sortedNums[i - 1].Equals(sortedNums[i]))

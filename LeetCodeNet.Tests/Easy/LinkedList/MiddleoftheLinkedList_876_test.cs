@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         public void Check(ListNode inputData, int expected)
         {
             var solver = new MiddleoftheLinkedList_876();
+
             Assert.Equal(expected, solver.MiddleNode(inputData)?.val);
         }
     }

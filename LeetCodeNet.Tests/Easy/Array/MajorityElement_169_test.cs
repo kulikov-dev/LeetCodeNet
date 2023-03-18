@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new MajorityElement_169();
             var result = solver.MajorityElement(inputData);
+
             Assert.Equal(expected, result);
         }
     }

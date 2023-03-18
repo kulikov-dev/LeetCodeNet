@@ -9,7 +9,7 @@ namespace LeetCodeNet.Easy.Strings
     /// You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1.
     /// If a string is longer than the other, append the additional letters onto the end of the merged string.
     /// </remarks>
-    public sealed class MergeStringsAlternately_1768
+    internal sealed class MergeStringsAlternately_1768
     {
         /// <summary>
         /// No specific algorithm, merging arrays through one pass step by step
@@ -26,6 +26,7 @@ namespace LeetCodeNet.Easy.Strings
             var sb = new StringBuilder(word1.Length + word2.Length);
             //// Find word with minimum length to prevent index outside the bounds
             var minLength = Math.Min(word1.Length, word2.Length);
+
             for (var i = 0; i < minLength; ++i)
             {
                 //// Append characters from two words

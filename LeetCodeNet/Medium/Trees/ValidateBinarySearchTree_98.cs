@@ -12,7 +12,7 @@ namespace LeetCodeNet.Medium.Trees
     /// The right subtree of a node contains only nodes with keys greater than the node's key.
     /// Both the left and right subtrees must also be binary search trees.
     /// </remarks>
-    public sealed class ValidateBinarySearchTree_98
+    internal sealed class ValidateBinarySearchTree_98
     {
         /// <summary>
         /// We need to assure that all values from the left subtree a lower than root and all valies from the right subtree a higher than root

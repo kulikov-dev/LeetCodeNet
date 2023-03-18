@@ -4,7 +4,7 @@ namespace LeetCodeNet.Easy.Array
     /// <summary>
     /// https://leetcode.com/problems/finding-3-digit-even-numbers/
     /// </summary>
-    public sealed class Finding3_DigitEvenNumbers_2094
+    internal sealed class Finding3_DigitEvenNumbers_2094
     {
         /// <summary>
         /// First thought that came to my mind was backtracking. We can try to find all combinations in digits and check if this combination allowed
@@ -38,6 +38,7 @@ namespace LeetCodeNet.Easy.Array
             if (digit.Count == 3)
             {
                 var number = Convert(digit);
+
                 if (number % 2 == 0)
                 {
                     result.Add(number);
@@ -74,6 +75,7 @@ namespace LeetCodeNet.Easy.Array
         private int Convert(List<int> digit)
         {
             var result = 0;
+
             foreach (var i in digit)
             {
                 result = result * 10 + i;
@@ -95,6 +97,7 @@ namespace LeetCodeNet.Easy.Array
         {
             var result = new List<int>();
             var hash = Enumerable.Repeat(0, 10).ToArray();
+
             foreach (var digit in digits)
             {
                 hash[digit]++;
@@ -104,6 +107,7 @@ namespace LeetCodeNet.Easy.Array
             {
                 var curDigits = Enumerable.Repeat(0, 10).ToArray();
                 var number = i;
+
                 while (number != 0)
                 {
                     curDigits[number % 10]++;
@@ -111,11 +115,13 @@ namespace LeetCodeNet.Easy.Array
                 }
 
                 var isBad = false;
+
                 for (var j = 0; j < curDigits.Length; ++j)
                 {
                     if (hash[j] < curDigits[j])
                     {
                         isBad = true;
+
                         break;
                     }
                 }

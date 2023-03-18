@@ -9,7 +9,7 @@ namespace LeetCodeNet.Medium.LinkedList
     /// You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
     /// You may assume the two numbers do not contain any leading zero, except the number 0 itself.
     /// </remarks>
-    public sealed class AddTwoNumbers_2
+    internal sealed class AddTwoNumbers_2
     {
         /// <summary>
         /// Straight direct solution to check your knowledge of base structures like linked list. No specific things, just sum the numbers step by step and don't forget to keep in mind situation,
@@ -40,6 +40,7 @@ namespace LeetCodeNet.Medium.LinkedList
                 if (sum > 9)
                 {
                     isTrailing = true;
+
                     sum %= 10;
                 }
 

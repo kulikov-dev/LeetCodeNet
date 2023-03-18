@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/two-sum/
     /// </summary>
     /// <remarks> Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. </remarks>
-    public sealed class TwoSum_1
+    internal sealed class TwoSum_1
     {
         /// <summary>
         /// The idea is to use Hash for storing: difference between target number and current number for Key; and index as value
@@ -19,9 +19,11 @@
         public int[] TwoSum(int[] nums, int target)
         {
             var result = new Dictionary<int, int>(nums.Length);
+
             for (var i = 0; i < nums.Length; ++i)
             {
                 var diff = target - nums[i];
+
                 if (result.ContainsKey(diff))
                 {
                     return new int[2] { result[diff], i };

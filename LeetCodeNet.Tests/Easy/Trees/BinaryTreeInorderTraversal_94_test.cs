@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         public void CheckRecursive(TreeNode inputData, List<int> expected)
         {
             var solver = new BinaryTreeInorderTraversal_94();
+
             Assert.True(Enumerable.SequenceEqual(expected, solver.InorderTraversalRecursive(inputData)));
         }
 
@@ -17,6 +18,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         public void CheckIterative(TreeNode inputData, List<int> expected)
         {
             var solver = new BinaryTreeInorderTraversal_94();
+
             Assert.True(Enumerable.SequenceEqual(expected, solver.InorderTraverslIterative(inputData)));
         }
     }

@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckReplace(string inputData, string expected)
         {
             var solver = new GoalParserInterpretation_1678();
+
             Assert.Equal(expected, solver.InterpretReplace(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckPointers(string inputData, string expected)
         {
             var solver = new GoalParserInterpretation_1678();
+
             Assert.Equal(expected, solver.InterpretPointers(inputData));
         }
     }

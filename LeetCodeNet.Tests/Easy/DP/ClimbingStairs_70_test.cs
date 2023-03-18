@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void CheckRecursive(int inputData, int expected)
         {
             var solver = new ClimbingStairs_70();
+
             Assert.Equal(expected, solver.ClimbStairsRecursive(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void CheckDP1(int inputData, int expected)
         {
             var solver = new ClimbingStairs_70();
+
             Assert.Equal(expected, solver.ClimbStairsDP1(inputData));
         }
 
@@ -23,6 +25,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void CheckDP2(int inputData, int expected)
         {
             var solver = new ClimbingStairs_70();
+
             Assert.Equal(expected, solver.ClimbStairsDP2(inputData));
         }
     }

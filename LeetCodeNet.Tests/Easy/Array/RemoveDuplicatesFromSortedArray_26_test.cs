@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new RemoveDuplicatesFromSortedArray_26();
             var result = solver.RemoveDuplicates(inputData);
+
             Assert.Equal(expectedCount, result);
             Assert.Equal(expectedArray, inputData);
         }

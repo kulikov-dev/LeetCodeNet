@@ -7,7 +7,7 @@
     /// Write a function that reverses a string. The input string is given as an array of characters s.
     /// You must do this by modifying the input array in-place with O(1) extra memory.
     /// </remarks>
-    public sealed class ReverseString_344
+    internal sealed class ReverseString_344
     {
         /// <summary>
         /// Two pointers approach. One pointer is pointing at the start of the string, another - at the end. Swapping each element and change pointers position
@@ -21,6 +21,7 @@
         {
             var leftPointer = 0;
             var rightPointer = s.Length - 1;
+
             while (leftPointer < rightPointer)
             {
                 var temp = s[leftPointer];

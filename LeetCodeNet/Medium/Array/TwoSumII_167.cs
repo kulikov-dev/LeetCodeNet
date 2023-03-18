@@ -8,7 +8,7 @@
     /// Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.
     /// Return the indices of the two numbers, index1 and index2, added by one as an integer array[index1, index2] of length 2.
     /// </remarks>
-    public sealed class TwoSumII_167
+    internal sealed class TwoSumII_167
     {
         /// <summary>
         /// The key to this issue is that we have already sorted array. So we can use two-pointers approach to 

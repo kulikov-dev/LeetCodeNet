@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given two strings s and t, return true if t is an anagram of s, and false otherwise.
     /// </remarks>
-    public sealed class ValidAnagram_242
+    internal sealed class ValidAnagram_242
     {
         /// <summary>
         /// First idea is to sort both words and compare them char by char
@@ -28,6 +28,7 @@
 
             var sortedS = s.OrderBy(x => x).ToArray();
             var sortedT = t.OrderBy(x => x).ToArray();
+
             return sortedS.SequenceEqual(sortedT);
         }
 
@@ -52,6 +53,7 @@
 
             //// Create hash table with char - it's amount for first word
             var dict = new Dictionary<char, int>();
+
             for (var i = 0; i < s.Length; ++i)
             {
                 if (!dict.ContainsKey(s[i]))

@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new MergeTwoBinaryTrees_617();
             var result = solver.MergeTreesRecursive(inputData1, inputData2);
+
             Assert.True(expected.Equals(result));
         }
     }

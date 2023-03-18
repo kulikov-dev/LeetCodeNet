@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void Check(int[][] inputData, int expected)
         {
             var solver = new MatrixDiagonalSum_1572();
+
             Assert.Equal(expected, solver.DiagonalSum(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckOptimized(int[][] inputData, int expected)
         {
             var solver = new MatrixDiagonalSum_1572();
+
             Assert.Equal(expected, solver.DiagonalSumOptimized(inputData));
         }
     }

@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckBruteForceTwoPass(string inputData1, string inputData2, int expected)
         {
             var solver = new ImplementstrStr_28();
+
             Assert.Equal(expected, solver.StrStrBruteForceTwoPass(inputData1, inputData2));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckCheating(string inputData1, string inputData2, int expected)
         {
             var solver = new ImplementstrStr_28();
+
             Assert.Equal(expected, solver.StrStrCheating(inputData1, inputData2));
         }
 
@@ -23,6 +25,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckKMP(string inputData1, string inputData2, int expected)
         {
             var solver = new ImplementstrStr_28();
+
             Assert.Equal(expected, solver.StrStrKMP(inputData1, inputData2));
         }
     }

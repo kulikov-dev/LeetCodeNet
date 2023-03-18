@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckLinq(int[] inputData, bool expected)
         {
             var solver = new ContainsDuplicate_217();
+
             Assert.Equal(expected, solver.ContainsDuplicateLinq(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckHash(int[] inputData, bool expected)
         {
             var solver = new ContainsDuplicate_217();
+
             Assert.Equal(expected, solver.ContainsDuplicateHash(inputData));
         }
 
@@ -23,6 +25,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckSorting(int[] inputData, bool expected)
         {
             var solver = new ContainsDuplicate_217();
+
             Assert.Equal(expected, solver.ContainsDuplicateSorting(inputData));
         }
     }

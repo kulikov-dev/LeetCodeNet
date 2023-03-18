@@ -8,6 +8,7 @@ namespace LeetCodeNet.Tests.Easy.Design
         public void Check()
         {
             var solver = new MyQueue();
+
             solver.Push(1);
             solver.Push(2);
             Assert.Equal(solver.Peek(), 1);

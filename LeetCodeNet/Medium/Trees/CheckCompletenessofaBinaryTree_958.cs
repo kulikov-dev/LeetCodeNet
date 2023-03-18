@@ -2,7 +2,7 @@
 
 namespace LeetCodeNet.Medium.Trees
 {
-    public sealed class CheckCompletenessofaBinaryTree_958
+    internal sealed class CheckCompletenessofaBinaryTree_958
     {
         /// <summary>
         /// Use queue to perform BFS. We need to go through levels of the tree. It should have these rules:

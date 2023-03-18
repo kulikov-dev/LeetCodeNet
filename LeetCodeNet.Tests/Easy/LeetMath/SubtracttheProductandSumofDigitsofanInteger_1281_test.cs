@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         {
             var solver = new SubtracttheProductandSumofDigitsofanInteger_1281();
             var result = solver.SubtractProductAndSum(inputData);
+
             Assert.Equal(expected, result);
         }
     }

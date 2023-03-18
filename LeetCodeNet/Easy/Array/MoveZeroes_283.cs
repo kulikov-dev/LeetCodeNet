@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/move-zeroes/
     /// </summary>
     /// <remarks> Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. </remarks>
-    public sealed class MoveZeroes_283
+    internal sealed class MoveZeroes_283
     {
         /// <summary>
         /// The idea is to use two-pointers approach. One pointer to current element in array and the second one - to the last left non-zero element
@@ -16,7 +16,8 @@
         /// </remarks>
         public void MoveZeroes(int[] nums)
         {
-            var leftElementPosition = 0; // Second pointer where we'll put next non-zero element
+            var leftElementPosition = 0;
+
             for (var i = 0; i < nums.Length; ++i)
             {
                 if (nums[i] != 0)
@@ -25,6 +26,7 @@
                     var temp = nums[i];
                     nums[i] = 0;
                     nums[leftElementPosition] = temp;
+
                     ++leftElementPosition;
                 }
             }
@@ -42,11 +44,13 @@
         public void MoveZeroesOptimization(int[] nums)
         {
             var leftElementPosition = 0;
+
             for (var i = 0; i < nums.Length; ++i)
             {
                 if (nums[i] != 0)
                 {
                     nums[leftElementPosition] = nums[i];
+
                     ++leftElementPosition;
                 }
             }

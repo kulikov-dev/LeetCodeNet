@@ -10,7 +10,7 @@
     /// To accommodate this, nums1 has a length of m + n, where the first m elements denote the elements that should be merged, and the last n elements are set to 0 and should be ignored.
     /// nums2 has a length of n.
     /// </remarks>
-    public sealed class MergeSortedArray_88
+    internal sealed class MergeSortedArray_88
     {
         /// <summary>
         /// The idea is to start merging from end (like reverse sorting), where we have empty space for merging. It allows us to avoid extra manipulations 

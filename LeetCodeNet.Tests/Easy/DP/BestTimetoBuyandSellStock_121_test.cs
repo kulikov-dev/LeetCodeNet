@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.DP
         public void Check(int[] inputData, int expected)
         {
             var solver = new BestTimetoBuyandSellStock_121();
+
             Assert.Equal(expected, solver.MaxProfit(inputData));
         }
     }

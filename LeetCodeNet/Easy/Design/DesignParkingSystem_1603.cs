@@ -8,7 +8,7 @@ namespace LeetCodeNet.Easy.Design
     /// <remarks>
     /// Design a parking system for a parking lot. The parking lot has three kinds of parking spaces: big, medium, and small, with a fixed number of slots for each size.
     /// </remarks>
-    public sealed class ParkingSystem
+    internal sealed class ParkingSystem
     {
         /// <summary>
         /// Storage of places

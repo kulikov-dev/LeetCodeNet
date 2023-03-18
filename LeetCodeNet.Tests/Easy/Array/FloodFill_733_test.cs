@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new FloodFill_733();
             var result = solver.FloodFillRecursive(inputMatrix, sr, sc, color);
+
             Assert.Equal(expected, result);
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new FloodFill_733();
             var result = solver.FloodFillBfs(inputMatrix, sr, sc, color);
+
             Assert.Equal(expected, result);
         }
     }

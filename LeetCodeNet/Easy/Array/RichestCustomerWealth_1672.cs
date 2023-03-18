@@ -8,7 +8,7 @@
     /// Return the wealth that the richest customer has.
     /// A customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.
     /// </remarks>
-    public sealed class RichestCustomerWealth_1672
+    internal sealed class RichestCustomerWealth_1672
     {
         /// <summary>
         /// Use loops to find maximum amount of all accounts for each customer. Then maximum wealth among all customers
@@ -22,9 +22,11 @@
         public int MaximumWealthPass(int[][] accounts)
         {
             var maxWealth = 0;
+
             foreach (var userAccounts in accounts)
             {
                 var currentSum = 0;
+
                 foreach (var account in userAccounts)
                 {
                     currentSum += account;

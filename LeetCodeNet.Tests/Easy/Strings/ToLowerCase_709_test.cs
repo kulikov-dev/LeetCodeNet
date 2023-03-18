@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckHash(string inputData, string expected)
         {
             var solver = new ToLowerCase_709();
+
             Assert.Equal(expected, solver.ToLowerCaseSimple(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckSorting(string inputData, string expected)
         {
             var solver = new ToLowerCase_709();
+
             Assert.Equal(expected, solver.ToLowerCaseChar(inputData));
         }
     }

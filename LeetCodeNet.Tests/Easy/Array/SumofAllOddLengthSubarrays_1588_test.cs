@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckBruteForce(int[] inputData, int expected)
         {
             var solver = new SumofAllOddLengthSubarrays_1588();
+
             Assert.Equal(expected, solver.SumOddLengthSubarraysBruteForce(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckMath(int[] inputData, int expected)
         {
             var solver = new SumofAllOddLengthSubarrays_1588();
+
             Assert.Equal(expected, solver.SumOddLengthSubarraysMath(inputData));
         }
     }

@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new SingleNumber_136();
             var result = solver.SingleNumber(inputData);
+
             Assert.Equal(expected, result);
         }
     }

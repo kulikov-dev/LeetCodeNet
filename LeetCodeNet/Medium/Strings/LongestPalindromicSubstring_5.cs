@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/longest-palindromic-substring/
     /// </summary>
     /// <remarks> Given a string s, return the longest palindromic substring in s.</remarks>
-    public sealed class LongestPalindromicSubstring_5
+    internal sealed class LongestPalindromicSubstring_5
     {
         /// <summary>
         /// It's a good idea to take a minute and think about what is palindrome

@@ -7,7 +7,7 @@
     /// You are given an integer array arr. Sort the integers in the array in ascending order by the number of 1's in their binary representation and in case of two or more integers have the same number of 1's 
     /// you have to sort them in ascending order. Return the array after sorting it.
     /// </remarks>
-    public sealed class SortIntegersbyTheNumberof1Bits_1356
+    internal sealed class SortIntegersbyTheNumberof1Bits_1356
     {
         /// <summary>
         /// Idea for this task is to calc hamilton weight for each element. After that we can sort first: by bits count. Second: by elements with same bits count
@@ -21,6 +21,7 @@
         public int[] SortByBitsLinq(int[] arr)
         {
             var source = new List<Tuple<int, int>>();
+
             foreach (var item in arr)
             {
                 var bitsCount = CalcHamiltonWeight(item);
@@ -44,6 +45,7 @@
         {
             const int notPossibleValue = 10001;     // By the task input values can be from 0 to 10 000, so we can take 10 001 as not possible value for sorting purpose.
             var source = new List<int>();
+
             foreach (var item in arr)
             {
                 var bitsCount = CalcHamiltonWeight(item);
@@ -64,6 +66,7 @@
         {
             var temp = value;
             var bitsCount = 0;
+
             while (temp != 0)
             {
                 bitsCount += (temp & 1) == 1 ? 1 : 0;

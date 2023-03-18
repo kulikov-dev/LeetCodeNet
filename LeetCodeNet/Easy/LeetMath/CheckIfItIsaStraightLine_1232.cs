@@ -6,7 +6,7 @@
     /// <remarks>
     /// You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.
     /// </remarks>
-    public sealed class CheckIfItIsaStraightLine_1232
+    internal sealed class CheckIfItIsaStraightLine_1232
     {
         /// <summary>
         /// Check if arrays point on straight line

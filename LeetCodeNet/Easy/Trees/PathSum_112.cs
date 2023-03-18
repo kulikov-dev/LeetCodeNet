@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/path-sum/
     /// </summary>
     /// <remarks> Given the root of a binary tree and an integer targetSum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum. </remarks>
-    public sealed class PathSum_112
+    internal sealed class PathSum_112
     {
         /// <summary>
         /// Recursive solution, BFS approach
@@ -57,10 +57,12 @@ namespace LeetCodeNet.Easy.Trees
             }
 
             var queue = new Queue<TreeNode>();
+
             queue.Enqueue(root);
             while (queue.Any())
             {
                 var length = queue.Count;
+
                 for (var i = 0; i < length; ++i)
                 {
                     var node = queue.Dequeue();

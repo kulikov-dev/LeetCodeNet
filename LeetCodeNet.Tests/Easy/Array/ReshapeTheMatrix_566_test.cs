@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void Check(int[][] inputData, int inputR, int inputC, int[][] expected)
         {
             var solver = new ReshapeTheMatrix_566();
+
             Assert.Equal(expected, solver.MatrixReshape(inputData, inputR, inputC));
         }
     }

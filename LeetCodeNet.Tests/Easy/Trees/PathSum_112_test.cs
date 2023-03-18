@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new PathSum_112();
             var result = solver.HasPathSumRecursive(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new PathSum_112();
             var result = solver.HasPathSumIterative(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
     }

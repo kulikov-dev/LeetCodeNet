@@ -7,7 +7,7 @@
     /// Given a binary string s, return the number of non-empty substrings that have the same number of 0's and 1's, and all the 0's and all the 1's in these substrings are grouped consecutively.
     /// Substrings that occur multiple times are counted the number of times they occur.
     /// </remarks>
-    public sealed class CountBinarySubstrings_696
+    internal sealed class CountBinarySubstrings_696
     {
         /// <summary>
         /// Kind of two pointers approach. We need to calc count of previous char and count of current char, to form susbstrings
@@ -22,6 +22,7 @@
         public int CountBinarySubstrings(string s)
         {
             var result = 0;
+
             if (string.IsNullOrWhiteSpace(s))
             {
                 return result;
@@ -31,6 +32,7 @@
             var prevCounter = 0;
             //// Count the current type of element. 'i'=4, currentCounter = 1
             var currentCounter = 1;
+
             for (var i = 1; i < s.Length; ++i)
             {
                 if (s[i] == s[i - 1])

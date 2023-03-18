@@ -11,7 +11,7 @@ namespace LeetCodeNet.Easy.Strings
     /// The interpreted strings are then concatenated in the original order.
     /// Given the string command, return the Goal Parser's interpretation of command.
     /// </remarks>
-    public sealed class GoalParserInterpretation_1678
+    internal sealed class GoalParserInterpretation_1678
     {
         /// <summary>
         /// Just replace commands to desired.
@@ -26,6 +26,7 @@ namespace LeetCodeNet.Easy.Strings
         {
             //// Use StringBuilder to optimize work with immutable strings
             var result = new StringBuilder(command);
+
             return result.Replace("()", "o").Replace("(al)", "al").ToString();
         }
 
@@ -41,6 +42,7 @@ namespace LeetCodeNet.Easy.Strings
         public string InterpretPointers(string command)
         {
             var result = new StringBuilder(command.Length);
+
             for (var i = 0; i < command.Length; ++i)
             {
                 if (command[i] == '(')

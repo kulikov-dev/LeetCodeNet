@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void Check(string[] inputData, string inputOrder, bool expected)
         {
             var solver = new VerifyinganAlienDictionary_953();
+
             Assert.Equal(expected, solver.IsAlienSorted(inputData, inputOrder));
         }
     }

@@ -7,7 +7,7 @@
     /// Given a 2D integer array matrix, return the transpose of matrix.
     /// The transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.
     /// </remarks>
-    public sealed class TransposeMatrix_867
+    internal sealed class TransposeMatrix_867
     {
         /// <summary>
         /// Nothing special. Rows become columns and vice versa. 
@@ -26,6 +26,7 @@
             }
 
             var result = new int[matrix[0].Length][];
+
             for (var i = 0; i < matrix.Length; ++i)
             {
                 for (var j = 0; j < matrix[i].Length; ++j)

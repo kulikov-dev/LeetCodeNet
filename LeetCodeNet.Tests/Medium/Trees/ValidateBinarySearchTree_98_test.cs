@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Medium.Trees
         public void CheckRecursive(TreeNode inputData, bool expected)
         {
             var solver = new ValidateBinarySearchTree_98();
+
             Assert.Equal(expected, solver.IsValidBST(inputData));
         }
     }

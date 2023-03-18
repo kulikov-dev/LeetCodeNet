@@ -10,7 +10,7 @@ namespace LeetCodeNet.Medium.Strings
     /// countAndSay(1) = "1"
     /// countAndSay(n) is the way you would "say" the digit string from countAndSay(n-1), which is then converted into a different digit string.
     /// </remarks>
-    public sealed class CountAndSay_38
+    internal sealed class CountAndSay_38
     {
         /// <summary>
         /// The main problem of this problem is to understand the question :)
@@ -39,6 +39,7 @@ namespace LeetCodeNet.Medium.Strings
             var sb = new StringBuilder(512);
 
             var indexer = 1;
+
             for (var i = 1; i < result.Length; i++)
             {
                 if (result[i] == result[i - 1])

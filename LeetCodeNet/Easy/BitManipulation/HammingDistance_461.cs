@@ -7,7 +7,7 @@
     /// Given two integers x and y, return the Hamming distance between them.
     /// Detailed explanation of bits operators is here: https://docs.microsoft.com/en-gb/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators
     /// </remarks>
-    public sealed class HammingDistance_461
+    internal sealed class HammingDistance_461
     {
         /// <summary>
         /// The best way to do it is to use bit manipulations to get every symbol of a number in a binary representation

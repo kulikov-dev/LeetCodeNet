@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void Check(string inputData, int expected)
         {
             var solver = new MinimumTimetoTypeWordUsingSpecialTypewriter_1974();
+
             Assert.Equal(expected, solver.MinTimeToType(inputData));
         }
     }

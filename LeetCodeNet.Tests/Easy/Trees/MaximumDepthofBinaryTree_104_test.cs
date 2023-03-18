@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new MaximumDepthofBinaryTree_104();
             var result = solver.MaxDepthRecursive(inputData);
+
             Assert.True(expected.Equals(result));
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new MaximumDepthofBinaryTree_104();
             var result = solver.MaxDepthIterative(inputData);
+
             Assert.True(expected.Equals(result));
         }
     }

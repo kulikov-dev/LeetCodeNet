@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckArray(string inputData, int expected)
         {
             var solver = new FirstUniqueCharacterinaString_387();
+
             Assert.Equal(expected, solver.FirstUniqCharArray(inputData));
         }
     }

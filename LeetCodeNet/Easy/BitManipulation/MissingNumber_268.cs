@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/missing-number/submissions/
     /// </summary>
     /// <remarks> Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array. </remarks>
-    public sealed class MissingNumber_268
+    internal sealed class MissingNumber_268
     {
         /// <summary>
         /// The easiest way (but not very effective) is to iterate through each number from 0 to N and check if array contains it
@@ -41,6 +41,7 @@
         {
             //// As we have array with N values from 0 to N-1, we initialize variable with a last value = N+1
             var sum = nums.Length;
+
             for (var i = 0; i < nums.Length; ++i)
             {
                 //// First step - to count sum of all values from 0 to N
@@ -64,6 +65,7 @@
         public int MissingNumberBit(int[] nums)
         {
             var sum = nums.Length;
+
             for (var i = 0; i < nums.Length; ++i)
             {
                 //// When we XOR number to same number - we get 0. So, 

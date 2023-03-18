@@ -6,7 +6,7 @@
     /// <remarks>
     /// Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.
     /// </remarks>
-    public sealed class SquaresofaSortedArray_977
+    internal sealed class SquaresofaSortedArray_977
     {
         /// <summary>
         /// Square each element and then sort the new array. Obvious solution
@@ -19,7 +19,8 @@
         /// </remarks>
         public int[] SortedSquaresBruteForce(int[] nums)
         {
-            var result = nums.Select(x => (int)Math.Pow(x, 2));         // Square each element
+            var result = nums.Select(x => (int)Math.Pow(x, 2));
+
             return result.OrderBy(x => x).ToArray();
         }
 
@@ -39,18 +40,22 @@
             var result = new int[nums.Length];
             var leftPointer = 0;                    // pointers for the left/for the right
             var rightPointer = nums.Length - 1;
+
             for (var i = nums.Length-1; i >=0; --i)
             {
                 var item1 = (int)Math.Pow(nums[leftPointer], 2);
                 var item2 = (int)Math.Pow(nums[rightPointer], 2);
+
                 if (item1 < item2)
                 {
                     result[i] = item2;
+
                     --rightPointer;
                 }
                 else
                 {
                     result[i] = item1;
+
                     ++leftPointer;
                 }
             }

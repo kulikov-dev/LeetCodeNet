@@ -11,7 +11,7 @@ namespace LeetCodeNet.Easy.Trees
     /// Otherwise, the NOT null node will be used as the node of the new tree.
     /// Return the merged tree.
     /// </remarks>
-    public sealed class MergeTwoBinaryTrees_617
+    internal sealed class MergeTwoBinaryTrees_617
     {
         /// <summary>
         /// Another variant of BFS. Move level by level and change values

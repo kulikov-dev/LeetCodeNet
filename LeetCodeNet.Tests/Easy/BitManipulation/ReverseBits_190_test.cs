@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new ReverseBits_190();
             var result = solver.reverseBits(inputData);
+
             Assert.Equal(expected, result);
         }
     }

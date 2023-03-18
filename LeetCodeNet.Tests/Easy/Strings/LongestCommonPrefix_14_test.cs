@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckLoop(string[] inputData, string expected)
         {
             var solver = new LongestCommonPrefix_14();
+
             Assert.Equal(expected, solver.LongestCommonPrefixLoop(inputData));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckSort(string[] inputData, string expected)
         {
             var solver = new LongestCommonPrefix_14();
+
             Assert.Equal(expected, solver.LongestCommonPrefixLoop(inputData));
         }
     }

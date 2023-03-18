@@ -6,7 +6,7 @@
     /// <remarks> Write a function that takes an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
     /// Detailed explanation of bits operators is here: https://docs.microsoft.com/en-gb/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators
     /// </remarks>
-    public sealed class Numberof1Bits_191
+    internal sealed class Numberof1Bits_191
     {
         /// <summary>
         /// Get every last bit and sum it to a result value
@@ -20,6 +20,7 @@
         public int HammingWeightShift(uint n)
         {
             uint result = 0;
+
             while (n > 0)
             {
                 //// The trickiest part is to detect every bit of a number. For this we use AND operation with 1.
@@ -48,6 +49,7 @@
         public int HammingWeightBit(uint n)
         {
             var result = 0;
+
             while (n > 0)
             {
                 ++result;

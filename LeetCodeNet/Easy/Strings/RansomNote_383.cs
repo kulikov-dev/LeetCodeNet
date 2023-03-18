@@ -7,7 +7,7 @@
     /// Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.
     /// Each letter in magazine can only be used once in ransomNote.
     /// </remarks>
-    public sealed class RansomNote_383
+    internal sealed class RansomNote_383
     {
         /// <summary>
         /// The common solution is to create hashtable to store all chars/counts from the magazine
@@ -22,9 +22,11 @@
         public bool CanConstructHash(string ransomNote, string magazine)
         {
             var dict = new Dictionary<char, int>();
+
             for (var i = 0; i < magazine.Length; ++i)
             {
                 var ch = magazine[i];
+
                 if (!dict.ContainsKey(ch))
                 {
                     dict.Add(ch, 0);
@@ -36,6 +38,7 @@
             for (var i = 0; i < ransomNote.Length; ++i)
             {
                 var ch = ransomNote[i];
+
                 if (!dict.ContainsKey(ch) || dict[ch] == 0)
                 {
                     return false;
@@ -60,6 +63,7 @@
         public bool CanConstructArray(string ransomNote, string magazine)
         {
             var arr = new int[26];
+
             for (var  i =0; i < magazine.Length; ++i)
             {
                 //// Char manipulation on ASCII codes. As 'a' = 97 in ASCII, so we need to substract 'a' to get the real position in alphabet
@@ -69,6 +73,7 @@
             for (var i = 0; i < ransomNote.Length; ++i)
             {
                 var pos = ransomNote[i] - 'a';
+
                 --arr[pos];
                 if (arr[pos] < 0)
                 {

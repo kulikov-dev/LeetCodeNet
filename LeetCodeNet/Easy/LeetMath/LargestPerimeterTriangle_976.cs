@@ -7,7 +7,7 @@
     /// Given an integer array nums, return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths.
     /// If it is impossible to form any triangle of a non-zero area, return 0.
     /// </remarks>
-    public sealed class LargestPerimeterTriangle_976
+    internal sealed class LargestPerimeterTriangle_976
     {
         /// <summary>
         /// We need to calc the perimeter which is sum of three sides of the triangle. We also need to check, that it's a correct formed triangle (where side1 < side2 + side3).
@@ -22,6 +22,7 @@
         public int LargestPerimeter(int[] nums)
         {
             var sortedNums = nums.OrderByDescending(x => x).ToList();
+
             for (var i = 2; i < sortedNums.Count; ++i)
             {
                 if (sortedNums[i - 2] < sortedNums[i - 1] + sortedNums[i])

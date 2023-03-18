@@ -10,7 +10,7 @@ namespace LeetCodeNet.Easy.LeetMath
     /// Return the decimal value of the number in the linked list.
     /// The most significant bit is at the head of the linked list.
     /// </remarks>
-    public sealed class ConvertBinaryNumberinaLinkedListtoInteger_1290
+    internal sealed class ConvertBinaryNumberinaLinkedListtoInteger_1290
     {
         /// <summary>
         /// Remember about binary representation of number:
@@ -49,6 +49,7 @@ namespace LeetCodeNet.Easy.LeetMath
         public int GetDecimalValueBinary(ListNode head)
         {
             var result = 0;
+
             while (head != null)
             {
                 result <<= 1;           // Left shift num by 1 position to make way for next bit

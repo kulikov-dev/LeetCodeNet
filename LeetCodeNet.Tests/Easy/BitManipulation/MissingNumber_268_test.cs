@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new MissingNumber_268();
             var result = solver.MissingNumberSimple(inputData1);
+
             Assert.Equal(expected, result);
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new MissingNumber_268();
             var result = solver.MissingNumberMath(inputData1);
+
             Assert.Equal(expected, result);
         }
 
@@ -26,6 +28,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new MissingNumber_268();
             var result = solver.MissingNumberBit(inputData1);
+
             Assert.Equal(expected, result);
         }
     }

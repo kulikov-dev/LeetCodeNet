@@ -6,7 +6,7 @@
     /// <remarks> A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
     /// Given an array of numbers arr, return true if the array can be rearranged to form an arithmetic progression.Otherwise, return false.
     /// </remarks>
-    public sealed class CanMakeArithmeticProgressionFromSequence_1502
+    internal sealed class CanMakeArithmeticProgressionFromSequence_1502
     {
         /// <summary>
         /// Not very effective, but obvious and easy-readable solution is to sort an array
@@ -26,6 +26,7 @@
 
             var sortedArray = arr.OrderBy(x => x).ToList();
             var step = arr[1] - arr[0];
+
             for (var i = 2; i < sortedArray.Count; ++i)
             {
                 if (sortedArray[i] - sortedArray[i - 1] != step)

@@ -11,7 +11,7 @@
     /// You are given an integer array nums.Let product be the product of all values in the array nums.
     /// Return signFunc(product).
     /// </remarks>
-    public sealed class SignoftheProductofanArray_1822
+    internal sealed class SignoftheProductofanArray_1822
     {
         /// <summary>
         /// The total production will negative, if we have odd amount of negative values. Because if the even, than -1*-1 = 1.

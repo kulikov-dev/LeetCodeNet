@@ -7,7 +7,7 @@
     /// You must write an algorithm with O(log n) runtime complexity.
     /// Great explanation is here: https://leetcode.com/problems/search-insert-position/discuss/423166/Binary-Search-101
     /// </remarks>
-    public sealed class SearchInsertPosition_35
+    internal sealed class SearchInsertPosition_35
     {
         /// <summary>
         /// If you see 'sorted array' and the task connected with searching - the best approach is to use Binary Search
@@ -28,10 +28,12 @@
 
             var leftPosition = 0;
             var rightPosition = nums.Length - 1;
+
             while (leftPosition < rightPosition)
             {
                 //// Get middle element and check where we have to move - left or right
                 var middlePosition = leftPosition + (rightPosition - leftPosition) / 2;
+
                 if (nums[middlePosition] == target)
                 {
                     return middlePosition;

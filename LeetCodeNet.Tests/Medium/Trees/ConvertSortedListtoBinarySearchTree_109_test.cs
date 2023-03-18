@@ -12,6 +12,7 @@ namespace LeetCodeNet.Tests.Medium.Trees
             var solver = new ConvertSortedListtoBinarySearchTree_109();
 
             var result = solver.SortedListToBSTEasy(head);
+
             if (expected1 == null)
             {
                 Assert.Null(result);
@@ -28,6 +29,7 @@ namespace LeetCodeNet.Tests.Medium.Trees
             var solver = new ConvertSortedListtoBinarySearchTree_109();
 
             var result = solver.SortedListToBSTOptimal(head);
+
             if (expected1 == null)
             {
                 Assert.Null(result);

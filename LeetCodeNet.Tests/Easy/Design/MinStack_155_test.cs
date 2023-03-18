@@ -8,6 +8,7 @@ namespace LeetCodeNet.Tests.Easy.Design
         public void Check()
         {
             var solver = new MinStack();
+
             solver.Push(-2);
             solver.Push(0);
             solver.Push(-3);

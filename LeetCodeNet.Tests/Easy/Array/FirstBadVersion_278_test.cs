@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new FirstBadVersion_278();
             var result = solver.FirstBadVersion(inputData1, inputData2.Object as IBadVersionChecker);
+
             Assert.Equal(expected, result);
         }
     }
@@ -20,6 +21,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public IEnumerator<object[]> GetEnumerator()
         {
             var mock = new Mock<IBadVersionChecker>();
+
             mock.Setup(x => x.IsBadVersion(1)).Returns(false);
             mock.Setup(x => x.IsBadVersion(2)).Returns(false);
             mock.Setup(x => x.IsBadVersion(3)).Returns(false);
@@ -33,6 +35,7 @@ namespace LeetCodeNet.Tests.Easy.Array
             };
 
             mock = new Mock<IBadVersionChecker>();
+
             mock.Setup(x => x.IsBadVersion(1)).Returns(true);
 
             yield return new object[]

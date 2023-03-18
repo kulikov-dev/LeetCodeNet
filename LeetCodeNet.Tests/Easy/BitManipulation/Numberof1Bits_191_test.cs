@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new Numberof1Bits_191();
             var result = solver.HammingWeightShift(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new Numberof1Bits_191();
             var result = solver.HammingWeightBit(inputData);
+
             Assert.Equal(expected, result);
         }
     }

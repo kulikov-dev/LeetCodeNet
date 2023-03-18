@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/permutations/
     /// </summary>
     /// <remarks> Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order. </remarks>
-    public sealed class Permutations_46
+    internal sealed class Permutations_46
     {
         /// <summary>
         /// Use recursive approach. Well explained here: https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/

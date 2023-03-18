@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             var solver = new HammingDistance_461();
             var result = solver.HammingDistance(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
     }

@@ -7,7 +7,7 @@
     /// You are climbing a staircase. It takes n steps to reach the top.
     /// Each time you can either climb 1 or 2 steps.In how many distinct ways can you climb to the top?
     /// </remarks>
-    public sealed class ClimbingStairs_70
+    internal sealed class ClimbingStairs_70
     {
         /// <summary>
         /// Recursive solution
@@ -49,6 +49,7 @@
             //// Please check approach explonation here: MinCostClimbingStairs_746.cs
             var result = new int[n + 2];
             result[n] = 1;
+
             for (var i = n - 1; i >= 0; --i)
             {
                 result[i] = result[i + 1] + result[i + 2];

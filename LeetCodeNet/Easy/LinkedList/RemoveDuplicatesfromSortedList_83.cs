@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// https://leetcode.com/problems/remove-duplicates-from-sorted-list/
     /// </summary>
     /// <remarks> Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well. </remarks>
-    public sealed class RemoveDuplicatesfromSortedList_83
+    internal sealed class RemoveDuplicatesfromSortedList_83
     {
         /// <summary>
         /// Use two pointers to store a previous node and a current node in the list
@@ -21,6 +21,7 @@ namespace LeetCodeNet.Easy.LinkedList
         {
             var previousNode = head;
             var currentNode = head?.next;
+
             while (currentNode != null)
             {
                 if (currentNode.val == previousNode.val)
@@ -55,6 +56,7 @@ namespace LeetCodeNet.Easy.LinkedList
             }
 
             head.next = DeleteDuplicatesRecursive(head.next);
+
             return head.val == head.next.val ? head.next : head;
         }
     }

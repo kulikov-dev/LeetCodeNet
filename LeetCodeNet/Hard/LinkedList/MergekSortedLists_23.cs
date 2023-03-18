@@ -9,7 +9,7 @@ namespace LeetCodeNet.Hard.LinkedList
     /// You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
     /// Merge all the linked-lists into one sorted linked-list and return it.
     /// </remarks>
-    public sealed class MergekSortedLists_23
+    internal sealed class MergekSortedLists_23
     {
         /// <summary>
         /// Straightway solution. Store all linked lists in the array. Than sort the array and recreate the sorted linked list. Not very elegant, but at least something.
@@ -27,6 +27,7 @@ namespace LeetCodeNet.Hard.LinkedList
             foreach (var list in lists)
             {
                 var head = list;
+
                 while (head != null)
                 {
                     data.Add(head.val);
@@ -36,6 +37,7 @@ namespace LeetCodeNet.Hard.LinkedList
 
             var newHead = new ListNode(-1);
             var currentNode = newHead;
+
             data.Sort();
             foreach (var item in data)
             {
@@ -59,6 +61,7 @@ namespace LeetCodeNet.Hard.LinkedList
         {
             var newHead = new ListNode(int.MaxValue);
             var curValue = newHead;
+
             while (curValue != null)
             {
                 curValue.next = GetNextMin(lists);
@@ -77,6 +80,7 @@ namespace LeetCodeNet.Hard.LinkedList
         {
             var minIndex = -1;
             var minValue = int.MaxValue;
+
             for (var i = 0; i < lists.Length; i++)
             {
                 if (lists[i] == null)
@@ -98,12 +102,14 @@ namespace LeetCodeNet.Hard.LinkedList
 
             var result = lists[minIndex];
             lists[minIndex] = lists[minIndex].next;
+
             return result;
         }
 
         public ListNode MergeKListsIterativeByLists(ListNode[] lists)
         {
             var result = lists.FirstOrDefault();
+
             for (var i = 1; i < lists.Length; ++i)
             {
                 result = MergeLists(result, lists[i]);
@@ -143,6 +149,7 @@ namespace LeetCodeNet.Hard.LinkedList
             }
 
             currentNode.next = list1 == null ? list2 : list1;
+
             return head.next;
         }
     }

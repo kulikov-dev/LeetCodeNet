@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         public void CheckStack(ListNode inputData, bool expected)
         {
             var solver = new PalindromeLinkedList_234();
+
             Assert.Equal(expected, solver.IsPalindromeStack(inputData));
         }
 
@@ -17,6 +18,7 @@ namespace LeetCodeNet.Tests.Easy.LinkedList
         public void CheckReverse(ListNode inputData, bool expected)
         {
             var solver = new PalindromeLinkedList_234();
+
             Assert.Equal(expected, solver.IsPalindromeReverse(inputData));
         }
     }

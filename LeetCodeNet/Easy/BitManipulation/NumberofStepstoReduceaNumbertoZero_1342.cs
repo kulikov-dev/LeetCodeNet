@@ -8,7 +8,7 @@
     /// In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
     /// Basics of bit manipulations: https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/
     /// </remarks>
-    public sealed class NumberofStepstoReduceaNumbertoZero_1342
+    internal sealed class NumberofStepstoReduceaNumbertoZero_1342
     {
         /// <summary>
         /// Direct solution with math
@@ -22,6 +22,7 @@
         public int NumberOfStepsMath(int num)
         {
             var result = 0;
+
             while (num > 0)
             {
                 //// Check if number is even
@@ -54,6 +55,7 @@
         public int NumberOfStepsBit(int num)
         {
             var result = 0;
+
             while (num > 0)
             {
                 //// Three steps are here:
@@ -82,6 +84,7 @@
         public int NumberOfStepsBitOptimized(int num)
         {
             var result = 0;
+
             while (num > 0)
             {
                 //// Three steps are here:

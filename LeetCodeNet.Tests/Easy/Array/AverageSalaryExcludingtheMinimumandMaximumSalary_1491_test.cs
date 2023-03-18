@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckLinq(int[] inputData, double expected)
         {
             var solver = new AverageSalaryExcludingtheMinimumandMaximumSalary_1491();
+
             Assert.Equal(expected, Math.Round(solver.AverageLinq(inputData),3));
         }
 
@@ -16,6 +17,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckSorting(int[] inputData, double expected)
         {
             var solver = new AverageSalaryExcludingtheMinimumandMaximumSalary_1491();
+
             Assert.Equal(expected, Math.Round(solver.AverageSorting(inputData), 3));
         }
 
@@ -23,6 +25,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         public void CheckIterating(int[] inputData, double expected)
         {
             var solver = new AverageSalaryExcludingtheMinimumandMaximumSalary_1491();
+
             Assert.Equal(expected, Math.Round(solver.AverageIterating(inputData), 3));
         }
     }

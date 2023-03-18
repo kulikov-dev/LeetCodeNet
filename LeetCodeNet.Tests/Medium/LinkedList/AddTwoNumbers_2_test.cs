@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Medium.LinkedList
         {
             var solver = new AddTwoNumbers_2();
             var result = solver.AddTwoNumbers(inputData1, inputData2);
+
             Assert.True(result.Equals(expected));
         }
     }

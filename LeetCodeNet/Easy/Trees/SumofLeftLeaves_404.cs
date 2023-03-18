@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.Trees
     /// https://leetcode.com/problems/sum-of-left-leaves/
     /// </summary>
     /// <remarks> Given the root of a binary tree, return the sum of all left leaves. A leaf is a node with no children. A left leaf is a leaf that is the left child of another node. </remarks>
-    public sealed class SumofLeftLeaves_404
+    internal sealed class SumofLeftLeaves_404
     {
         /// <summary>
         /// Recursive solution
@@ -20,6 +20,7 @@ namespace LeetCodeNet.Easy.Trees
         public int SumOfLeftLeavesRecursive(TreeNode root)
         {
             var result = 0;
+
             if (root == null)
             {
                 return result;
@@ -50,10 +51,12 @@ namespace LeetCodeNet.Easy.Trees
 
             //// It's not important, we can use both: BFS or DFS solutions
             var queue = new Queue<TreeNode>();
+
             queue.Enqueue(root);
             while (queue.Count > 0)
             {
                 var node = queue.Dequeue();
+
                 if (node == null)
                 {
                     continue;

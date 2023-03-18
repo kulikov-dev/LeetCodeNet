@@ -4,7 +4,7 @@
     /// https://leetcode.com/problems/maximum-subarray/
     /// </summary>
     /// <remarks> Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum. </remarks>
-    public sealed class MaximumSubarray_53
+    internal sealed class MaximumSubarray_53
     {
         /// <summary>
         /// The obvious solution is to use brute force: to calculate the sum of every possible subarray and the maximum of those would be the solution.
@@ -19,11 +19,13 @@
         public int MaxSubArrayBruteForce(int[] nums)
         {
             var result = int.MinValue;
+
             for (int i = 0; i < nums.Length; i++)
             {
                 for (int j = i; j < nums.Length; j++)
                 {
                     var tempSum = 0;
+
                     for (int k = i; k <= j; k++)
                     {
                         //// Here we need to calculate sum of all the elements
@@ -50,11 +52,13 @@
         public int MaxSubArrayKadane(int[] nums)
         {
             var result = int.MinValue;   // To store total maximum sum as result
-            var currentSum = 0;          // To store maximum sum to store local maximum sum
+            var currentSum = 0;
+
             foreach (var number in nums)
             {
                 currentSum += number;
                 result = Math.Max(result, currentSum);
+
                 if (currentSum < 0)
                 {
                     currentSum = 0;

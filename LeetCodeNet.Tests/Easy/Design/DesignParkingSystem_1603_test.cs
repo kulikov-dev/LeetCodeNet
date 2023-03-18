@@ -8,6 +8,7 @@ namespace LeetCodeNet.Tests.Easy.Design
         public void Check()
         {
             var solver = new ParkingSystem(1, 1, 0);
+
             Assert.True(solver.AddCar(1));
             Assert.True(solver.AddCar(2));
             Assert.False(solver.AddCar(3));

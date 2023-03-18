@@ -8,6 +8,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckHash(string inputWord1, string inputWord2, bool expected)
         {
             var solver = new ValidAnagram_242();
+
             Assert.Equal(expected, solver.IsAnagramHash(inputWord1, inputWord2));
         }
 
@@ -15,6 +16,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckSorting(string inputWord1, string inputWord2, bool expected)
         {
             var solver = new ValidAnagram_242();
+
             Assert.Equal(expected, solver.IsAnagramSorting(inputWord1, inputWord2));
         }
     }

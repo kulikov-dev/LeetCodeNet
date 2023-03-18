@@ -6,7 +6,7 @@ namespace LeetCodeNet.Easy.LinkedList
     /// https://leetcode.com/problems/reverse-linked-list/
     /// </summary>
     /// <remarks> Given the head of a singly linked list, reverse the list, and return the reversed list. </remarks>
-    public sealed class ReverseLinkedList_206
+    internal sealed class ReverseLinkedList_206
     {
         /// <summary>
         /// 1. Create a new head
@@ -21,6 +21,7 @@ namespace LeetCodeNet.Easy.LinkedList
         public ListNode ReverseList(ListNode head)
         {
             var newHead = default(ListNode);
+
             while (head != null)
             {
                 var temp = newHead;

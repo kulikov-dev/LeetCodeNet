@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void Check(string inputData, string expected)
         {
             var solver = new ReplaceAllDigitswithCharacters_1844();
+
             Assert.Equal(expected, solver.ReplaceDigitsWithOriginal(inputData));
             Assert.Equal(expected, solver.ReplaceDigitsWithExceed(inputData));
         }
@@ -17,6 +18,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void CheckExceed()
         {
             var solver = new ReplaceAllDigitswithCharacters_1844();
+
             Assert.Equal("zacdef", solver.ReplaceDigitsWithExceed("z1c1e1"));
         }
     }

@@ -10,6 +10,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new NextGreaterElement_I_496();
             var result = solver.NextGreaterElementBruteForce(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
 
@@ -18,6 +19,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new NextGreaterElement_I_496();
             var result = solver.NextGreaterElementStack(inputData1, inputData2);
+
             Assert.Equal(expected, result);
         }
     }

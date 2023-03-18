@@ -9,6 +9,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
         public void Check(string inputData, int expected)
         {
             var solver = new CountBinarySubstrings_696();
+
             Assert.Equal(expected, solver.CountBinarySubstrings(inputData));
         }
     }

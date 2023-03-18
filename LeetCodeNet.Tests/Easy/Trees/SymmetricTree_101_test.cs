@@ -11,6 +11,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new SymmetricTree_101();
             var result = solver.IsSymmetricRecursive(inputData);
+
             Assert.Equal(expected, result);
         }
 
@@ -19,6 +20,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             var solver = new SymmetricTree_101();
             var result = solver.IsSymmetricIterative(inputData);
+
             Assert.Equal(expected, result);
         }
     }

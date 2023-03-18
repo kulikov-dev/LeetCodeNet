@@ -33,6 +33,7 @@
         {
             var node1 = this;
             var node2 = other;
+
             while (node1 != null)
             {
                 if (node2 == null || node1.val != node2.val)

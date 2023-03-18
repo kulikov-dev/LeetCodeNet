@@ -7,7 +7,7 @@
     /// Given an array nums of size n, return the majority element.
     /// The majority element is the element that appears more than ⌊n / 2⌋ times.You may assume that the majority element always exists in the array.
     /// </remarks>
-    public sealed class MajorityElement_169
+    internal sealed class MajorityElement_169
     {
         /// <summary>
         /// Sort the order and use two pointers to store information about max element

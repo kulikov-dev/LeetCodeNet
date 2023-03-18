@@ -11,7 +11,7 @@
     /// Every minute, any fresh orange that is 4-directionally adjacent to a rotten orange becomes rotten.
     /// Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.
     /// </remarks>
-    public sealed class RottingOranges_994
+    internal sealed class RottingOranges_994
     {
         /// <summary>
         /// We have to apply BFS search to process rotten oranges, but the trick here is that we need to start search from all current rotten oranges at once
@@ -30,6 +30,7 @@
 
             //// First step is to count all fresh oranges and keep all rotten to start search for all of them at once
             var rotten = new Queue<Tuple<int, int>>();
+
             for (var i = 0; i < grid.Length; i++)
             {
                 for (var j = 0; j < grid[i].Length; j++)
@@ -56,6 +57,7 @@
             {
                 //// Keep this idea, it uses often. We keep count of the current queue to get all rotten oranges, but keep the new added
                 var length = rotten.Count;
+
                 ++counter;
                 for (var i = 0; i < length; ++i)
                 {
