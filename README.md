@@ -122,6 +122,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #38: Count and say (String)
 * #382: Linked List Random Node (Linked list, Design)
 * #848: Shifting Letters (String)
+* #1472: Design Browser History (Linked List, Design)
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
 * #88: Merge Sorted Array (Array)
