@@ -150,6 +150,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #2405: Optimal Partition of String (String)
 #### Pattern: Prefix Tree
 * #208: Implement Trie (Design)
+#### Pattern: Dynamic programming
+* №63: Minimum Path Sum (Bottom-up, Array)
 
 ### Level: Hard
 
