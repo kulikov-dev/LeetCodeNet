@@ -13,12 +13,12 @@ namespace LeetCodeNet.Medium.LinkedList
         /// <summary>
         /// Linked list in the list array representation
         /// </summary>
-        private List<int> data;
+        private readonly List<int> data;
 
         /// <summary>
         /// Randomizer
         /// </summary>
-        private Random rnd;
+        private readonly Random rnd;
 
         /// <summary>
         /// .ctor
@@ -56,7 +56,7 @@ namespace LeetCodeNet.Medium.LinkedList
         /// <summary>
         /// Data splitted into chunks
         /// </summary>
-        private List<List<int>> data;
+        private readonly List<List<int>> data;
 
         /// <summary>
         /// Page size of the chunk
@@ -122,12 +122,12 @@ namespace LeetCodeNet.Medium.LinkedList
         /// <summary>
         /// Linked list head
         /// </summary>
-        ListNode head;
+        readonly ListNode head;
 
         /// <summary>
         /// Randomizer
         /// </summary>
-        private Random rnd;
+        private readonly Random rnd;
 
         /// <summary>
         /// .ctor
@@ -184,12 +184,12 @@ namespace LeetCodeNet.Medium.LinkedList
         /// <summary>
         /// Linked list length
         /// </summary>
-        private int length = 0;
+        private readonly int length = 0;
 
         /// <summary>
         /// Linked list head
         /// </summary>
-        private ListNode head;
+        private readonly ListNode head;
 
         /// <summary>
         /// Current random node

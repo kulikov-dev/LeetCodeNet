@@ -1,4 +1,3 @@
-using LeetCodeNet.Easy.Design;
 using LeetCodeNet.Medium.Design;
 
 namespace LeetCodeNet.Tests.Medium.Design

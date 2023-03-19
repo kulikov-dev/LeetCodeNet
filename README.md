@@ -137,6 +137,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #53: Maximum Subarray (Array)
 #### Pattern: Backtracking
 * #46: Permutations (Array)
+* #211: Design Add and Search Words Data Structure (Prefix Tree, Design)
 * #784: Letter Case Permutation (String)
 #### Pattern: Binary tree
 * #98: Validate Binary Search Tree (Tree)
@@ -147,8 +148,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #129: Sum Root to Leaf Numbers (Tree)
 #### Pattern: Bit manipulation
 * #2405: Optimal Partition of String (String)
-#### Pattern: Hash Table
-* #208: Implement Trie (Prefix Tree) (Design)
+#### Pattern: Prefix Tree
+* #208: Implement Trie (Design)
 
 ### Level: Hard
 

@@ -13,7 +13,7 @@
         /// Array to store hashset values
         /// </summary>
         /// <remarks> We use this count because of value constraints: from 0 to 10^6 </remarks>
-        private bool[] _set = new bool[1000001];
+        private readonly bool[] _set = new bool[1000001];
 
         /// <summary>
         /// Add value to the hashset

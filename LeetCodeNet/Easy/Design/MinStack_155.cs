@@ -66,12 +66,12 @@
             /// <summary>
             /// Current value in the stack
             /// </summary>
-            public int Value;
+            public readonly int Value;
 
             /// <summary>
             /// Minimum for previous values
             /// </summary>
-            public int StackMinValue;
+            public readonly int StackMinValue;
 
             /// <summary>
             /// Constructor

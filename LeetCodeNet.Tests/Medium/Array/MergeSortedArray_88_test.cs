@@ -1,6 +1,5 @@
 ﻿using LeetCodeNet.Medium.Array;
 using System.Collections;
-using System.Xml.Linq;
 
 namespace LeetCodeNet.Tests.Medium.Array
 {

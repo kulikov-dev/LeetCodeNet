@@ -9,7 +9,7 @@
     /// </remarks>
     internal sealed class NumArray
     {
-        private int[] sumNums;
+        private readonly int[] sumNums;
 
         public NumArray(int[] nums)
         {

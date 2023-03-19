@@ -1,5 +1,4 @@
 ﻿using LeetCodeNet.Medium.Array;
-using LeetCodeNet.Tests.Easy.Array;
 using System.Collections;
 
 namespace LeetCodeNet.Tests.Medium.Array

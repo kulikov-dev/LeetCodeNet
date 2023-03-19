@@ -95,7 +95,7 @@
             /// <summary>
             /// URL
             /// </summary>
-            public string url;
+            public readonly string url;
 
             /// <summary>
             /// Constructor
