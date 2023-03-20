@@ -29,14 +29,14 @@ namespace LeetCodeNet.Tests.Easy.Array
             //// Explanation: After squaring, the array becomes [16,1,0,9,100]. After sorting, it becomes[0, 1, 9, 16, 100].
             yield return new object[]
             {
-                new int[] { -4, -1, 0, 3, 10 },
-                new int[] { 0, 1, 9, 16, 100 }
+                new[] { -4, -1, 0, 3, 10 },
+                new[] { 0, 1, 9, 16, 100 }
             };
 
             yield return new object[]
             {
-                new int[] { -7, -3, 2, 3, 11 },
-                new int[] { 4, 9, 9, 49, 121 }
+                new[] { -7, -3, 2, 3, 11 },
+                new[] { 4, 9, 9, 49, 121 }
             };
         }
 

@@ -21,25 +21,25 @@ namespace LeetCodeNet.Tests.Medium.Array
             //// Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].
             yield return new object[]
             {
-                new int[] {2,7,11,15},
+                new[] {2,7,11,15},
                 9,
-                new int[] {1,2}
+                new[] {1,2}
             };
 
             //// Explanation: The sum of 2 and 4 is 6. Therefore index1 = 1, index2 = 3. We return [1, 3].
             yield return new object[]
             {
-                new int[] {2,3,4},
+                new[] {2,3,4},
                 6,
-                new int[] {1,3}
+                new[] {1,3}
             };
 
             //// Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We return [1, 2].
             yield return new object[]
             {
-                new int[] {-1, 0},
+                new[] {-1, 0},
                 -1,
-                new int[] {1,2}
+                new[] {1,2}
             };
         }
 

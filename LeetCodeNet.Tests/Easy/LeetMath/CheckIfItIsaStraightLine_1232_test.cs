@@ -21,13 +21,13 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         {
             yield return new object[]
             {
-                new int[][] { new int[] { 1,2 }, new int[] {2,3 }, new int[] { 3,4 } , new int[] { 4,5 }, new int[] { 5,6 }, new int[] { 6,7 }},
+                new[] { new[] { 1,2 }, new[] {2,3 }, new[] { 3,4 } , new[] { 4,5 }, new[] { 5,6 }, new[] { 6,7 }},
                 true
             };
 
             yield return new object[]
             {
-                new int[][] { new int[] { 1,1 }, new int[] {2,2 }, new int[] { 3,4 } , new int[] { 4,5 }, new int[] { 5,6 }, new int[] { 7,7 }},
+                new[] { new[] { 1,1 }, new[] {2,2 }, new[] { 3,4 } , new[] { 4,5 }, new[] { 5,6 }, new[] { 7,7 }},
                 false
             };
         }

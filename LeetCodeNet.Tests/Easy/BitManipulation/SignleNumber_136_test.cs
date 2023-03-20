@@ -21,19 +21,19 @@ namespace LeetCodeNet.Tests.Easy.BitManipulation
         {
             yield return new object[]
             {
-                new int[]{2,2,1},
+                new[]{2,2,1},
                 1
             };
 
             yield return new object[]
             {
-                new int[] {4,1,2,1,2},
+                new[] {4,1,2,1,2},
                 4
             };
 
             yield return new object[]
             {
-                new int[] {1},
+                new[] {1},
                 1
             };
         }

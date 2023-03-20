@@ -22,7 +22,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
             //// Explanation: You can form a triangle with three side lengths: 1, 2, and 2.
             yield return new object[]
             {
-                new int[] {2,1,2},
+                new[] {2,1,2},
                 5
             };
 
@@ -32,7 +32,7 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
             /// As we cannot use any three side lengths to form a triangle of non-zero area, we return 0.
             yield return new object[]
             {
-                new int[] {1,2,1,10},
+                new[] {1,2,1,10},
                 0
             };
         }

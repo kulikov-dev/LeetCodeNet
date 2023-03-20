@@ -32,13 +32,13 @@ namespace LeetCodeNet.Tests.Easy.Array
             /// Both customers are considered the richest with a wealth of 6 each, so return 6.
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 2, 3 }, new int[] { 3, 2, 1 } },
+                new[] { new[] { 1, 2, 3 }, new[] { 3, 2, 1 } },
                 6
             };
 
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 5 }, new int[] { 7, 3 }, new int[] { 3, 5 } },
+                new[] { new[] { 1, 5 }, new[] { 7, 3 }, new[] { 3, 5 } },
                 10
             };
         }

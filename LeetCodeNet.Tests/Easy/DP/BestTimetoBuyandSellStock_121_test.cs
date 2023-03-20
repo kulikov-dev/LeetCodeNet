@@ -22,14 +22,14 @@ namespace LeetCodeNet.Tests.Easy.DP
             /// Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
             yield return new object[]
             {
-                new int[] { 7, 1, 5, 3, 6, 4 },
+                new[] { 7, 1, 5, 3, 6, 4 },
                 5
             };
 
             //// Explanation: In this case, no transactions are done and the max profit = 0.
             yield return new object[]
             {
-                new int[] {7,6,4,3,1},
+                new[] {7,6,4,3,1},
                 0
             };
         }

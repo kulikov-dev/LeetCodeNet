@@ -22,20 +22,20 @@ namespace LeetCodeNet.Tests.Easy.Array
             /// Thus, the result should be[1, 2, 4].
             yield return new object[]
             {
-                new int[] { 1, 2, 3 },
-                new int[] { 1, 2, 4 }
+                new[] { 1, 2, 3 },
+                new[] { 1, 2, 4 }
             };
 
             yield return new object[]
             {
-                new int[] { 4, 3, 2, 1 },
-                new int[] { 4, 3, 2, 2 }
+                new[] { 4, 3, 2, 1 },
+                new[] { 4, 3, 2, 2 }
             };
 
             yield return new object[]
             {
-                new int[] { 9 },
-                new int[] { 1, 0 }
+                new[] { 9 },
+                new[] { 1, 0 }
             };
         }
 

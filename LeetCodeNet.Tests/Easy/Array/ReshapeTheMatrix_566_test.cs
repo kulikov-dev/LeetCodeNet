@@ -20,10 +20,10 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 2 }, new int[] { 3, 4 } },
+                new[] { new[] { 1, 2 }, new[] { 3, 4 } },
                 1,
                 4,
-                new int[][] { new int[] { 1, 2, 3, 4 } }
+                new[] { new[] { 1, 2, 3, 4 } }
             };
 
         }

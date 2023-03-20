@@ -29,19 +29,19 @@ namespace LeetCodeNet.Tests.Medium.Array
             //// Explanation: [4,-1,2,1] has the largest sum = 6.
             yield return new object[]
             {
-                new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 },
+                new[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 },
                 6
             };
 
             yield return new object[]
             {
-                new int[] { 1 },
+                new[] { 1 },
                 1
             };
 
             yield return new object[]
             {
-                new int[] { 5, 4, -1, 7, 8 },
+                new[] { 5, 4, -1, 7, 8 },
                 23
             };
         }

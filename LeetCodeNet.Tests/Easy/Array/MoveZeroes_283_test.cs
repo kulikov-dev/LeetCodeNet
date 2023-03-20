@@ -31,14 +31,14 @@ namespace LeetCodeNet.Tests.Easy.Array
             //// Note that you must do this in-place without making a copy of the array.
             yield return new object[]
             {
-                new int[] { 0, 1, 0, 3, 12 },
-                new int[] { 1, 3, 12, 0, 0 }
+                new[] { 0, 1, 0, 3, 12 },
+                new[] { 1, 3, 12, 0, 0 }
             };
 
             yield return new object[]
             {
-                new int[] { 1 },
-                new int[] { 1 }
+                new[] { 1 },
+                new[] { 1 }
             };
         }
 

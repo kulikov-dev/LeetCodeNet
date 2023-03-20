@@ -28,14 +28,14 @@ namespace LeetCodeNet.Tests.Easy.Strings
         {
             yield return new object[]
             {
-                new string[] { "flower","flow","flight"},
+                new[] { "flower","flow","flight"},
                 "fl"
             };
 
             //// Explanation: There is no common prefix among the input strings.
             yield return new object[]
             {
-                new string[] { "dog","racecar","car"},
+                new[] { "dog","racecar","car"},
                 string.Empty
             };
         }

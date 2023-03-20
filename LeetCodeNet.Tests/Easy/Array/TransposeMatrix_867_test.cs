@@ -18,7 +18,7 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             var solver = new TransposeMatrix_867();
 
-            Assert.Equal(new int[][] { new int[] { 1, 4, 7 }, new int[] { 2, 5, 8 }, new int[] { 3, 6, 9 } }, solver.TransposeInPlace(new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } }));
+            Assert.Equal(new[] { new[] { 1, 4, 7 }, new[] { 2, 5, 8 }, new[] { 3, 6, 9 } }, solver.TransposeInPlace(new[] { new[] { 1, 2, 3 }, new[] { 4, 5, 6 }, new[] { 7, 8, 9 } }));
         }
     }
 
@@ -28,14 +28,14 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } },
-                new int[][] { new int[] { 1, 4, 7 }, new int[] { 2, 5, 8 }, new int[] { 3, 6, 9 } }
+                new[] { new[] { 1, 2, 3 }, new[] { 4, 5, 6 }, new[] { 7, 8, 9 } },
+                new[] { new[] { 1, 4, 7 }, new[] { 2, 5, 8 }, new[] { 3, 6, 9 } }
             };
 
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 } },
-                new int[][] { new int[] { 1, 4 }, new int[] { 2, 5 }, new int[] { 3, 6 } }
+                new[] { new[] { 1, 2, 3 }, new[] { 4, 5, 6 } },
+                new[] { new[] { 1, 4 }, new[] { 2, 5 }, new[] { 3, 6 } }
             };
         }
 

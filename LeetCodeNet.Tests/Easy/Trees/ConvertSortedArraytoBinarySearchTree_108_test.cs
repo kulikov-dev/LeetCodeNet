@@ -22,7 +22,7 @@ namespace LeetCodeNet.Tests.Easy.Trees
         {
             yield return new object[]
             {
-                new int[]{ -10, -3, 0, 5, 9 },
+                new[]{ -10, -3, 0, 5, 9 },
                 new TreeNode(0, new TreeNode(-10, right: new TreeNode(-3)), new TreeNode(5, right: new TreeNode(9)))
             };
         }

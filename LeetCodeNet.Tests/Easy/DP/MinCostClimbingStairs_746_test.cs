@@ -37,13 +37,13 @@ namespace LeetCodeNet.Tests.Easy.DP
             //// Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
             yield return new object[]
             {
-                new int[] { 10,15,20 },
+                new[] { 10,15,20 },
                 15
             };
 
             yield return new object[]
             {
-                new int[] { 1,100,1,1,1,100,1,1,100,1 },
+                new[] { 1,100,1,1,1,100,1,1,100,1 },
                 6
             };
         }

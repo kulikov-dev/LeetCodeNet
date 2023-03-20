@@ -36,28 +36,28 @@ namespace LeetCodeNet.Tests.Easy.DP
         {
             yield return new object[]
             {
-                new int[] { 1,0,0,0,1 },
+                new[] { 1,0,0,0,1 },
                 1,
                 true
             };
 
             yield return new object[]
             {
-                new int[] {1,0,0,0,1},
+                new[] {1,0,0,0,1},
                 2,
                 false
             };
 
             yield return new object[]
             {
-                new int[] {1,0,0,0,1,0,0},
+                new[] {1,0,0,0,1,0,0},
                 2,
                 true
             };
 
             yield return new object[]
             {
-                new int[] {1,0,0,0,0, 1},
+                new[] {1,0,0,0,0, 1},
                 2,
                 false
             };

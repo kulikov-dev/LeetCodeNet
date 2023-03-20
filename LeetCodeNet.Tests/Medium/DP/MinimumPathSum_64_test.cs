@@ -37,13 +37,13 @@ namespace LeetCodeNet.Tests.Medium.DP
             //// Explanation: Because the path 1 → 3 → 1 → 1 → 1 minimizes the sum.
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 3, 1 }, new int[] { 1, 5, 1 }, new int[] { 4, 2, 1 } },
+                new[] { new[] { 1, 3, 1 }, new[] { 1, 5, 1 }, new[] { 4, 2, 1 } },
                 7
             };
 
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 } },
+                new[] { new[] { 1, 2, 3 }, new[] { 4, 5, 6 } },
                 12
             };
         }

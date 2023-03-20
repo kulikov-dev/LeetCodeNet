@@ -27,7 +27,7 @@ namespace LeetCodeNet.Tests.Medium.Array
         {
             yield return new object[]
             {
-                new int[] {1,2,3},
+                new[] {1,2,3},
                new List<List<int>>()
                {
                    new List<int>() {1,2,3},
@@ -41,7 +41,7 @@ namespace LeetCodeNet.Tests.Medium.Array
 
             yield return new object[]
             {
-                new int[] {0, 1},
+                new[] {0, 1},
                 new List<List<int>>()
                 {
                     new List<int>() {0,1},
@@ -51,7 +51,7 @@ namespace LeetCodeNet.Tests.Medium.Array
 
             yield return new object[]
             {
-                new int[] {1},
+                new[] {1},
                 new List<List<int>>()
                 {
                     new List<int>() {1}

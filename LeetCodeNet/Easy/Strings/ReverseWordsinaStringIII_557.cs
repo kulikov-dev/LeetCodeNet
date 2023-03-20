@@ -21,7 +21,7 @@ namespace LeetCodeNet.Easy.Strings
         /// </remarks>
         public string ReverseWordsLinq(string s)
         {
-            var words = s.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            var words = s.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
             var reversedWords = words.Select(x => new string(x.Reverse().ToArray()));
 
             return string.Join(' ', reversedWords);

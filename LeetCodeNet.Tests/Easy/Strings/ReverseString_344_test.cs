@@ -21,14 +21,14 @@ namespace LeetCodeNet.Tests.Easy.Strings
         {
             yield return new object[]
             {
-                new char[] {'h','e','l','l','o'},
-                new char[] {'o','l','l','e','h'},
+                new[] {'h','e','l','l','o'},
+                new[] {'o','l','l','e','h'},
             };
 
             yield return new object[]
             {
-                new char[] {'H','a','n','n','a','h'},
-                new char[] {'h','a','n','n','a','H'},
+                new[] {'H','a','n','n','a','h'},
+                new[] {'h','a','n','n','a','H'},
             };
         }
 

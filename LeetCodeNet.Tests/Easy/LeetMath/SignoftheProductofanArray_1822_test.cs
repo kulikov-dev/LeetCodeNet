@@ -20,19 +20,19 @@ namespace LeetCodeNet.Tests.Easy.LeetMath
         {
             yield return new object[]
             {
-               new int[]{ -1, -2, -3, -4, 3, 2, 1 },
+               new[]{ -1, -2, -3, -4, 3, 2, 1 },
                1
             };
 
             yield return new object[]
             {
-              new int[]{ 1,5,0,2,-3 },
+              new[]{ 1,5,0,2,-3 },
                0
             };
 
             yield return new object[]
             {
-               new int[]{ -1,1,-1,1,-1 },
+               new[]{ -1,1,-1,1,-1 },
                -1
             };
         }

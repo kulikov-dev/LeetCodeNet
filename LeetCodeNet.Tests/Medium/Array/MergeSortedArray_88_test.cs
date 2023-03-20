@@ -23,40 +23,40 @@ namespace LeetCodeNet.Tests.Medium.Array
             /// The result of the merge is [1, 2, 2, 3, 5, 6] with the underlined elements coming from nums1.
             yield return new object[]
              {
-                new int[] {1,2,3,0,0,0},
+                new[] {1,2,3,0,0,0},
                3,
-               new int[] {2,5,6},
+               new[] {2,5,6},
                3,
-               new int[] {1,2,2,3,5,6},
+               new[] {1,2,2,3,5,6},
              };
 
             //// Explanation: The arrays we are merging are [1] and [].
             /// The result of the merge is [1].
             yield return new object[]
             {
-                new int[] {1},
+                new[] {1},
                 1,
                 new int[] {},
                 0,
-                new int[] {1},
+                new[] {1},
             };
 
             yield return new object[]
             {
-                new int[] {0},
+                new[] {0},
                 0,
-                new int[] {1},
+                new[] {1},
                 1,
-                new int[] {1},
+                new[] {1},
             };
 
             yield return new object[]
             {
-                new int[] {2, 0},
+                new[] {2, 0},
                 1,
-                new int[] {1},
+                new[] {1},
                 1,
-                new int[] {1, 2},
+                new[] {1, 2},
             };
         }
 

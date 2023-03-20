@@ -40,7 +40,7 @@ namespace LeetCodeNet.Tests.Hard.LinkedList
         {
             yield return new object[]
             {
-                new ListNode[]
+                new[]
                 {
                     new ListNode(1){next = new ListNode(4){next = new ListNode(5)}},
                     new ListNode(1){next = new ListNode(3){next = new ListNode(4)}},
@@ -51,7 +51,7 @@ namespace LeetCodeNet.Tests.Hard.LinkedList
 
             yield return new object[]
             {
-                new ListNode[] 
+                new[] 
                 {
                     default(ListNode),
                     new ListNode(1),

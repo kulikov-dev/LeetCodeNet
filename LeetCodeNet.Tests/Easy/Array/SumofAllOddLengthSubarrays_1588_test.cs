@@ -39,20 +39,20 @@ namespace LeetCodeNet.Tests.Easy.Array
             /// If we add all these together we get 1 + 4 + 2 + 5 + 3 + 7 + 11 + 10 + 15 = 58
             yield return new object[]
             {
-                new int[] { 1,4,2,5,3 },
+                new[] { 1,4,2,5,3 },
                 58
             };
 
             //// Explanation: There are only 2 subarrays of odd length, [1] and [2]. Their sum is 3.
             yield return new object[]
             {
-                new int[] { 1, 2 },
+                new[] { 1, 2 },
                 3
             };
 
             yield return new object[]
             {
-                new int[] { 10, 11, 12 },
+                new[] { 10, 11, 12 },
                 66
             };
         }

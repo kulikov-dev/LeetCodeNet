@@ -36,19 +36,19 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             yield return new object[]
             {
-                new int[] { 1, 2, 3, 1 },
+                new[] { 1, 2, 3, 1 },
                 true
             };
 
             yield return new object[]
             {
-                new int[] { 1, 2, 3, 4 },
+                new[] { 1, 2, 3, 4 },
                 false
             };
 
             yield return new object[]
             {
-                new int[] { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 },
+                new[] { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 },
                 true
             };
         }

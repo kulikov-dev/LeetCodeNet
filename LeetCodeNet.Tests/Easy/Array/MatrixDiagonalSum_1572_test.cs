@@ -30,13 +30,13 @@ namespace LeetCodeNet.Tests.Easy.Array
             /// Notice that element mat[1][1] = 5 is counted only once.
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }, new int[] { 7, 8, 9 } },
+                new[] { new[] { 1, 2, 3 }, new[] { 4, 5, 6 }, new[] { 7, 8, 9 } },
                 25
             };
 
             yield return new object[]
             {
-                new int[][] { new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 1 } },
+                new[] { new[] { 1, 1, 1, 1 }, new[] { 1, 1, 1, 1 }, new[] { 1, 1, 1, 1 }, new[] { 1, 1, 1, 1 } },
                 8
             };
         }

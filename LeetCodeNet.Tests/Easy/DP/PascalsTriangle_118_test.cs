@@ -21,13 +21,13 @@ namespace LeetCodeNet.Tests.Easy.DP
             yield return new object[]
             {
                 5,
-                new int[][] { new int[] { 1 }, new int[] { 1, 1 }, new int[] { 1, 2, 1 }, new int[] { 1, 3, 3, 1 }, new int[] { 1, 4, 6, 4, 1 } }
+                new[] { new[] { 1 }, new[] { 1, 1 }, new[] { 1, 2, 1 }, new[] { 1, 3, 3, 1 }, new[] { 1, 4, 6, 4, 1 } }
             };
 
             yield return new object[]
             {
                1,
-                new int[][] { new int[] { 1 } }
+                new[] { new[] { 1 } }
             };
         }
 

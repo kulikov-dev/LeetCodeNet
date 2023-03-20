@@ -22,23 +22,23 @@ namespace LeetCodeNet.Tests.Easy.Array
         {
             yield return new object[]
             {
-                new int[] { 1, 1, 2 },
+                new[] { 1, 1, 2 },
                 2,
-                new int[] { 1, 2, -101 }
+                new[] { 1, 2, -101 }
             };
 
             yield return new object[]
             {
-                new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 },
+                new[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 },
                 5,
-                new int[] { 0, 1, 2, 3, 4, -101, -101, -101, -101, -101 }
+                new[] { 0, 1, 2, 3, 4, -101, -101, -101, -101, -101 }
             };
             
             yield return new object[]
             {
-                new int[] { 1 },
+                new[] { 1 },
                 1,
-                new int[] { 1 }
+                new[] { 1 }
             };
 
         }

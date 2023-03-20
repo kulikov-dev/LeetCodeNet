@@ -34,16 +34,16 @@ namespace LeetCodeNet.Tests.Easy.Array
             /// -2 is underlined in nums2 = [1, 3, 4, 2].There is no next greater element, so the answer is -1.
             yield return new object[]
             {
-                new int[] { 4, 1, 2 },
-                new int[] { 1, 3, 4, 2 },
-                new int[] { -1, 3, -1 }
+                new[] { 4, 1, 2 },
+                new[] { 1, 3, 4, 2 },
+                new[] { -1, 3, -1 }
             };
 
             yield return new object[]
             {
-                new int[] { 2, 4 },
-                new int[] { 1, 2, 3, 4 },
-                new int[] { 3, -1 }
+                new[] { 2, 4 },
+                new[] { 1, 2, 3, 4 },
+                new[] { 3, -1 }
             };
         }
 

@@ -21,23 +21,23 @@ namespace LeetCodeNet.Tests.Easy.Array
             //// Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
             yield return new object[]
             {
-                new int[] { 2, 7, 11, 15 },
+                new[] { 2, 7, 11, 15 },
                 9,
-                new int[] { 0, 1 }
+                new[] { 0, 1 }
             };
 
             yield return new object[]
             {
-                new int[] { 3, 2, 4 },
+                new[] { 3, 2, 4 },
                 6,
-                new int[] { 1, 2 }
+                new[] { 1, 2 }
             };
 
             yield return new object[]
             {
-                new int[] { 3, 3 },
+                new[] { 3, 3 },
                 6,
-                new int[] { 0, 1 }
+                new[] { 0, 1 }
             };
         }
 

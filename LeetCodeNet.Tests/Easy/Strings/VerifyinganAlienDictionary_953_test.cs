@@ -21,7 +21,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
             //// Explanation: As 'h' comes before 'l' in this language, then the sequence is sorted.
             yield return new object[]
             {
-                new string[] { "hello", "leetcode" },
+                new[] { "hello", "leetcode" },
                 "hlabcdefgijkmnopqrstuvwxyz",
                 true
             };
@@ -29,7 +29,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
             //// Explanation: As 'd' comes after 'l' in this language, then words[0] > words[1], hence the sequence is unsorted.
             yield return new object[]
             {
-                new string[] { "word", "world", "row" },
+                new[] { "word", "world", "row" },
                 "worldabcefghijkmnpqstuvxyz",
                 false
             };
@@ -38,7 +38,7 @@ namespace LeetCodeNet.Tests.Easy.Strings
             /// According to lexicographical rules "apple" > "app", because 'l' > '∅', where '∅' is defined as the blank character which is less than any other character
             yield return new object[]
             {
-                new string[] { "apple", "app" },
+                new[] { "apple", "app" },
                "abcdefghijklmnopqrstuvwxyz",
                false
             };
