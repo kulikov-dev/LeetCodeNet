@@ -111,6 +111,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #70: Climbing stairs (Bottom-up)
 * #746: Min Cost Climbing Stairs (Bottom-up)
 * #509: Fibonacci Number (Bottom-up)
+* #605: Can Place Flowers (Bottom-up)
 #### Pattern: Kadane's algorithm
 * #121: Best Time to Buy and Sell Stock (DP)
 
