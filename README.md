@@ -124,6 +124,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #382: Linked List Random Node (Linked list, Design)
 * #848: Shifting Letters (String)
 * #1472: Design Browser History (Linked List, Design)
+* #2348: Number of Zero-Filled Subarrays (Math, Array)
 #### Pattern: Sorting
 * #347: Top K Frequent Elements (Array)
 #### Pattern: Two pointers
