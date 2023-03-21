@@ -48,7 +48,7 @@ namespace LeetCodeNet.Tests.Medium.LeetMath
             yield return new object[]
             {
                 new[] { 0, 0, 0, 0, 0, 0 },
-                20
+                21
             };
         }
 
