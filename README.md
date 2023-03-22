@@ -46,6 +46,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #226: Invert Binary Tree (Tree)
 * #404: Sum of Left Leaves (Tree)
 * #617: Merge Two Binary Trees (Tree)
+* #637: Average of Levels in Binary Tree (Tree)
 * #733: Flood Fill (Array)
 #### Pattern: Depth-First search (DFS)
 * #94: Binary Tree Inorder Traversal (Tree)
