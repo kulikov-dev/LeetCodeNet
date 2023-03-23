@@ -160,6 +160,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #208: Implement Trie (Design)
 #### Pattern: Dynamic programming
 * №63: Minimum Path Sum (Bottom-up, Array)
+#### Pattern: Union-Find
+* #1319: Number of Operations to Make Network Connected (Graph)
 
 ### Level: Hard
 
