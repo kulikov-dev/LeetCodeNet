@@ -24,9 +24,7 @@
 
             while (leftPointer < rightPointer)
             {
-                var temp = s[leftPointer];
-                s[leftPointer] = s[rightPointer];
-                s[rightPointer] = temp;
+                (s[leftPointer], s[rightPointer]) = (s[rightPointer], s[leftPointer]);
 
                 ++leftPointer;
                 --rightPointer;
