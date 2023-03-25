@@ -163,6 +163,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * №63: Minimum Path Sum (Bottom-up, Array)
 #### Pattern: Union-Find
 * #1319: Number of Operations to Make Network Connected (Graph)
+* #2316: Count Unreachable Pairs of Nodes in an Undirected Graph (Graph)
 
 ### Level: Hard
 

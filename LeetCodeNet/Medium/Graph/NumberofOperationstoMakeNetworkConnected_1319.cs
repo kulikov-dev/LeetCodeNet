@@ -12,12 +12,16 @@
     internal sealed class NumberofOperationstoMakeNetworkConnected_1319
     {
         /// <summary>
-        /// The best idea for all types of task where we need to check if graph vertexes are connected is to use Union-Find structure.
+        /// The best idea for all types of task where we need to check if graph vertices are connected is to use Union-Find structure.
         /// The great detailed explanation you can find here: https://www.hackerearth.com/practice/notes/disjoint-set-union-union-find/
         /// </summary>
         /// <param name="n"> Total computers </param>
         /// <param name="connections"> Connections </param>
         /// <returns> Items to connect </returns>
+        /// <remarks>
+        /// Time complexity:O(E*log(V)), E = edges, V = vertices
+        /// Space complexity: O(V)
+        /// </remarks>
         public int MakeConnected(int n, int[][] connections)
         {
             //// First check if we have enough connectors to connect all computers
@@ -42,7 +46,7 @@
         private class UnionFind
         {
             /// <summary>
-            /// Array of roots
+            /// Array of vertices
             /// </summary>
             private readonly int[] _arr;
 
@@ -59,7 +63,7 @@
             /// <summary>
             /// Constructor
             /// </summary>
-            /// <param name="n"> Count of vertexes </param>
+            /// <param name="n"> Count of vertices </param>
             public UnionFind(int n)
             {
                 _arr = Enumerable.Range(0, n).ToArray();
@@ -87,12 +91,12 @@
                 if (_weights[rootA] < _weights[rootB])
                 {
                     _arr[rootA] = rootB;
-                    _weights[rootB] = _weights[rootA];
+                    _weights[rootB] += _weights[rootA];
                 }
                 else
                 {
                     _arr[rootB] = rootA;
-                    _weights[rootA] = _weights[rootB];
+                    _weights[rootA] += _weights[rootB];
                 }
 
                 --_totalRoots;
