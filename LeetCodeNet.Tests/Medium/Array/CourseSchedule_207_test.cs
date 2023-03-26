@@ -24,7 +24,7 @@ namespace LeetCodeNet.Tests.Medium.Array
             yield return new object[]
             {
                 2,
-                new[] {new int[] {1,0} },
+                new[] {new[] {1,0} },
                 true
             };
 
@@ -33,21 +33,21 @@ namespace LeetCodeNet.Tests.Medium.Array
             yield return new object[]
             {
                 2,
-                new[] {new int[] {1,0}, new int[] {0,1} },
+                new[] {new[] {1,0}, new[] {0,1} },
                 false
             };
 
             yield return new object[]
             {
                 3,
-                new[] {new int[] {1,0}, new int[] {1,2}, new int[] {0,1}  },
+                new[] {new[] {1,0}, new[] {1,2}, new[] {0,1}  },
                 false
             };
 
             yield return new object[]
             {
                 5,
-                new[] {new int[] {1,4}, new int[] {2, 4}, new int[] {3,1}, new int[] {3,2}  },
+                new[] {new[] {1,4}, new[] {2, 4}, new[] {3,1}, new[] {3,2}  },
                 true
             };
         }

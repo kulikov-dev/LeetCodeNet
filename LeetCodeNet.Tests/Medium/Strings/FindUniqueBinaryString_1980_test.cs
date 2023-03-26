@@ -28,19 +28,19 @@ namespace LeetCodeNet.Tests.Medium.Strings
         {
             yield return new object[]
             {
-                new string[] {"01","10"},
+                new[] {"01","10"},
                 new List<string> {"00", "11"}
             };
 
             yield return new object[]
             {
-                new string[] {"00","01"},
+                new[] {"00","01"},
                 new List<string> {"10", "11"}
             };
 
             yield return new object[]
             {
-                new string[] {"111","011","001"},
+                new[] {"111","011","001"},
                 new List<string> { "000", "010", "100", "101", "110"}
             };
         }
