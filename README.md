@@ -126,6 +126,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #38: Count and say (String)
 * #382: Linked List Random Node (Linked list, Design)
 * #848: Shifting Letters (String)
+* #1328: Break a Palindrome (String)
 * #1472: Design Browser History (Linked List, Design)
 * #1980: Find Unique Binary String (Array)
 * #2348: Number of Zero-Filled Subarrays (Math, Array)
