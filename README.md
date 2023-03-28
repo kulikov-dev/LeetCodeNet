@@ -163,7 +163,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Prefix Tree
 * #208: Implement Trie (Design)
 #### Pattern: Dynamic programming
-* №63: Minimum Path Sum (Bottom-up, Array)
+* #63: Minimum Path Sum (Bottom-up, Array)
+* #983: Minimum Cost For Tickets (Bottom-up, Array)
 #### Pattern: Union-Find
 * #1319: Number of Operations to Make Network Connected (Graph)
 * #2316: Count Unreachable Pairs of Nodes in an Undirected Graph (Graph)

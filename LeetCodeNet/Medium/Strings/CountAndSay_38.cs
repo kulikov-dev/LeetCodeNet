@@ -49,6 +49,7 @@ namespace LeetCodeNet.Medium.Strings
                 else
                 {
                     sb.Append(indexer.ToString() + result[i - 1]);
+
                     indexer = 1;
                 }
             }
