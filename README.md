@@ -57,6 +57,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #700: Search in a Binary Search Tree (Tree)
 #### Pattern: Two pointers
 * #26: Remove Duplicates from Sorted Array (Array)
+* #27: Remove Element (Array)
 * #83: Remove Duplicates from Sorted List (Linked List)
 * #125: Valid Palindrome (String)
 * #169: Majority Element (Array)
