@@ -16,8 +16,12 @@
         /// NOTE: When checking half, we need to ensure that the current number is even, else we will get wrong answer like in the case of 3 and 7 being in the input.
         /// Here for 7, 7/2 would give 3 (not 3.5) which is present in the HashSet but not what we need.
         /// </summary>
-        /// <param name="arr"></param>
-        /// <returns></returns>
+        /// <param name="arr"> Input </param>
+        /// <returns> True, if exists </returns>
+        /// <remarks>
+        /// Time complexity: O(N)
+        /// Space complexity: O(N)
+        /// </remarks>
         public bool CheckIfExistHash(int[] arr)
         {
             var hash = new HashSet<int>(arr.Length);
