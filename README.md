@@ -24,6 +24,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #976: Largest Perimeter Triangle (Math)
 * #1232: Check If It Is a Straight Line (Math)
 * #1281: Subtract the Product and Sum of Digits of an Integer (Math)
+* #1295: Find Numbers with Even Number of Digits (Math, Array)
 * #1502: Can Make Arithmetic Progression From Sequence (Math, Array)
 * #1523: Count Odd Numbers in an Interval Range (Array)
 * #1572: Matrix Diagonal Sum (Array)
@@ -71,7 +72,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #557: Reverse Words in a String III (String)
 * #696: Count Binary Substrings (String)
 * #977: Squares of a Sorted Array (Array)
-* #1004: Max Consecutive Ones III (Array)
+* #1089: Duplicate Zeroes (Array)
 * #1790: Check if One String Swap Can Make Strings Equal (String)
 #### Pattern: Two pointers: slow/fast
 * #141: Linked List Cycle (Linked List)
@@ -139,6 +140,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #5: Longest Palindromic Substring (String)
 * #88: Merge Sorted Array (Array)
 * #167: Two Sum II - Input Array Is Sorted (Array)
+* #1004: Max Consecutive Ones III (Array)
 #### Pattern: Two pointers: slow/fast
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
 #### Pattern: Sliding window
