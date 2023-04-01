@@ -49,7 +49,7 @@
                 }
             }
 
-            return -1;
+            return nums[leftPosition] == target ? leftPosition : -1;
         }
     }
 }

@@ -34,6 +34,13 @@ namespace LeetCodeNet.Tests.Easy.Array
                 2,
                 -1
             };
+
+            yield return new object[]
+            {
+                new []{5},
+                5,
+                0
+            };
         }
 
         IEnumerator IEnumerable.GetEnumerator()
