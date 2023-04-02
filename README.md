@@ -139,6 +139,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #2348: Number of Zero-Filled Subarrays (Math, Array)
 #### Pattern: Sorting
 * #347: Top K Frequent Elements (Array)
+* #2300: Successful Pairs of Spells and Potions (Array)
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
 * #88: Merge Sorted Array (Array)
