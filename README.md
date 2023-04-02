@@ -72,6 +72,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #350: Intersection of Two Arrays II (Array)
 * #557: Reverse Words in a String III (String)
 * #696: Count Binary Substrings (String)
+* #905: Sort Array By Parity (Array)
 * #941: Valid Mountain Array (Array)
 * #977: Squares of a Sorted Array (Array)
 * #1089: Duplicate Zeroes (Array)
