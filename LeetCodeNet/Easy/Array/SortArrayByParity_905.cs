@@ -10,7 +10,7 @@
     internal sealed class SortArrayByParity_905
     {
         /// <summary>
-        /// 
+        /// Two-pointers approach. Left pointer for the even integers, right pointer for the odd integers.
         /// </summary>
         /// <param name="nums"> Input array </param>
         /// <returns> Ordered array </returns>
@@ -23,16 +23,19 @@
             var leftIndex = 0;
             var rightIndex = nums.Length - 1;
             var result = new int[nums.Length];
+
             foreach (var num in nums)
             {
                 if (num % 2 == 0)
                 {
                     result[leftIndex] = num;
+
                     ++leftIndex;
                 }
                 else
                 {
                     result[rightIndex] = num;
+
                     --rightIndex;
                 }
             }

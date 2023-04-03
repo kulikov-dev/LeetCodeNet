@@ -145,6 +145,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #5: Longest Palindromic Substring (String)
 * #88: Merge Sorted Array (Array)
 * #167: Two Sum II - Input Array Is Sorted (Array)
+* #881: Boats to Save People (Array)
 * #1004: Max Consecutive Ones III (Array)
 #### Pattern: Two pointers: slow/fast
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
