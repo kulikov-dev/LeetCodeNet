@@ -40,6 +40,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Sorting
 * #14: Longest Common Prefix (String)
 * #217: Contains Duplicate (Array)
+* #1051: Height Checker (Array, Bucket)
 * #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
 #### Pattern: Breadth-First search (BFS)
 * #104: Maximum Depth of Binary Tree (Tree)

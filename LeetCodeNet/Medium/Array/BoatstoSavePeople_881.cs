@@ -17,7 +17,7 @@
         /// <returns></returns>
         /// <remarks>
         /// Time complexity: O(n * log(n))
-        /// Space complexity: O()
+        /// Space complexity: O(1)
         /// </remarks>
         public int NumRescueBoatsSimple(int[] people, int limit)
         {
