@@ -18,6 +18,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #237: Delete Node in a Linked List (Linked list)
 * #303: Range Sum Query - Immutable (Design)
 * #412: FizzBuzz (Math, Design)
+* #414: Third Maximum Number (Array)
 * #485: Max Consecutive Ones (Array)
 * #566: Reshape the Matrix (Array)
 * #867: Transpose Matrix (Array)
