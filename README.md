@@ -44,6 +44,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #448: Find All Numbers Disappeared in an Array (Array)
 * #1051: Height Checker (Array, Bucket)
 * #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
+#### Pattern: Prefix sum
+* #1480: Running Sum of 1d Array
 #### Pattern: Breadth-First search (BFS)
 * #104: Maximum Depth of Binary Tree (Tree)
 * #112: Path Sum (Tree)
