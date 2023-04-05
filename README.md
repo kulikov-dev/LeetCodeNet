@@ -156,6 +156,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #3: Longest Substring Without Repeating Characters (String)
 * #438: Find All Anagrams in a String (String)
 * #567: Permutation in String (String)
+#### Pattern: Prefix sum
+* #2439: Minimize Maximum of Array (Array)
 #### Pattern: Kadane's algorithm
 * #53: Maximum Subarray (Array)
 #### Pattern: Backtracking
