@@ -89,6 +89,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #876: Middle of the LInked List (Linked List)
 #### Pattern: Hash table
 * #1: Two Sum (Array)
+* #205: Isomorphic Strings (String)
 * #242: Valid Anagram (String)
 * #350: Intersection of Two Arrays II (Array)
 * #383: Ransom note (String)
