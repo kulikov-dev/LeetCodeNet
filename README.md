@@ -76,6 +76,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #345: Reverse Vowels of a String (String)
 * #387: First Unique Character in a String (String)
 * #350: Intersection of Two Arrays II (Array)
+* #392: Is Subsequence (String)
 * #557: Reverse Words in a String III (String)
 * #696: Count Binary Substrings (String)
 * #905: Sort Array By Parity (Array)
