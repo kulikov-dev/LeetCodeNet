@@ -179,6 +179,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Depth-First search (DFS)
 * #129: Sum Root to Leaf Numbers (Tree)
 * #207: Course Schedule (Tree, Topological sort)
+* #1020: Number of Enclaves (Array)
 #### Pattern: Bit manipulation
 * #2405: Optimal Partition of String (String)
 #### Pattern: Prefix Tree
