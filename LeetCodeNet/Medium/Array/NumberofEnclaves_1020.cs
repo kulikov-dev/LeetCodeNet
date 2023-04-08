@@ -16,8 +16,13 @@
         /// </summary>
         /// <param name="grid"> Input grid </param>
         /// <returns> Unconnected land </returns>
+        /// <remarks>
+        /// Time complexity: O(m*n)
+        /// Space complexity: O(1), as we change the grid in-place. It's not a great approach, but here we can use it to simplify.
+        /// </remarks>
         public int NumEnclaves(int[][] grid)
         {
+            //// To make it faster will check only boundary cells
             for (var i = 0; i < grid.Length; i++)
             {
                 Check(i, 0, grid);
@@ -47,7 +52,7 @@
         }
 
         /// <summary>
-        /// Helper to check if we can fill the connected land
+        /// Helper to check if we can fill the connected land and flood the connected cells
         /// </summary>
         /// <param name="i"> Index 1 </param>
         /// <param name="j"> Index 2 </param>

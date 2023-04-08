@@ -172,6 +172,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Binary tree
 * #98: Validate Binary Search Tree (Tree)
 #### Pattern: Breadth-First search (BFS)
+* #133: Clone Graph (Graph)
 * #958: Check Completeness of a Binary Tree (Tree)
 * #994: Rotting Oranges (Array)
 * #1466: Reorder Routes to Make All Paths Lead to the City Zero (Graph)
