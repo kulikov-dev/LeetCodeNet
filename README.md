@@ -153,6 +153,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
 * #88: Merge Sorted Array (Array)
+* #142: Linked List Cycle II (Linked List)
 * #167: Two Sum II - Input Array Is Sorted (Array)
 * #881: Boats to Save People (Array)
 * #1004: Max Consecutive Ones III (Array)
