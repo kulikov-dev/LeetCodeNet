@@ -11,6 +11,10 @@
         /// </summary>
         /// <param name="salary"> Array of salaries </param>
         /// <returns> Average salary </returns>
+        /// <remarks>
+        /// Time complexity:O(n)
+        /// Space complexity: O(1)
+        /// </remarks>
         public double AverageLinq(int[] salary)
         {
             var min = salary.Min();
@@ -26,6 +30,10 @@
         /// </summary>
         /// <param name="salary"> Array of salaries </param>
         /// <returns> Average salary </returns>
+        /// <remarks>
+        /// Time complexity:O(n)
+        /// Space complexity: O(1)
+        /// </remarks>
         public double AverageIterating(int[] salary)
         {
             var min = int.MaxValue;
@@ -49,6 +57,10 @@
         /// </summary>
         /// <param name="salary"> Array of salaries </param>
         /// <returns> Average salary </returns>
+        /// <remarks>
+        /// Time complexity:O(n)
+        /// Space complexity: O(1)
+        /// </remarks>
         public double AverageSorting(int[] salary)
         {
             //// It's necessary to create a new variable, as the array was passed by reference.
