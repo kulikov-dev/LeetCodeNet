@@ -7,6 +7,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: without
 * #9: Palindrome Number (Math)
 * #13: Roman to Integer (Math)
+* #20: Valid Parentheses (String)
 * #21: Merge Two Sorted Lists (Linked List)
 * #66: Plus One (Array)
 * #118: Pascal's Triangle (DP)
@@ -174,6 +175,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Binary tree
 * #98: Validate Binary Search Tree (Tree)
 #### Pattern: Breadth-First search (BFS)
+* #102: Binary Tree Level Order Traversal (Tree)
 * #133: Clone Graph (Graph)
 * #958: Check Completeness of a Binary Tree (Tree)
 * #994: Rotting Oranges (Array)

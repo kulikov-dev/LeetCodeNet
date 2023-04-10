@@ -18,14 +18,15 @@ namespace LeetCodeNet.Medium.LinkedList
         /// Step 1. We need to detect if any loops are here. For this we will use slow/fast pointers approach.
         /// Where we have slow pointer which move to the next element and fast pointer which move to the next-next element
         /// But after that we still need to detect the start of this loop.
+        /// Because slow/fast pointers can meet each over on the ending of the loop.
         /// Step 2. Detect the start of the loop. For this we can use Floyd's cycle detection algorithm.
         /// The great explanation can be founded here: https://www.youtube.com/watch?v=zbozWoMgKW0
         /// </summary>
         /// <param name="head"> Head </param>
         /// <returns> Start cycle node </returns>
         /// <remarks>
-        /// Time complexity: O(N)
-        /// Space complexity: O(N)
+        /// Time complexity: O(n)
+        /// Space complexity: O(1)
         /// </remarks>
         public ListNode DetectCycle(ListNode head)
         {
