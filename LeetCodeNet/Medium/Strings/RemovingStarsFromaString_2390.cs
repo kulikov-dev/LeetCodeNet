@@ -40,7 +40,7 @@ namespace LeetCodeNet.Medium.Strings
             {
                 if (s[i] == '*')
                 {
-                    sb.Length -= 1;
+                    --lastValidIndex;
                 }
                 else
                 {
