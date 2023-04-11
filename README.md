@@ -158,6 +158,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #167: Two Sum II - Input Array Is Sorted (Array)
 * #881: Boats to Save People (Array)
 * #1004: Max Consecutive Ones III (Array)
+* #2390: Removing Stars From a String (String)
 #### Pattern: Two pointers: slow/fast
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
 #### Pattern: Sliding window
