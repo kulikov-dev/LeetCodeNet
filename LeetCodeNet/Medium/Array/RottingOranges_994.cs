@@ -14,7 +14,7 @@
     internal sealed class RottingOranges_994
     {
         /// <summary>
-        /// We have to apply BFS search to process rotten oranges, but the trick here is that we need to start search from all current rotten oranges at once
+        /// We have to apply DFS search to process rotten oranges, but the trick here is that we need to start search from all current rotten oranges at once
         /// Those we can use Queue to store all rotten oranges here, so we can count every minute
         /// </summary>
         /// <param name="grid"> Matrix of oranges </param>
