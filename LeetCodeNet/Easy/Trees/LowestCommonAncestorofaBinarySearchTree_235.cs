@@ -34,10 +34,8 @@ namespace LeetCodeNet.Easy.Trees
             {
                 return LowestCommonAncestorRecursive(root.right, p, q);
             }
-            else
-            {
-                return LowestCommonAncestorRecursive(root.left, p, q);
-            }
+
+            return LowestCommonAncestorRecursive(root.left, p, q);
         }
     }
 }
