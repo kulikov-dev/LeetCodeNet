@@ -194,6 +194,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Prefix Tree
 * #208: Implement Trie (Design)
 #### Pattern: Dynamic programming
+* #62: Unique Paths (Bottom-up, Array)
 * #63: Minimum Path Sum (Bottom-up, Array)
 * #516: Longest Palindromic Subsequence (Bottom-up, String)
 * #983: Minimum Cost For Tickets (Bottom-up, Array)

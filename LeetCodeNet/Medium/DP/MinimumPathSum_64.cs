@@ -15,6 +15,10 @@
         /// </summary>
         /// <param name="grid"> Source grid </param>
         /// <returns> Min path </returns>
+        /// <remarks>
+        /// Time complexity: O(2^n)
+        /// Space complexity: O(1), excluded cost of stack of calls
+        /// </remarks>
         public int MinPathSumRecursive(int[][] grid)
         {
             return Recursive(grid, 0, 0);
@@ -27,6 +31,10 @@
         /// <param name="i"> Pos I </param>
         /// <param name="j"> Pos J </param>
         /// <returns> Min path </returns>
+        /// <remarks>
+        /// Time complexity: O(n * log(n))
+        /// Space complexity: O(n)
+        /// </remarks>
         private int Recursive(int[][] grid, int i, int j)
         {
             if (i == grid.Length || j == grid[i].Length)
@@ -50,6 +58,10 @@
         /// </summary>
         /// <param name="grid"> Source grid </param>
         /// <returns> Min path </returns>
+        /// <remarks>
+        /// Time complexity: O(n * log(n))
+        /// Space complexity: O(1)
+        /// </remarks>
         public int MinPathSumBottomUp(int[][] grid)
         {
             var result = new int[grid.Length + 1][];

@@ -26,4 +26,8 @@
     <ProjectReference Include="..\LeetCodeNet\LeetCodeNet.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Hard\DP\" />
+  </ItemGroup>
+
 </Project>
