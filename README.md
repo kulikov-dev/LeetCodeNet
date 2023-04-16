@@ -165,6 +165,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
 #### Pattern: Sliding window
 * #3: Longest Substring Without Repeating Characters (String)
+* #424: Longest Repeating Character Replacement (String)
 * #438: Find All Anagrams in a String (String)
 * #567: Permutation in String (String)
 #### Pattern: Prefix sum
