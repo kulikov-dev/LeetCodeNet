@@ -165,6 +165,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #2390: Removing Stars From a String (String)
 #### Pattern: Two pointers: slow/fast
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
+#### Pattern: Hash table
+* #299: Bulls and Cows (Array)
 #### Pattern: Sliding window
 * #3: Longest Substring Without Repeating Characters (String)
 * #424: Longest Repeating Character Replacement (String)

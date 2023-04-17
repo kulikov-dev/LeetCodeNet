@@ -33,7 +33,7 @@
 
             for (var right = 0; right < s.Length; ++right)
             {
-                var currentCharIndex = s[right - 'A'];
+                var currentCharIndex = s[right] - 'A';
 
                 frequentLetters[currentCharIndex]++;
                 if (frequentLetters[mostFrequentLetter] < frequentLetters[currentCharIndex])
@@ -41,9 +41,9 @@
                     mostFrequentLetter = currentCharIndex;
                 }
 
-                if ( right - left + 1 - frequentLetters[mostFrequentLetter] > k)
+                if (right - left + 1 - frequentLetters[mostFrequentLetter] > k)
                 {
-                    --frequentLetters[s[left] - currentCharIndex];
+                    --frequentLetters[s[left] - 'A'];
                     ++left;
                 }
                 else
