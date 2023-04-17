@@ -28,6 +28,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1281: Subtract the Product and Sum of Digits of an Integer (Math)
 * #1295: Find Numbers with Even Number of Digits (Math, Array)
 * #1299: Replace Elements with Greatest Element on Right Side (Array)
+* #1431: Kids With the Greatest Number of Candies (Array)
 * #1502: Can Make Arithmetic Progression From Sequence (Math, Array)
 * #1523: Count Odd Numbers in an Interval Range (Array)
 * #1572: Matrix Diagonal Sum (Array)
