@@ -147,6 +147,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #38: Count and say (String)
 * #71: Simplify Path (String)
 * #382: Linked List Random Node (Linked list, Design)
+* #394: Decode String (String, Stack)
 * #848: Shifting Letters (String)
 * #1328: Break a Palindrome (String)
 * #1472: Design Browser History (Linked List, Design)

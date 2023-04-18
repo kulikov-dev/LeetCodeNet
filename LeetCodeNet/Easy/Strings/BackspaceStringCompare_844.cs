@@ -20,7 +20,7 @@ namespace LeetCodeNet.Easy.Strings
         /// <param name="t"> String T </param>
         /// <returns> True, if equal </returns>
         /// <remarks>
-        /// Time complexity: O(n_m)
+        /// Time complexity: O(n+m)
         /// Space complexity: O(n+m)
         /// </remarks>
         public bool BackspaceCompareStack(string s, string t)
@@ -74,7 +74,7 @@ namespace LeetCodeNet.Easy.Strings
         /// <param name="t"> String T </param>
         /// <returns> True, if equal </returns>
         /// <remarks>
-        /// Time complexity: O(n_m)
+        /// Time complexity: O(n+m)
         /// Space complexity: O(n+m)
         /// </remarks>
         public bool BackspaceCompareStringBuilder(string s, string t)

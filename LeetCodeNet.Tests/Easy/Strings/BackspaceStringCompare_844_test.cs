@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using LeetCodeNet.Easy.Strings;
 
-namespace LeetCodeNet.Tests.Medium.Strings
+namespace LeetCodeNet.Tests.Easy.Strings
 {
     public sealed class BackspaceStringCompare_844_test
     {
