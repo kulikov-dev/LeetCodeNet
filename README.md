@@ -22,6 +22,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #414: Third Maximum Number (Array)
 * #485: Max Consecutive Ones (Array)
 * #566: Reshape the Matrix (Array)
+* #844: Backspace String Compare (Array, Stack)
 * #867: Transpose Matrix (Array)
 * #976: Largest Perimeter Triangle (Math)
 * #1232: Check If It Is a Straight Line (Math)

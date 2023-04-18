@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using LeetCodeNet.DataStructs;
 using LeetCodeNet.Medium.LinkedList;
-using LeetCodeNet.Tests.Easy.LinkedList;
 
 namespace LeetCodeNet.Tests.Medium.LinkedList
 {

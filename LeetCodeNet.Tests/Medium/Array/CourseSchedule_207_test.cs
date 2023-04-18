@@ -1,5 +1,4 @@
 ﻿using LeetCodeNet.Medium.Array;
-using Moq;
 using System.Collections;
 
 namespace LeetCodeNet.Tests.Medium.Array
