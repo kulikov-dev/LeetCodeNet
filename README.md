@@ -46,6 +46,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #14: Longest Common Prefix (String)
 * #217: Contains Duplicate (Array)
 * #448: Find All Numbers Disappeared in an Array (Array)
+* #1046: Last Stone Weight (Array, PriorityQueue)
 * #1051: Height Checker (Array, Bucket)
 * #1491: Average Salary Excluding the Minimum and Maximum Salary (Array)
 #### Pattern: Prefix sum
