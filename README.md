@@ -146,6 +146,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #2: Add Two Numbers (Linked list)
 * #7: Reverse Integer (Math)
 * #38: Count and say (String)
+* #54: Spiral Matrix (Array)
 * #71: Simplify Path (String)
 * #382: Linked List Random Node (Linked list, Design)
 * #394: Decode String (String, Stack)
