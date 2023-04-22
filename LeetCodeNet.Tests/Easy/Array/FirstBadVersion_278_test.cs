@@ -7,7 +7,7 @@ namespace LeetCodeNet.Tests.Easy.Array
     public sealed class FirstBadVersion_278_test
     {
         [Theory, ClassData(typeof(FirstBadVersionTestData))]
-        public void CheckBFS(int inputData1, Mock inputData2, int expected)
+        public void Check(int inputData1, Mock inputData2, int expected)
         {
             var solver = new FirstBadVersion_278();
             var result = solver.FirstBadVersion(inputData1, inputData2.Object as IBadVersionChecker);

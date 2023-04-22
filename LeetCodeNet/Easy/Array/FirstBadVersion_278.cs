@@ -15,7 +15,7 @@
         /// </summary>
         /// <param name="n"> Last version number </param>
         /// <param name="checker"> API checker </param>
-        /// <returns></returns>
+        /// <returns> Index of first bad version </returns>
         /// <remarks>
         /// Time complexity: O(log n)
         /// Space complexity: O(1)
