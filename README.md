@@ -160,6 +160,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #347: Top K Frequent Elements (Array)
 * #692: Top K Frequent Words (Array, Bucket)
 * #2300: Successful Pairs of Spells and Potions (Array)
+#### Pattern: Binary search
+* #852: Peak Index in a Mountain Array (Array)
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
 * #88: Merge Sorted Array (Array)
