@@ -133,6 +133,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #374: Guess Number Higher or Lower (Array)
 * #653: Two Sum IV - Input is a BST (Tree)
 * #704: Binary Search
+* #1385: Find the Distance Value Between Two Arrays (Array)
 #### Pattern: Dynamic programming
 * #70: Climbing stairs (Bottom-up)
 * #746: Min Cost Climbing Stairs (Bottom-up)
