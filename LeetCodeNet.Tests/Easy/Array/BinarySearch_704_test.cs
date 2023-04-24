@@ -6,7 +6,7 @@ namespace LeetCodeNet.Tests.Easy.Array
     public sealed class BinarySearch_704_test
     {
         [Theory, ClassData(typeof(BinarySearchTestData))]
-        public void CheckBFS(int[] inputData1, int inputData2, int expected)
+        public void Check(int[] inputData1, int inputData2, int expected)
         {
             var solver = new BinarySearch_704();
             var result = solver.Search(inputData1, inputData2);
