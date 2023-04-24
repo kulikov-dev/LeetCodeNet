@@ -129,6 +129,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #108: Convert Sorted Array to Binary Search Tree (Tree)
 #### Pattern: Binary search
 * #35: Search Insert Position (Array)
+* #69: Sqrt(x) (Math)
 * #278: First Bad Version (Array)
 * #367: Valid Perfect Square (Math)
 * #374: Guess Number Higher or Lower (Array)
