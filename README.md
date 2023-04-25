@@ -165,6 +165,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #692: Top K Frequent Words (Array, Bucket)
 * #2300: Successful Pairs of Spells and Potions (Array)
 #### Pattern: Binary search
+* #34: Find First and Last Position of Element in Sorted Array (Array)
 * #852: Peak Index in a Mountain Array (Array)
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
