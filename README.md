@@ -167,6 +167,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #2300: Successful Pairs of Spells and Potions (Array)
 #### Pattern: Binary search
 * #34: Find First and Last Position of Element in Sorted Array (Array)
+* #74: Search a 2D Matrix (Array)
 * #852: Peak Index in a Mountain Array (Array)
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
