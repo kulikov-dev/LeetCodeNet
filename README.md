@@ -136,6 +136,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #653: Two Sum IV - Input is a BST (Tree)
 * #704: Binary Search (Array)
 * #744: Find Smallest Letter Greater Than Target (Array)
+* #1337: The K Weakest Rows in a Matrix (Array)
 * #1351: Count Negative Numbers in a Sorted Matrix (Array)
 * #1385: Find the Distance Value Between Two Arrays (Array)
 * #1608: Special Array With X Elements Greater Than or Equal X (Array)
