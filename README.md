@@ -138,6 +138,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #744: Find Smallest Letter Greater Than Target (Array)
 * #1351: Count Negative Numbers in a Sorted Matrix (Array)
 * #1385: Find the Distance Value Between Two Arrays (Array)
+* #1608: Special Array With X Elements Greater Than or Equal X (Array)
 #### Pattern: Dynamic programming
 * #70: Climbing stairs (Bottom-up)
 * #746: Min Cost Climbing Stairs (Bottom-up)
