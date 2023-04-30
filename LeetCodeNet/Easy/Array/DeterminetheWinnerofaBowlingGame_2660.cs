@@ -53,6 +53,7 @@
             {
                 switch (i)
                 {
+                    //// Check if one of the two previous values is equal to 10, then multiply the current score.
                     case >= 1 when player[i - 1] == 10:
                     case >= 2 when player[i - 2] == 10:
                         result += player[i] * 2;

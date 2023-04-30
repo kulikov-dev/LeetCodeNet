@@ -187,6 +187,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
 #### Pattern: Hash table
 * #299: Bulls and Cows (Array)
+* #2661: First Completely Painted Row or Column (Array)
 #### Pattern: Sliding window
 * #3: Longest Substring Without Repeating Characters (String)
 * #424: Longest Repeating Character Replacement (String)
