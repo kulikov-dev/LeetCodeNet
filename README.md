@@ -182,6 +182,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #881: Boats to Save People (Array)
 * #946: Validate Stack Sequences (Array)
 * #1004: Max Consecutive Ones III (Array)
+* #1855: Maximum Distance Between a Pair of Values (Array)
 * #2390: Removing Stars From a String (String)
 #### Pattern: Two pointers: slow/fast
 * #109: Convert Sorted List to Binary Search Tree (Tree, Linked list)
