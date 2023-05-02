@@ -173,6 +173,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #33: Search in Rotated Sorted Array (Array)
 * #34: Find First and Last Position of Element in Sorted Array (Array)
 * #74: Search a 2D Matrix (Array)
+* #153: Find Minimum in Rotated Sorted Array (Array)
 * #852: Peak Index in a Mountain Array (Array)
 #### Pattern: Two pointers
 * #5: Longest Palindromic Substring (String)
