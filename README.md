@@ -166,6 +166,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1472: Design Browser History (Linked List, Design)
 * #1980: Find Unique Binary String (Array)
 * #2348: Number of Zero-Filled Subarrays (Math, Array)
+* #2671: Frequency Tracker (Design)
 #### Pattern: Sorting
 * #347: Top K Frequent Elements (Array)
 * #692: Top K Frequent Words (Array, Bucket)
