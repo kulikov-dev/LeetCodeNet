@@ -54,6 +54,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 #### Pattern: Prefix sum
 * #724: Find Pivot Index (Array)
 * #1480: Running Sum of 1d Array (Array)
+* #2670: Find the Distinct Difference Array (Array)
 #### Pattern: Breadth-First search (BFS)
 * #104: Maximum Depth of Binary Tree (Tree)
 * #112: Path Sum (Tree)
