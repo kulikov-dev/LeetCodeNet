@@ -42,7 +42,6 @@
                 var index = queries[i][0];
                 var color = queries[i][1];
 
-
                 currentNeighbors += Check(colors, colors[index], color, index - 1);
                 currentNeighbors += Check(colors, colors[index], color, index + 1);
 
@@ -53,6 +52,14 @@
             return result;
         }
 
+        /// <summary>
+        /// Check neighbors
+        /// </summary>
+        /// <param name="colors"> Colors </param>
+        /// <param name="oldColor"> Old color </param>
+        /// <param name="newColor"> New color </param>
+        /// <param name="neighborIndex"> Neighbor index </param>
+        /// <returns> Counter </returns>
         private int Check(int[] colors, int oldColor, int newColor, int neighborIndex)
         {
             if (neighborIndex == -1 || neighborIndex == colors.Length)
