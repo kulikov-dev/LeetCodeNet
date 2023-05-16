@@ -24,7 +24,7 @@
         {
             if (nums.Length == 0)
             {
-                return new int[] { -1, -1 };
+                return new[] { -1, -1 };
             }
 
             var leftTargetIndex = FindLeftIndex(nums, target);

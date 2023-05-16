@@ -199,6 +199,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #424: Longest Repeating Character Replacement (String)
 * #438: Find All Anagrams in a String (String)
 * #567: Permutation in String (String)
+* #1456: Maximum Number of Vowels in a Substring of Given Length (String)
 #### Pattern: Prefix sum
 * #2439: Minimize Maximum of Array (Array)
 #### Pattern: Kadane's algorithm
