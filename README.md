@@ -92,6 +92,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #977: Squares of a Sorted Array (Array)
 * #1089: Duplicate Zeroes (Array)
 * #1790: Check if One String Swap Can Make Strings Equal (String)
+* #2697: Lexicographically Smallest Palindrome (String)
 #### Pattern: Two pointers: slow/fast
 * #141: Linked List Cycle (Linked List)
 * #234: Palindrome Linked List (Linked List)
@@ -150,6 +151,8 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #605: Can Place Flowers (Bottom-up)
 #### Pattern: Kadane's algorithm
 * #121: Best Time to Buy and Sell Stock (DP)
+#### Pattern: Greedy
+* #2696: Minimum String Length After Removing Substrings (String)
 
 ### Level: Medium
 
@@ -208,6 +211,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #46: Permutations (Array)
 * #211: Design Add and Search Words Data Structure (Prefix Tree, Design)
 * #784: Letter Case Permutation (String)
+* #2698: Find the Punishment Number of an Integer (Math)
 #### Pattern: Binary tree
 * #98: Validate Binary Search Tree (Tree)
 #### Pattern: Breadth-First search (BFS)
