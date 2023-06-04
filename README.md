@@ -44,6 +44,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1974: Minimum Time to Type Word Using Special Typewriter (String)
 * #2643: Row With Maximum Ones (Array)
 * #2660: Determine the Winner of a Bowling Game (Array)
+* #2716: Minimize String Length (String)
 #### Pattern: Sorting
 * #14: Longest Common Prefix (String)
 * #217: Contains Duplicate (Array)
