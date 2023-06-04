@@ -94,6 +94,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #1089: Duplicate Zeroes (Array)
 * #1790: Check if One String Swap Can Make Strings Equal (String)
 * #2697: Lexicographically Smallest Palindrome (String)
+* #2717: Semi-Ordered Permutation (Array)
 #### Pattern: Two pointers: slow/fast
 * #141: Linked List Cycle (Linked List)
 * #234: Palindrome Linked List (Linked List)
