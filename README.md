@@ -175,6 +175,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #2671: Frequency Tracker (Design)
 * #2672: Number of Adjacent Elements With the Same Color (Array)
 * #2718: Sum of Matrix After Queries (Array)
+* #2734: Lexicographically Smallest String After Substring Operation (String)
 #### Pattern: Sorting
 * #347: Top K Frequent Elements (Array)
 * #692: Top K Frequent Words (Array, Bucket)
