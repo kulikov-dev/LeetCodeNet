@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCodeNet.Easy.Strings
+﻿namespace LeetCodeNet.Easy.Strings
 {
     /// <summary>
     /// https://leetcode.com/problems/is-subsequence

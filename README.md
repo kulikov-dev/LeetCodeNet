@@ -46,6 +46,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #2660: Determine the Winner of a Bowling Game (Array)
 * #2716: Minimize String Length (String)
 * #2733: Neither Minimum nor Maximum (Array)
+* #2739: Total Distance Traveled (Math)
 #### Pattern: Sorting
 * #14: Longest Common Prefix (String)
 * #217: Contains Duplicate (Array)

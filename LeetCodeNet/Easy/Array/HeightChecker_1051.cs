@@ -1,6 +1,4 @@
-﻿using static System.Reflection.Metadata.BlobBuilder;
-
-namespace LeetCodeNet.Easy.Array
+﻿namespace LeetCodeNet.Easy.Array
 {
     /// <summary>
     /// https://leetcode.com/problems/height-checker/
