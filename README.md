@@ -181,6 +181,7 @@ All problems are grouped by patterns, so you can train in solving of specific ty
 * #347: Top K Frequent Elements (Array)
 * #692: Top K Frequent Words (Array, Bucket)
 * #2300: Successful Pairs of Spells and Potions (Array)
+* #2740: Find the Value of the Partition (Array)
 #### Pattern: Binary search
 * #33: Search in Rotated Sorted Array (Array)
 * #34: Find First and Last Position of Element in Sorted Array (Array)
